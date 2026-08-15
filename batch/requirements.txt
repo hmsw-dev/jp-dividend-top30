@@ -1,5 +1,5 @@
 yfinance==1.2.0
 pandas==2.3.3
 xlrd==2.0.2
-jpholiday==1.0.5
+jpholiday==1.0.3
 requests==2.32.5
