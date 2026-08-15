@@ -1,0 +1,638 @@
+{
+  "generatedAt": "2026-08-14T16:46:47+00:00",
+  "priceDate": "2026-08-13",
+  "masterDate": "2026-01-31",
+  "nextUpdate": "2026-08-17 20:00 JST",
+  "source": "yfinance (Yahoo Finance) / 銘柄マスタ: JPX 東証上場銘柄一覧",
+  "stats": {
+    "universe": 3765,
+    "priced": 3701,
+    "withDividend": 3055,
+    "unreachable": 64,
+    "verified": 149
+  },
+  "summary": {
+    "avgYield": 7.44,
+    "avgPrice": 1713,
+    "count": 30,
+    "topStock": {
+      "code": "8219",
+      "name": "青山商事",
+      "yieldPct": 18.26
+    }
+  },
+  "sectorBreakdown": [
+    {
+      "sector": "サービス業",
+      "count": 7
+    },
+    {
+      "sector": "小売業",
+      "count": 3
+    },
+    {
+      "sector": "証券、商品先物取引業",
+      "count": 3
+    },
+    {
+      "sector": "鉄鋼",
+      "count": 3
+    },
+    {
+      "sector": "電気機器",
+      "count": 2
+    }
+  ],
+  "stocks": [
+    {
+      "rank": 1,
+      "code": "8219",
+      "name": "青山商事",
+      "market": "プライム",
+      "sector": "小売業",
+      "sizeCategory": "TOPIX Small 1",
+      "price": 745.0,
+      "dividend": 136.0,
+      "yieldPct": 18.26,
+      "forwardDividend": 38.0,
+      "dividendBasis": "実績(TTM)",
+      "exMonths": [
+        3,
+        9
+      ],
+      "marketCap": 107312480256,
+      "specialDividendSuspected": true,
+      "priceDate": "2026-08-13"
+    },
+    {
+      "rank": 2,
+      "code": "8705",
+      "name": "日産証券グループ",
+      "market": "スタンダード",
+      "sector": "証券、商品先物取引業",
+      "sizeCategory": "",
+      "price": 217.0,
+      "dividend": 24.0,
+      "yieldPct": 11.06,
+      "forwardDividend": 24.0,
+      "dividendBasis": "直近1期",
+      "exMonths": [
+        3,
+        9
+      ],
+      "marketCap": 10771182592,
+      "specialDividendSuspected": false,
+      "priceDate": "2026-08-13"
+    },
+    {
+      "rank": 3,
+      "code": "2491",
+      "name": "バリューコマース",
+      "market": "プライム",
+      "sector": "サービス業",
+      "sizeCategory": "TOPIX Small 2",
+      "price": 462.0,
+      "dividend": 49.0,
+      "yieldPct": 10.61,
+      "forwardDividend": 16.0,
+      "dividendBasis": "実績(TTM)",
+      "exMonths": [
+        6,
+        12
+      ],
+      "marketCap": 10166198272,
+      "specialDividendSuspected": true,
+      "priceDate": "2026-08-13"
+    },
+    {
+      "rank": 4,
+      "code": "6156",
+      "name": "エーワン精密",
+      "market": "スタンダード",
+      "sector": "機械",
+      "sizeCategory": "",
+      "price": 1886.0,
+      "dividend": 200.0,
+      "yieldPct": 10.6,
+      "forwardDividend": 200.0,
+      "dividendBasis": "直近1期",
+      "exMonths": [
+        6
+      ],
+      "marketCap": 9562553344,
+      "specialDividendSuspected": false,
+      "priceDate": "2026-08-13"
+    },
+    {
+      "rank": 5,
+      "code": "6927",
+      "name": "ヘリオス　テクノ　ホールディング",
+      "market": "スタンダード",
+      "sector": "電気機器",
+      "sizeCategory": "",
+      "price": 953.0,
+      "dividend": 91.0,
+      "yieldPct": 9.55,
+      "forwardDividend": 59.0,
+      "dividendBasis": "実績(TTM)",
+      "exMonths": [
+        3
+      ],
+      "marketCap": 17588965376,
+      "specialDividendSuspected": true,
+      "priceDate": "2026-08-13"
+    },
+    {
+      "rank": 6,
+      "code": "2148",
+      "name": "アイティメディア",
+      "market": "プライム",
+      "sector": "サービス業",
+      "sizeCategory": "TOPIX Small 2",
+      "price": 1238.0,
+      "dividend": 100.0,
+      "yieldPct": 8.08,
+      "forwardDividend": 50.0,
+      "dividendBasis": "実績(TTM)",
+      "exMonths": [
+        3
+      ],
+      "marketCap": 24434626560,
+      "specialDividendSuspected": true,
+      "priceDate": "2026-08-13"
+    },
+    {
+      "rank": 7,
+      "code": "6658",
+      "name": "シライ電子工業",
+      "market": "スタンダード",
+      "sector": "電気機器",
+      "sizeCategory": "",
+      "price": 446.0,
+      "dividend": 35.0,
+      "yieldPct": 7.85,
+      "forwardDividend": 20.0,
+      "dividendBasis": "実績(TTM)",
+      "exMonths": [
+        3
+      ],
+      "marketCap": 6853105664,
+      "specialDividendSuspected": true,
+      "priceDate": "2026-08-13"
+    },
+    {
+      "rank": 8,
+      "code": "3134",
+      "name": "Ｈａｍｅｅ",
+      "market": "スタンダード",
+      "sector": "小売業",
+      "sizeCategory": "TOPIX Small 2",
+      "price": 298.0,
+      "dividend": 22.5,
+      "yieldPct": 7.55,
+      "forwardDividend": 3.0,
+      "dividendBasis": "実績(TTM)",
+      "exMonths": [
+        4
+      ],
+      "marketCap": 4736296448,
+      "specialDividendSuspected": true,
+      "priceDate": "2026-08-13"
+    },
+    {
+      "rank": 9,
+      "code": "2461",
+      "name": "ファンコミュニケーションズ",
+      "market": "プライム",
+      "sector": "サービス業",
+      "sizeCategory": "TOPIX Small 2",
+      "price": 393.0,
+      "dividend": 29.5,
+      "yieldPct": 7.51,
+      "forwardDividend": 21.0,
+      "dividendBasis": "実績(TTM)",
+      "exMonths": [
+        6,
+        12
+      ],
+      "marketCap": 26196674560,
+      "specialDividendSuspected": false,
+      "priceDate": "2026-08-13"
+    },
+    {
+      "rank": 10,
+      "code": "8614",
+      "name": "東洋証券",
+      "market": "プライム",
+      "sector": "証券、商品先物取引業",
+      "sizeCategory": "TOPIX Small 2",
+      "price": 687.0,
+      "dividend": 50.0,
+      "yieldPct": 7.28,
+      "forwardDividend": 50.0,
+      "dividendBasis": "直近1期",
+      "exMonths": [
+        3
+      ],
+      "marketCap": 46522474496,
+      "specialDividendSuspected": false,
+      "priceDate": "2026-08-13"
+    },
+    {
+      "rank": 11,
+      "code": "3299",
+      "name": "ムゲンエステート",
+      "market": "スタンダード",
+      "sector": "不動産業",
+      "sizeCategory": "",
+      "price": 1738.0,
+      "dividend": 121.0,
+      "yieldPct": 6.96,
+      "forwardDividend": 104.0,
+      "dividendBasis": "実績(TTM)",
+      "exMonths": [
+        6,
+        12
+      ],
+      "marketCap": 40857366528,
+      "specialDividendSuspected": false,
+      "priceDate": "2026-08-13"
+    },
+    {
+      "rank": 12,
+      "code": "407A",
+      "name": "ＵＮＩＣＯＮホールディングス",
+      "market": "スタンダード",
+      "sector": "建設業",
+      "sizeCategory": "",
+      "price": 879.0,
+      "dividend": 60.0,
+      "yieldPct": 6.83,
+      "forwardDividend": 60.0,
+      "dividendBasis": "直近1期",
+      "exMonths": [
+        6,
+        12
+      ],
+      "marketCap": 8687722496,
+      "specialDividendSuspected": false,
+      "priceDate": "2026-08-13"
+    },
+    {
+      "rank": 13,
+      "code": "7291",
+      "name": "日本プラスト",
+      "market": "スタンダード",
+      "sector": "輸送用機器",
+      "sizeCategory": "",
+      "price": 446.0,
+      "dividend": 30.0,
+      "yieldPct": 6.73,
+      "forwardDividend": 25.0,
+      "dividendBasis": "実績(TTM)",
+      "exMonths": [
+        3,
+        9
+      ],
+      "marketCap": 8397286400,
+      "specialDividendSuspected": false,
+      "priceDate": "2026-08-13"
+    },
+    {
+      "rank": 14,
+      "code": "3205",
+      "name": "ダイドーリミテッド",
+      "market": "スタンダード",
+      "sector": "繊維製品",
+      "sizeCategory": "",
+      "price": 744.0,
+      "dividend": 50.0,
+      "yieldPct": 6.72,
+      "forwardDividend": 50.0,
+      "dividendBasis": "実績(TTM)",
+      "exMonths": [
+        3
+      ],
+      "marketCap": 20518006784,
+      "specialDividendSuspected": false,
+      "priceDate": "2026-08-13"
+    },
+    {
+      "rank": 15,
+      "code": "2483",
+      "name": "翻訳センター",
+      "market": "スタンダード",
+      "sector": "サービス業",
+      "sizeCategory": "",
+      "price": 2174.0,
+      "dividend": 140.0,
+      "yieldPct": 6.44,
+      "forwardDividend": 140.0,
+      "dividendBasis": "実績(TTM)",
+      "exMonths": [
+        3
+      ],
+      "marketCap": 7408442368,
+      "specialDividendSuspected": false,
+      "priceDate": "2026-08-13"
+    },
+    {
+      "rank": 16,
+      "code": "5451",
+      "name": "ヨドコウ",
+      "market": "プライム",
+      "sector": "鉄鋼",
+      "sizeCategory": "TOPIX Small 1",
+      "price": 1425.0,
+      "dividend": 91.0,
+      "yieldPct": 6.39,
+      "forwardDividend": 62.0,
+      "dividendBasis": "実績(TTM)",
+      "exMonths": [
+        3,
+        9
+      ],
+      "marketCap": 205849575424,
+      "specialDividendSuspected": false,
+      "priceDate": "2026-08-13"
+    },
+    {
+      "rank": 17,
+      "code": "5852",
+      "name": "アーレスティ",
+      "market": "プライム",
+      "sector": "非鉄金属",
+      "sizeCategory": "",
+      "price": 669.0,
+      "dividend": 42.0,
+      "yieldPct": 6.28,
+      "forwardDividend": 48.0,
+      "dividendBasis": "実績(TTM)",
+      "exMonths": [
+        3,
+        9
+      ],
+      "marketCap": 16809767936,
+      "specialDividendSuspected": false,
+      "priceDate": "2026-08-13"
+    },
+    {
+      "rank": 18,
+      "code": "9629",
+      "name": "ピー・シー・エー",
+      "market": "プライム",
+      "sector": "情報・通信業",
+      "sizeCategory": "TOPIX Small 2",
+      "price": 1514.0,
+      "dividend": 95.0,
+      "yieldPct": 6.27,
+      "forwardDividend": 40.0,
+      "dividendBasis": "実績(TTM)",
+      "exMonths": [
+        3
+      ],
+      "marketCap": 31080495104,
+      "specialDividendSuspected": true,
+      "priceDate": "2026-08-13"
+    },
+    {
+      "rank": 19,
+      "code": "8150",
+      "name": "三信電気",
+      "market": "プライム",
+      "sector": "卸売業",
+      "sizeCategory": "TOPIX Small 2",
+      "price": 3080.0,
+      "dividend": 190.0,
+      "yieldPct": 6.17,
+      "forwardDividend": 140.0,
+      "dividendBasis": "実績(TTM)",
+      "exMonths": [
+        3,
+        9
+      ],
+      "marketCap": 38319394816,
+      "specialDividendSuspected": false,
+      "priceDate": "2026-08-13"
+    },
+    {
+      "rank": 20,
+      "code": "5410",
+      "name": "合同製鐵",
+      "market": "プライム",
+      "sector": "鉄鋼",
+      "sizeCategory": "TOPIX Small 1",
+      "price": 2925.0,
+      "dividend": 180.0,
+      "yieldPct": 6.15,
+      "forwardDividend": 100.0,
+      "dividendBasis": "実績(TTM)",
+      "exMonths": [
+        3,
+        9
+      ],
+      "marketCap": 43359285248,
+      "specialDividendSuspected": true,
+      "priceDate": "2026-08-13"
+    },
+    {
+      "rank": 21,
+      "code": "3431",
+      "name": "宮地エンジニアリンググループ",
+      "market": "プライム",
+      "sector": "金属製品",
+      "sizeCategory": "TOPIX Small 1",
+      "price": 1592.0,
+      "dividend": 97.5,
+      "yieldPct": 6.12,
+      "forwardDividend": 75.0,
+      "dividendBasis": "実績(TTM)",
+      "exMonths": [
+        3,
+        9
+      ],
+      "marketCap": 42854690816,
+      "specialDividendSuspected": false,
+      "priceDate": "2026-08-13"
+    },
+    {
+      "rank": 22,
+      "code": "9219",
+      "name": "ギックス",
+      "market": "グロース",
+      "sector": "サービス業",
+      "sizeCategory": "",
+      "price": 879.0,
+      "dividend": 53.5,
+      "yieldPct": 6.09,
+      "forwardDividend": 53.5,
+      "dividendBasis": "実績(TTM)",
+      "exMonths": [
+        6,
+        12
+      ],
+      "marketCap": 4930603008,
+      "specialDividendSuspected": false,
+      "priceDate": "2026-08-13"
+    },
+    {
+      "rank": 23,
+      "code": "4331",
+      "name": "テイクアンドギヴ・ニーズ",
+      "market": "プライム",
+      "sector": "サービス業",
+      "sizeCategory": "TOPIX Small 2",
+      "price": 682.0,
+      "dividend": 41.33,
+      "yieldPct": 6.06,
+      "forwardDividend": 40.0,
+      "dividendBasis": "実績(TTM)",
+      "exMonths": [
+        6,
+        12
+      ],
+      "marketCap": 10703348736,
+      "specialDividendSuspected": false,
+      "priceDate": "2026-08-13"
+    },
+    {
+      "rank": 24,
+      "code": "7932",
+      "name": "ニッピ",
+      "market": "スタンダード",
+      "sector": "その他製品",
+      "sizeCategory": "",
+      "price": 11570.0,
+      "dividend": 696.0,
+      "yieldPct": 6.02,
+      "forwardDividend": 701.0,
+      "dividendBasis": "実績(TTM)",
+      "exMonths": [
+        3
+      ],
+      "marketCap": 32815192064,
+      "specialDividendSuspected": false,
+      "priceDate": "2026-08-13"
+    },
+    {
+      "rank": 25,
+      "code": "7226",
+      "name": "極東開発工業",
+      "market": "プライム",
+      "sector": "輸送用機器",
+      "sizeCategory": "TOPIX Small 1",
+      "price": 2328.0,
+      "dividend": 140.0,
+      "yieldPct": 6.01,
+      "forwardDividend": 120.0,
+      "dividendBasis": "実績(TTM)",
+      "exMonths": [
+        3,
+        9
+      ],
+      "marketCap": 90297532416,
+      "specialDividendSuspected": false,
+      "priceDate": "2026-08-13"
+    },
+    {
+      "rank": 26,
+      "code": "7305",
+      "name": "新家工業",
+      "market": "スタンダード",
+      "sector": "鉄鋼",
+      "sizeCategory": "",
+      "price": 2685.0,
+      "dividend": 160.0,
+      "yieldPct": 5.96,
+      "forwardDividend": 200.0,
+      "dividendBasis": "実績(TTM)",
+      "exMonths": [
+        3,
+        9
+      ],
+      "marketCap": 25741307904,
+      "specialDividendSuspected": false,
+      "priceDate": "2026-08-13"
+    },
+    {
+      "rank": 27,
+      "code": "8706",
+      "name": "極東証券",
+      "market": "プライム",
+      "sector": "証券、商品先物取引業",
+      "sizeCategory": "TOPIX Small 1",
+      "price": 1852.0,
+      "dividend": 110.0,
+      "yieldPct": 5.94,
+      "forwardDividend": 110.0,
+      "dividendBasis": "実績(TTM)",
+      "exMonths": [
+        3,
+        9
+      ],
+      "marketCap": 58523869184,
+      "specialDividendSuspected": false,
+      "priceDate": "2026-08-13"
+    },
+    {
+      "rank": 28,
+      "code": "3571",
+      "name": "ソトー",
+      "market": "スタンダード",
+      "sector": "繊維製品",
+      "sizeCategory": "",
+      "price": 711.0,
+      "dividend": 42.0,
+      "yieldPct": 5.91,
+      "forwardDividend": 50.0,
+      "dividendBasis": "実績(TTM)",
+      "exMonths": [
+        3,
+        9
+      ],
+      "marketCap": 8713299968,
+      "specialDividendSuspected": false,
+      "priceDate": "2026-08-13"
+    },
+    {
+      "rank": 29,
+      "code": "9744",
+      "name": "メイテックグループホールディングス",
+      "market": "プライム",
+      "sector": "サービス業",
+      "sizeCategory": "TOPIX Mid400",
+      "price": 3340.0,
+      "dividend": 196.0,
+      "yieldPct": 5.87,
+      "forwardDividend": 181.0,
+      "dividendBasis": "実績(TTM)",
+      "exMonths": [
+        3,
+        9
+      ],
+      "marketCap": 259105718272,
+      "specialDividendSuspected": false,
+      "priceDate": "2026-08-13"
+    },
+    {
+      "rank": 30,
+      "code": "367A",
+      "name": "プリモグローバルホールディングス",
+      "market": "スタンダード",
+      "sector": "小売業",
+      "sizeCategory": "",
+      "price": 2832.0,
+      "dividend": 165.0,
+      "yieldPct": 5.83,
+      "forwardDividend": 120.0,
+      "dividendBasis": "実績(TTM)",
+      "exMonths": [
+        2,
+        8
+      ],
+      "marketCap": 24841885696,
+      "specialDividendSuspected": false,
+      "priceDate": "2026-08-13"
+    }
+  ]
+}

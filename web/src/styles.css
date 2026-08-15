@@ -1,0 +1,888 @@
+/*
+ * カラーは仕様書「デザイン仕様」に準拠。
+ * ただし文字色として使う紫・緑はコントラスト比が AA(4.5:1) に届かないため、
+ * 塗り用（--brand / --yield-fill）と文字用（--brand-ink / --yield-ink）を分けている。
+ *   #667eea on #fff = 3.66  → 文字には #4c51bf (6.49) を使う
+ *   #48bb78 on #fff = 2.43  → 文字には #276749 (6.73) を使う
+ */
+
+:root {
+  --brand: #667eea;
+  --brand-dark: #764ba2;
+  --brand-ink: #4c51bf;
+  --grad-from: #5a67d8; /* 白文字を載せる面。#667eea だと 3.66 で不足 */
+  --grad-to: #6b46c1;
+
+  --yield-fill: #48bb78;
+  --yield-ink: #276749;
+
+  --ink: #2d3748;
+  --ink-muted: #5a6a7e; /* 仕様の #718096 は 4.02 で AA 未満のため濃くした */
+  --ink-faint: #8a97a8;
+
+  --surface: #ffffff;
+  --surface-sunken: #f7f9fc;
+  --border: #e4e9f2;
+
+  --warn-bg: #fffaf0;
+  --warn-border: #f6c177;
+  --warn-ink: #7c4a13;
+
+  --danger-ink: #9b2c2c;
+  --danger-bg: #fff5f5;
+
+  --radius: 14px;
+  --shadow-sm: 0 1px 2px rgba(23, 32, 56, 0.06), 0 2px 8px rgba(23, 32, 56, 0.05);
+  --shadow-md: 0 8px 24px rgba(23, 32, 56, 0.12);
+  --maxw: 1440px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Hiragino Sans', 'Hiragino Kaku Gothic ProN',
+    Meiryo, 'Segoe UI', Roboto, sans-serif;
+  color: var(--ink);
+  background: linear-gradient(160deg, #eef1fb 0%, #f6f4fc 45%, #f7f9fc 100%);
+  background-attachment: fixed;
+  min-height: 100vh;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 数値は等幅の桁で縦に揃える。表の比較しやすさに直結する。 */
+.num {
+  font-variant-numeric: tabular-nums;
+  text-align: right;
+  white-space: nowrap;
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+}
+
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+a:focus-visible {
+  outline: 3px solid var(--brand);
+  outline-offset: 2px;
+}
+
+.layout {
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 0 24px 64px;
+}
+
+/* ---------------- ヘッダー ---------------- */
+
+.site-header {
+  background: linear-gradient(120deg, var(--grad-from), var(--grad-to));
+  color: #fff;
+  padding: 28px 0 22px;
+  box-shadow: var(--shadow-md);
+}
+
+.site-header__inner {
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 0 24px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.site-header__title {
+  margin: 0 0 10px;
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+.site-header__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 18px;
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.92);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.site-header__meta strong {
+  font-weight: 600;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(255, 255, 255, 0.18);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: 999px;
+  padding: 3px 12px;
+  font-size: 0.78rem;
+  font-weight: 600;
+}
+
+.site-header__actions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 8px;
+}
+
+.reload-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #fff;
+  color: var(--brand-ink);
+  border: none;
+  border-radius: 10px;
+  padding: 11px 20px;
+  font-weight: 700;
+  font-size: 0.92rem;
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.reload-button:hover:not(:disabled) {
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-md);
+}
+
+.reload-button:disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+}
+
+.reload-note {
+  font-size: 0.74rem;
+  color: rgba(255, 255, 255, 0.85);
+  max-width: 27ch;
+  text-align: right;
+  line-height: 1.45;
+}
+
+.spinner {
+  width: 14px;
+  height: 14px;
+  border: 2px solid currentColor;
+  border-right-color: transparent;
+  border-radius: 50%;
+  animation: spin 0.7s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* ---------------- タブ ---------------- */
+
+.tabs {
+  display: flex;
+  gap: 4px;
+  margin: 24px 0 20px;
+  background: rgba(255, 255, 255, 0.75);
+  padding: 5px;
+  border-radius: 12px;
+  width: fit-content;
+  border: 1px solid var(--border);
+}
+
+.tabs__button {
+  border: none;
+  background: transparent;
+  color: var(--ink-muted);
+  padding: 9px 22px;
+  border-radius: 9px;
+  font-weight: 600;
+  font-size: 0.92rem;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.tabs__button[aria-selected='true'] {
+  background: linear-gradient(120deg, var(--grad-from), var(--grad-to));
+  color: #fff;
+  box-shadow: var(--shadow-sm);
+}
+
+/* ---------------- サマリーカード ---------------- */
+
+.summary-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.stat-tile {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 18px 20px;
+  box-shadow: var(--shadow-sm);
+}
+
+.stat-tile__label {
+  font-size: 0.8rem;
+  color: var(--ink-muted);
+  font-weight: 600;
+  margin: 0 0 8px;
+}
+
+.stat-tile__value {
+  font-size: 1.85rem;
+  font-weight: 700;
+  line-height: 1.15;
+  font-variant-numeric: tabular-nums;
+  margin: 0;
+}
+
+.stat-tile__value--yield {
+  color: var(--yield-ink);
+}
+
+.stat-tile__sub {
+  margin: 6px 0 0;
+  font-size: 0.8rem;
+  color: var(--ink-muted);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* ---------------- 業種内訳 ---------------- */
+
+.panel {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px;
+  box-shadow: var(--shadow-sm);
+  margin-bottom: 20px;
+}
+
+.panel__title {
+  margin: 0 0 4px;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.panel__hint {
+  margin: 0 0 16px;
+  font-size: 0.8rem;
+  color: var(--ink-muted);
+}
+
+.sector-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 12px;
+}
+
+.sector-item {
+  background: var(--surface-sunken);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 12px 14px;
+}
+
+.sector-item__name {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--ink);
+  margin: 0 0 6px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.sector-item__count {
+  font-size: 1.3rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  color: var(--brand-ink);
+}
+
+.sector-item__unit {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--ink-muted);
+  margin-left: 3px;
+}
+
+/* 件数を長さでも表す。数字だけより大小関係が一目で分かる。 */
+.sector-item__bar {
+  margin-top: 8px;
+  height: 6px;
+  background: #e6e9f5;
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.sector-item__bar span {
+  display: block;
+  height: 100%;
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--grad-from), var(--grad-to));
+}
+
+/* ---------------- フィルタ ---------------- */
+
+.filters {
+  display: grid;
+  grid-template-columns: minmax(200px, 2fr) repeat(3, minmax(130px, 1fr)) auto;
+  gap: 12px;
+  align-items: end;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 16px 20px;
+  box-shadow: var(--shadow-sm);
+  margin-bottom: 20px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  min-width: 0;
+}
+
+.field__label {
+  font-size: 0.76rem;
+  font-weight: 700;
+  color: var(--ink-muted);
+}
+
+.field input,
+.field select {
+  font-family: inherit;
+  font-size: 0.9rem;
+  color: var(--ink);
+  padding: 9px 11px;
+  border: 1px solid var(--border);
+  border-radius: 9px;
+  background: var(--surface);
+  width: 100%;
+}
+
+.filters__side {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 0.82rem;
+  color: var(--ink);
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.csv-button {
+  background: var(--brand-ink);
+  color: #fff;
+  border: none;
+  border-radius: 9px;
+  padding: 9px 18px;
+  font-weight: 700;
+  font-size: 0.86rem;
+  white-space: nowrap;
+}
+
+.csv-button:hover:not(:disabled) {
+  background: #434190;
+}
+
+.csv-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.result-count {
+  font-size: 0.85rem;
+  color: var(--ink-muted);
+  margin: 0 0 14px;
+}
+
+/* ---------------- 銘柄カード ---------------- */
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+
+.stock-card {
+  position: relative;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 18px;
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+}
+
+.stock-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--brand);
+}
+
+.rank-badge {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  min-width: 30px;
+  height: 30px;
+  padding: 0 7px;
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.82rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  background: #edf0f7;
+  color: #414d63;
+  border: 1px solid #dfe4ee;
+}
+
+.rank-badge--1 {
+  background: linear-gradient(135deg, #f6d365, #d4a017);
+  color: #4a3505;
+  border-color: #d4a017;
+}
+
+.rank-badge--2 {
+  background: linear-gradient(135deg, #e6e9ef, #b6bfcc);
+  color: #3d454f;
+  border-color: #b6bfcc;
+}
+
+.rank-badge--3 {
+  background: linear-gradient(135deg, #e8b98a, #b9762f);
+  color: #43260a;
+  border-color: #b9762f;
+}
+
+.stock-card__name {
+  margin: 0 44px 3px 0;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.stock-card__code {
+  font-size: 0.82rem;
+  color: var(--ink-muted);
+  font-variant-numeric: tabular-nums;
+  margin: 0 0 10px;
+}
+
+.market-tag {
+  display: inline-block;
+  border-radius: 6px;
+  padding: 2px 9px;
+  font-size: 0.72rem;
+  font-weight: 700;
+}
+
+.market-tag--prime {
+  background: #bee3f8;
+  color: #2c5282;
+}
+
+.market-tag--standard {
+  background: #c6f6d5;
+  color: #22543d;
+}
+
+.market-tag--growth {
+  background: #fbd38d;
+  color: #744210;
+}
+
+.yield-hero {
+  margin: 14px 0;
+  background: linear-gradient(120deg, var(--grad-from), var(--grad-to));
+  color: #fff;
+  border-radius: 11px;
+  padding: 13px 16px;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.yield-hero__label {
+  font-size: 0.76rem;
+  font-weight: 600;
+  opacity: 0.92;
+}
+
+.yield-hero__value {
+  font-size: 1.7rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  line-height: 1;
+}
+
+.kv-list {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 6px 12px;
+  font-size: 0.84rem;
+  margin: 0;
+}
+
+.kv-list dt {
+  color: var(--ink-muted);
+}
+
+.kv-list dd {
+  margin: 0;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.special-flag {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 12px;
+  background: var(--warn-bg);
+  border: 1px solid var(--warn-border);
+  color: var(--warn-ink);
+  border-radius: 7px;
+  padding: 5px 9px;
+  font-size: 0.74rem;
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+/* ---------------- テーブル ---------------- */
+
+.table-wrap {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+  overflow-x: auto;
+}
+
+table.stocks {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.88rem;
+  min-width: 900px;
+}
+
+table.stocks th,
+table.stocks td {
+  padding: 11px 14px;
+  border-bottom: 1px solid var(--border);
+  text-align: left;
+  vertical-align: middle;
+}
+
+table.stocks thead th {
+  position: sticky;
+  top: 0;
+  background: var(--surface-sunken);
+  color: var(--ink-muted);
+  font-size: 0.78rem;
+  font-weight: 700;
+  white-space: nowrap;
+  z-index: 1;
+}
+
+table.stocks thead th button {
+  background: none;
+  border: none;
+  padding: 0;
+  color: inherit;
+  font: inherit;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+table.stocks thead th button[aria-sort-active='true'] {
+  color: var(--brand-ink);
+}
+
+table.stocks tbody tr:hover {
+  background: #f4f7ff;
+}
+
+table.stocks tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.cell-yield {
+  color: var(--yield-ink);
+  font-weight: 700;
+}
+
+.cell-name {
+  font-weight: 600;
+}
+
+.cell-name span {
+  display: block;
+  font-weight: 400;
+  font-size: 0.78rem;
+  color: var(--ink-muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.special-mark {
+  color: var(--warn-ink);
+  background: var(--warn-bg);
+  border: 1px solid var(--warn-border);
+  border-radius: 5px;
+  padding: 0 5px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  margin-left: 6px;
+  white-space: nowrap;
+}
+
+/* ---------------- 状態表示 ---------------- */
+
+.empty-state {
+  background: var(--surface);
+  border: 1px dashed var(--border);
+  border-radius: var(--radius);
+  padding: 48px 24px;
+  text-align: center;
+  color: var(--ink-muted);
+}
+
+.screen-message {
+  max-width: 560px;
+  margin: 80px auto;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 32px;
+  text-align: center;
+  box-shadow: var(--shadow-sm);
+}
+
+.screen-message--error {
+  border-color: var(--warn-border);
+}
+
+.screen-message h1 {
+  font-size: 1.15rem;
+  margin: 0 0 10px;
+}
+
+.screen-message p {
+  color: var(--ink-muted);
+  font-size: 0.9rem;
+  margin: 0 0 8px;
+}
+
+.screen-message code {
+  background: var(--surface-sunken);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 2px 6px;
+  font-size: 0.85rem;
+}
+
+/* ---------------- トースト ---------------- */
+
+.toast {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 50;
+  background: var(--ink);
+  color: #fff;
+  border-radius: 11px;
+  padding: 13px 18px;
+  font-size: 0.88rem;
+  font-weight: 600;
+  box-shadow: var(--shadow-md);
+  max-width: min(92vw, 420px);
+  animation: toast-in 0.2s ease;
+}
+
+.toast--error {
+  background: #7b2222;
+}
+
+@keyframes toast-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+}
+
+/* ---------------- 免責 ---------------- */
+
+.disclaimer {
+  margin-top: 28px;
+  background: rgba(255, 255, 255, 0.72);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px 24px;
+  font-size: 0.82rem;
+  color: var(--ink-muted);
+}
+
+.disclaimer h2 {
+  font-size: 0.9rem;
+  color: var(--ink);
+  margin: 0 0 10px;
+}
+
+.disclaimer ul {
+  margin: 0 0 14px;
+  padding-left: 1.2em;
+}
+
+.disclaimer li {
+  margin-bottom: 5px;
+}
+
+.disclaimer__source {
+  margin: 0;
+  padding-top: 12px;
+  border-top: 1px solid var(--border);
+  font-size: 0.78rem;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* ---------------- レスポンシブ ---------------- */
+
+@media (max-width: 1400px) {
+  .card-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .sector-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 1100px) {
+  .summary-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .filters {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .filters__side {
+    grid-column: 1 / -1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 1024px) {
+  .card-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .layout {
+    padding: 0 14px 48px;
+  }
+  .site-header__inner {
+    padding: 0 14px;
+    flex-direction: column;
+  }
+  .site-header__actions {
+    align-items: stretch;
+    width: 100%;
+  }
+  .reload-button {
+    justify-content: center;
+  }
+  .reload-note {
+    text-align: left;
+    max-width: none;
+  }
+  .card-grid {
+    grid-template-columns: 1fr;
+  }
+  .sector-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .summary-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .stat-tile__value {
+    font-size: 1.5rem;
+  }
+  .filters {
+    grid-template-columns: 1fr;
+  }
+  .filters__side {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .csv-button {
+    width: 100%;
+  }
+  .tabs {
+    width: 100%;
+  }
+  .tabs__button {
+    flex: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

@@ -1,0 +1,94 @@
+name: データ更新とデプロイ
+
+on:
+  schedule:
+    # 東証の引け後に 1 回。UTC 11:00 = JST 20:00、月〜金のみ。
+    # 祝日は cron では判定できないため、バッチ側で --skip-holidays が判定する。
+    - cron: '0 11 * * 1-5'
+  # 画面からの手動更新の代わりに、必要なときはここから実行できる。
+  workflow_dispatch:
+  # コード変更時はデータを取り直さず、コミット済みの JSON でデプロイし直す。
+  push:
+    branches: [main]
+
+permissions:
+  contents: write # 生成した top30.json をコミットするため
+  pages: write
+  id-token: write
+
+# 更新中に別の更新が走ると、データのコミットが競合する。
+concurrency:
+  group: update-and-deploy
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: batch/requirements.txt
+
+      - name: Python 依存関係をインストール
+        run: pip install -r batch/requirements.txt
+
+      - name: 株価データを取得
+        # push で起動したときは取得しない（コード変更のたびに 10 分かけて
+        # 全銘柄を取り直す必要はなく、Yahoo 側にも余計な負荷をかけるため）。
+        if: github.event_name != 'push'
+        working-directory: batch
+        # schedule のときだけ休場日をスキップする。手動実行は常に走らせたい。
+        run: |
+          if [ "${{ github.event_name }}" = "schedule" ]; then
+            python -m src.build --skip-holidays
+          else
+            python -m src.build
+          fi
+
+      - name: 生成したデータをコミット
+        if: github.event_name != 'push'
+        run: |
+          if git diff --quiet -- web/public/data/top30.json; then
+            echo "データに変更がないためコミットしません（休場日など）"
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add web/public/data/top30.json
+          git commit -m "chore: TOP30データを更新 ($(date -u +%Y-%m-%d))"
+          git push
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+
+      - name: フロントエンドをビルド
+        working-directory: web
+        env:
+          # GitHub Pages はリポジトリ名のサブパス配下で配信される。
+          BASE_PATH: /${{ github.event.repository.name }}/
+        run: |
+          npm ci
+          npm run build
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: web/dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
