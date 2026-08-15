@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T02:43:36+00:00",
+  "generatedAt": "2026-08-15T03:13:28+00:00",
   "priceDate": "2026-08-14",
   "masterDate": "2026-07-31",
   "nextUpdate": "2026-08-17 20:00 JST",
@@ -7,9 +7,9 @@
   "stats": {
     "universe": 3706,
     "priced": 3706,
-    "withDividend": 3061,
+    "withDividend": 3060,
     "unreachable": 0,
-    "verified": 149
+    "verified": 147
   },
   "summary": {
     "avgYield": 7.45,
