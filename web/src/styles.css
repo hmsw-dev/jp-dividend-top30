@@ -1038,10 +1038,43 @@ table.stocks tbody tr:last-child td {
   color: var(--brand-ink);
 }
 
+/* 見出し行の右端に寄せる。 */
+.detail__translate {
+  margin-left: auto;
+  border: 1px solid #d7dcf5;
+  background: #eef0fb;
+  color: var(--brand-ink);
+  border-radius: 7px;
+  padding: 4px 11px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.detail__translate:hover:not(:disabled) {
+  background: var(--brand-ink);
+  color: #fff;
+  border-color: var(--brand-ink);
+}
+
+.detail__translate:disabled {
+  opacity: 0.65;
+}
+
 .detail__summary {
   margin: 0;
   font-size: 0.88rem;
   line-height: 1.75;
+}
+
+.detail__error {
+  margin: 9px 0 0;
+  font-size: 0.78rem;
+  color: var(--danger-ink);
+  background: var(--danger-bg);
+  border-radius: 8px;
+  padding: 8px 11px;
 }
 
 .detail__source,

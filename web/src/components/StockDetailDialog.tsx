@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 import {
   formatDate,
   formatEmployees,
@@ -8,6 +8,7 @@ import {
   formatPrice,
   formatYield,
 } from '../format';
+import { checkAvailability, isTranslatorSupported, translateToJapanese } from '../translator';
 import type { Stock } from '../types';
 import { MarketTag } from './MarketTag';
 
@@ -161,26 +162,113 @@ export function StockDetailDialog({ stock, onClose }: Props) {
           </dl>
         </section>
 
-        <section className="detail__section">
-          <h3 className="detail__section-title">
-            事業内容
-            {stock.businessSummary && <span className="detail__badge">英語原文</span>}
-          </h3>
-          {stock.businessSummary ? (
-            <>
-              <p className="detail__summary" lang="en">
-                {stock.businessSummary}
-              </p>
-              <p className="detail__source">
-                Yahoo Finance が提供する事業概要です。日本語版が提供されていないため、
-                原文のまま掲載しています。
-              </p>
-            </>
-          ) : (
-            <p className="detail__empty">この銘柄の事業概要は取得できませんでした。</p>
-          )}
-        </section>
+        {/* 銘柄が変わったら翻訳の状態を持ち越さないよう key で作り直す。 */}
+        <BusinessSummary key={stock.code} stock={stock} />
       </div>
     </dialog>
+  );
+}
+
+type Phase = 'idle' | 'downloading' | 'translating' | 'error';
+
+/**
+ * 事業内容と、ブラウザ内蔵の翻訳ボタン。
+ *
+ * 翻訳が使えない環境（モバイル・Safari・Firefox）ではボタンを出さない。
+ * 押せないボタンを見せても仕方がないため。
+ */
+function BusinessSummary({ stock }: { stock: Stock }) {
+  const summary = stock.businessSummary ?? '';
+  const [canTranslate, setCanTranslate] = useState(false);
+  const [translated, setTranslated] = useState('');
+  const [showOriginal, setShowOriginal] = useState(false);
+  const [phase, setPhase] = useState<Phase>('idle');
+  const [progress, setProgress] = useState(0);
+  const [error, setError] = useState('');
+
+  useEffect(() => {
+    if (!summary || !isTranslatorSupported()) return;
+    let alive = true;
+    void checkAvailability().then((availability) => {
+      if (alive) setCanTranslate(availability !== 'unavailable');
+    });
+    return () => {
+      alive = false;
+    };
+  }, [summary]);
+
+  const handleTranslate = useCallback(async () => {
+    setError('');
+    setPhase('translating');
+    try {
+      const result = await translateToJapanese(stock.code, summary, (ratio) => {
+        // 初回だけモデルのダウンロードが走る。数十MBあるので進捗を出す。
+        setPhase('downloading');
+        setProgress(ratio);
+      });
+      setTranslated(result);
+      setShowOriginal(false);
+      setPhase('idle');
+    } catch (cause) {
+      setError(cause instanceof Error ? cause.message : '翻訳に失敗しました');
+      setPhase('error');
+    }
+  }, [stock.code, summary]);
+
+  if (!summary) {
+    return (
+      <section className="detail__section">
+        <h3 className="detail__section-title">事業内容</h3>
+        <p className="detail__empty">この銘柄の事業概要は取得できませんでした。</p>
+      </section>
+    );
+  }
+
+  const busy = phase === 'downloading' || phase === 'translating';
+  const showingJapanese = translated !== '' && !showOriginal;
+
+  return (
+    <section className="detail__section">
+      <h3 className="detail__section-title">
+        事業内容
+        <span className="detail__badge">{showingJapanese ? '機械翻訳' : '英語原文'}</span>
+
+        {translated ? (
+          <button
+            type="button"
+            className="detail__translate"
+            onClick={() => setShowOriginal((previous) => !previous)}
+          >
+            {showOriginal ? '訳文を表示' : '原文を表示'}
+          </button>
+        ) : (
+          canTranslate && (
+            <button
+              type="button"
+              className="detail__translate"
+              onClick={handleTranslate}
+              disabled={busy}
+            >
+              {phase === 'downloading'
+                ? `翻訳モデルを準備中 ${Math.round(progress * 100)}%`
+                : phase === 'translating'
+                  ? '翻訳中…'
+                  : '日本語に翻訳'}
+            </button>
+          )
+        )}
+      </h3>
+
+      <p className="detail__summary" lang={showingJapanese ? 'ja' : 'en'}>
+        {showingJapanese ? translated : summary}
+      </p>
+
+      {error && <p className="detail__error">翻訳できませんでした（{error}）</p>}
+
+      <p className="detail__source">
+        Yahoo Finance が提供する事業概要です。日本語版が提供されていないため、原文は英語です。
+        {showingJapanese && '表示中の日本語はブラウザの翻訳機能による機械訳で、誤りを含むことがあります。'}
+      </p>
+    </section>
   );
 }
