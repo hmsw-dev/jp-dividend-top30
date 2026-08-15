@@ -18,7 +18,7 @@ import sys
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
-from . import config, ranking
+from . import config, news, ranking
 from .screener import screen_all
 from .trading_calendar import is_trading_day, next_trading_day
 from .universe import load_universe
@@ -60,6 +60,10 @@ def main(argv: list[str] | None = None) -> int:
     if not top:
         logger.error("ランキングを 1 件も算出できませんでした。既存のJSONは更新しません")
         return 1
+
+    # ニュースは TOP30 が確定してから集める。候補 150 件分を取ると無駄が大きい。
+    # 取れなくてもランキング自体は成立するので、失敗しても先に進む。
+    news.attach(top)
 
     payload = {
         "generatedAt": datetime.now(timezone.utc).isoformat(timespec="seconds"),

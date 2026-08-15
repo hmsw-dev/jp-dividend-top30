@@ -10,7 +10,7 @@ from __future__ import annotations
 
 import logging
 from collections import Counter
-from dataclasses import asdict, dataclass
+from dataclasses import asdict, dataclass, field
 
 from . import config
 from .screener import ScreenResult
@@ -45,6 +45,9 @@ class RankedStock:
     website: str = ""
     employees: int = 0
     headquarters: str = ""
+
+    # ランキング確定後に news.attach() が入れる。取得できなければ空のまま。
+    news: list[dict] = field(default_factory=list)
 
 
 def select_candidates(

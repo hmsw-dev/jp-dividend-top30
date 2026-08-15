@@ -1062,6 +1062,48 @@ table.stocks tbody tr:last-child td {
   opacity: 0.65;
 }
 
+.news-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.news-list__item {
+  padding: 11px 14px;
+}
+
+.news-list__item + .news-list__item {
+  border-top: 1px solid var(--border);
+}
+
+.news-list__item:hover {
+  background: var(--surface-sunken);
+}
+
+.news-list__link {
+  color: var(--brand-ink);
+  font-size: 0.86rem;
+  font-weight: 600;
+  line-height: 1.6;
+  text-decoration: none;
+}
+
+.news-list__link:hover {
+  text-decoration: underline;
+}
+
+.news-list__meta {
+  display: flex;
+  gap: 10px;
+  margin: 5px 0 0;
+  font-size: 0.74rem;
+  color: var(--ink-muted);
+  font-variant-numeric: tabular-nums;
+}
+
 .detail__summary {
   margin: 0;
   font-size: 0.88rem;

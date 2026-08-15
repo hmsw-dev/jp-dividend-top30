@@ -2,6 +2,17 @@
 
 export type Market = 'プライム' | 'スタンダード' | 'グロース';
 
+/** 業績関連のニュース見出し（Google ニュース RSS 由来）。 */
+export interface NewsItem {
+  title: string;
+  /** news.google.com 経由で配信元へ飛ぶリンク */
+  url: string;
+  /** 配信媒体名。不明なら「不明」 */
+  source: string;
+  /** 配信日（JST、YYYY-MM-DD）。取れなければ空文字 */
+  publishedAt: string;
+}
+
 export interface Stock {
   rank: number;
   code: string;
@@ -39,6 +50,8 @@ export interface Stock {
   employees?: number;
   /** 本社所在地（市区名・英字表記）。空文字なら不明 */
   headquarters?: string;
+  /** 業績関連ニュース。取得できなかった場合は空配列 */
+  news?: NewsItem[];
 }
 
 export interface Summary {

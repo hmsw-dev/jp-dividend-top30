@@ -4,7 +4,10 @@
 コードのあちこちに散らばると、後から仕様を追いにくくなるため。
 """
 
+from datetime import timedelta, timezone
 from pathlib import Path
+
+JST = timezone(timedelta(hours=9))
 
 # --- パス ---------------------------------------------------------------
 
@@ -106,3 +109,18 @@ SPECIAL_DIVIDEND_RATIO = 1.5
 
 # 業種別 TOP いくつを画面に出すか。
 SECTOR_TOP_N = 5
+
+
+# --- ニュース -----------------------------------------------------------
+
+# 1 銘柄あたり何件の見出しを載せるか。ポップアップに収める都合と、
+# 古い記事まで並べても業績の把握には効かないため 3 件に絞っている。
+NEWS_PER_STOCK = 3
+
+# 取得間隔。TOP30 の 30 件だけなので、余裕をもって空ける。
+NEWS_INTERVAL_SEC = 0.4
+
+NEWS_TIMEOUT_SEC = 15
+
+# 既定の Python-urllib のままだと弾かれることがあるため明示する。
+NEWS_USER_AGENT = "jp-dividend-top30/1.0 (+https://github.com/hmsw-dev/jp-dividend-top30)"

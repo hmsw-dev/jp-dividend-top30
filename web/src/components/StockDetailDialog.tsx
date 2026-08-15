@@ -128,6 +128,8 @@ export function StockDetailDialog({ stock, onClose }: Props) {
           </dl>
         </section>
 
+        <NewsList news={stock.news} />
+
         <section className="detail__section">
           <h3 className="detail__section-title">企業情報</h3>
           <dl className="detail__kv">
@@ -166,6 +168,44 @@ export function StockDetailDialog({ stock, onClose }: Props) {
         <BusinessSummary key={stock.code} stock={stock} />
       </div>
     </dialog>
+  );
+}
+
+/** 業績関連のニュース見出し。外部サイトへのリンクなので新しいタブで開く。 */
+function NewsList({ news }: { news: Stock['news'] }) {
+  return (
+    <section className="detail__section">
+      <h3 className="detail__section-title">最近のニュース</h3>
+
+      {news && news.length > 0 ? (
+        <>
+          <ul className="news-list">
+            {news.map((item) => (
+              <li key={item.url} className="news-list__item">
+                <a
+                  className="news-list__link"
+                  href={item.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {item.title}
+                </a>
+                <p className="news-list__meta">
+                  {item.publishedAt && <span>{formatDate(item.publishedAt)}</span>}
+                  <span>{item.source}</span>
+                </p>
+              </li>
+            ))}
+          </ul>
+          <p className="detail__source">
+            Google ニュースの検索結果です。見出しの選定は自動で行っているため、
+            まれに関連の薄い記事が混ざります。
+          </p>
+        </>
+      ) : (
+        <p className="detail__empty">この銘柄の関連ニュースは取得できませんでした。</p>
+      )}
+    </section>
   );
 }
 
