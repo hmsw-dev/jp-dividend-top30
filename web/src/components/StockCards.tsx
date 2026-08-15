@@ -4,24 +4,38 @@ import { MarketTag } from './MarketTag';
 
 interface Props {
   stocks: Stock[];
+  onSelect: (stock: Stock) => void;
 }
 
-export function StockCards({ stocks }: Props) {
+export function StockCards({ stocks, onSelect }: Props) {
   return (
     <div className="card-grid">
       {stocks.map((stock) => (
-        <StockCard key={stock.code} stock={stock} />
+        <StockCard key={stock.code} stock={stock} onSelect={onSelect} />
       ))}
     </div>
   );
 }
 
-function StockCard({ stock }: { stock: Stock }) {
+function StockCard({ stock, onSelect }: { stock: Stock; onSelect: (stock: Stock) => void }) {
   const rankClass =
     stock.rank <= 3 ? `rank-badge rank-badge--${stock.rank}` : 'rank-badge';
 
   return (
-    <article className="stock-card">
+    // カード全体をボタンにする。div + onClick だとキーボードで到達できないため。
+    <article
+      className="stock-card"
+      role="button"
+      tabIndex={0}
+      aria-label={`${stock.name} の詳細を開く`}
+      onClick={() => onSelect(stock)}
+      onKeyDown={(event) => {
+        if (event.key === 'Enter' || event.key === ' ') {
+          event.preventDefault();
+          onSelect(stock);
+        }
+      }}
+    >
       <span className={rankClass} aria-label={`${stock.rank} 位`}>
         {stock.rank}
       </span>
@@ -58,6 +72,10 @@ function StockCard({ stock }: { stock: Stock }) {
           {stock.forwardDividend > 0 && `（会社予想 ${formatMoney(stock.forwardDividend)} 円）`}
         </p>
       )}
+
+      <p className="stock-card__more" aria-hidden="true">
+        タップで詳細 ›
+      </p>
     </article>
   );
 }

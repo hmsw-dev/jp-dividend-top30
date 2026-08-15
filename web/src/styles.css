@@ -197,15 +197,25 @@ a:focus-visible {
 
 /* ---------------- タブ ---------------- */
 
+/* 表示切り替えと件数表示を 1 行に並べる。フィルタの直下に置いている。 */
+.view-switch {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 14px;
+}
+
 .tabs {
   display: flex;
   gap: 4px;
-  margin: 24px 0 20px;
-  background: rgba(255, 255, 255, 0.75);
+  background: var(--surface);
   padding: 5px;
   border-radius: 12px;
   width: fit-content;
   border: 1px solid var(--border);
+  box-shadow: var(--shadow-sm);
 }
 
 .tabs__button {
@@ -426,7 +436,7 @@ a:focus-visible {
 .result-count {
   font-size: 0.85rem;
   color: var(--ink-muted);
-  margin: 0 0 14px;
+  margin: 0;
 }
 
 /* ---------------- 銘柄カード ---------------- */
@@ -445,12 +455,28 @@ a:focus-visible {
   padding: 18px;
   box-shadow: var(--shadow-sm);
   transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+  cursor: pointer;
 }
 
 .stock-card:hover {
   transform: translateY(-4px);
   box-shadow: var(--shadow-md);
   border-color: var(--brand);
+}
+
+.stock-card:focus-visible {
+  outline: 3px solid var(--brand-ink);
+  outline-offset: 2px;
+}
+
+/* タップで詳細が開くことの手がかり。カード自体が押せることは見た目からは
+   分からないため、明示しておく。 */
+.stock-card__more {
+  margin: 12px 0 0;
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--brand-ink);
+  text-align: right;
 }
 
 .rank-badge {
@@ -797,6 +823,208 @@ table.stocks tbody tr:last-child td {
   border: 0;
 }
 
+/* ---------------- 銘柄詳細ポップアップ ---------------- */
+
+.detail {
+  width: min(620px, calc(100vw - 28px));
+  max-height: min(86vh, 900px);
+  padding: 0;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+  color: var(--ink);
+  box-shadow: var(--shadow-md);
+  overflow: auto;
+  overscroll-behavior: contain;
+}
+
+.detail::backdrop {
+  background: rgba(23, 32, 56, 0.55);
+}
+
+.detail__inner {
+  padding: 22px 24px 26px;
+}
+
+.detail__head {
+  position: relative;
+  padding-right: 40px;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 14px;
+  margin-bottom: 16px;
+}
+
+/* カード上では絶対配置だが、ポップアップでは閉じるボタンと場所が競合するため
+   通常のフローに戻す。 */
+.detail__head .rank-badge {
+  position: static;
+  margin-bottom: 9px;
+}
+
+.detail__title {
+  margin: 0 0 4px;
+  font-size: 1.28rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.detail__code {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0;
+  font-size: 0.86rem;
+  color: var(--ink-muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.detail__close {
+  position: absolute;
+  top: -4px;
+  right: -6px;
+  width: 36px;
+  height: 36px;
+  border: none;
+  border-radius: 9px;
+  background: transparent;
+  color: var(--ink-muted);
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.detail__close:hover {
+  background: var(--surface-sunken);
+  color: var(--ink);
+}
+
+.detail__yield {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 4px 12px;
+  background: var(--surface-sunken);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 14px 16px;
+  margin-bottom: 16px;
+}
+
+.detail__yield-label {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--ink-muted);
+}
+
+.detail__yield-value {
+  font-size: 1.9rem;
+  font-weight: 700;
+  color: var(--yield-ink);
+  font-variant-numeric: tabular-nums;
+  line-height: 1.1;
+}
+
+.detail__yield-note {
+  font-size: 0.8rem;
+  color: var(--ink-muted);
+  font-variant-numeric: tabular-nums;
+  margin-left: auto;
+}
+
+.detail__warn {
+  background: var(--warn-bg);
+  border: 1px solid var(--warn-border);
+  color: var(--warn-ink);
+  border-radius: 10px;
+  padding: 11px 14px;
+  margin: 0 0 16px;
+  font-size: 0.83rem;
+  line-height: 1.65;
+}
+
+.detail__section + .detail__section {
+  margin-top: 18px;
+}
+
+.detail__section-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 9px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--ink-muted);
+  letter-spacing: 0.04em;
+}
+
+.detail__badge {
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0;
+  color: var(--brand-ink);
+  background: #eef0fb;
+  border: 1px solid #d7dcf5;
+  border-radius: 5px;
+  padding: 1px 6px;
+}
+
+.detail__kv {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0;
+  margin: 0;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.detail__kv dt,
+.detail__kv dd {
+  margin: 0;
+  padding: 9px 14px;
+  font-size: 0.87rem;
+  border-top: 1px solid var(--border);
+}
+
+.detail__kv dt:first-of-type,
+.detail__kv dt:first-of-type + dd {
+  border-top: none;
+}
+
+.detail__kv dt {
+  color: var(--ink-muted);
+  font-weight: 600;
+  background: var(--surface-sunken);
+  white-space: nowrap;
+}
+
+.detail__kv dd {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  word-break: break-word;
+}
+
+.detail__kv a {
+  color: var(--brand-ink);
+}
+
+.detail__summary {
+  margin: 0;
+  font-size: 0.88rem;
+  line-height: 1.75;
+}
+
+.detail__source,
+.detail__empty {
+  margin: 9px 0 0;
+  font-size: 0.76rem;
+  color: var(--ink-muted);
+  line-height: 1.7;
+}
+
+.detail__empty {
+  margin: 0;
+}
+
 /* ---------------- レスポンシブ ---------------- */
 
 @media (max-width: 1400px) {
@@ -870,11 +1098,38 @@ table.stocks tbody tr:last-child td {
   .csv-button {
     width: 100%;
   }
+  .view-switch {
+    align-items: stretch;
+  }
   .tabs {
     width: 100%;
   }
   .tabs__button {
     flex: 1;
+  }
+  .detail__inner {
+    padding: 18px 16px 22px;
+  }
+  .detail__yield-note {
+    margin-left: 0;
+    width: 100%;
+  }
+  /* 狭い画面では見出しと値を上下に積む。横並びのままだと値が潰れる。 */
+  .detail__kv {
+    grid-template-columns: 1fr;
+  }
+  .detail__kv dt {
+    padding-bottom: 0;
+    background: none;
+    border-top: 1px solid var(--border);
+  }
+  .detail__kv dd {
+    text-align: left;
+    border-top: none;
+    padding-top: 3px;
+  }
+  .detail__kv dt:first-of-type + dd {
+    border-top: none;
   }
 }
 

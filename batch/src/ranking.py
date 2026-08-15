@@ -40,6 +40,12 @@ class RankedStock:
     specialDividendSuspected: bool
     priceDate: str
 
+    # 銘柄カードのポップアップで出す企業情報。取得できない銘柄があるため既定値を持つ。
+    businessSummary: str = ""
+    website: str = ""
+    employees: int = 0
+    headquarters: str = ""
+
 
 def select_candidates(
     masters: list[MasterStock], screened: list[ScreenResult]
@@ -120,6 +126,10 @@ def build_ranking(
                 marketCap=quote.market_cap,
                 specialDividendSuspected=_is_special(quote),
                 priceDate=screen.price_date if screen else "",
+                businessSummary=quote.business_summary,
+                website=quote.website,
+                employees=quote.employees,
+                headquarters=quote.headquarters,
             )
         )
 

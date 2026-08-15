@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T03:13:28+00:00",
+  "generatedAt": "2026-08-15T03:51:44+00:00",
   "priceDate": "2026-08-14",
   "masterDate": "2026-07-31",
   "nextUpdate": "2026-08-17 20:00 JST",
@@ -9,7 +9,7 @@
     "priced": 3706,
     "withDividend": 3060,
     "unreachable": 0,
-    "verified": 147
+    "verified": 150
   },
   "summary": {
     "avgYield": 7.45,
@@ -62,7 +62,11 @@
       ],
       "marketCap": 107312480256,
       "specialDividendSuspected": true,
-      "priceDate": "2026-08-14"
+      "priceDate": "2026-08-14",
+      "businessSummary": "Aoyama Trading Co., Ltd. engages in the business wear, credit card, printing and media, sundry sales, repair service, franchisee, real estate and other businesses in Japan. It offers suits, shoes, and casual clothing and other men's items; and ladies suits for job hunting, formal wear, and others. The company also issues and manages credit cards, as well as manages finance; provides sales promotion services, such as distributing flyers and direct mails. In addition, it offers repair services for shoes and key duplication under the Mister Minit brand; sells general merchandise; and operates stores, restaurants and fitness gyms. Further, it operates in the web media business. Aoyama Trading Co., Ltd. was incorporated in 1964 and is headquartered in Fukuyama, Japan.",
+      "website": "https://www.aoyama-syouji.co.jp",
+      "employees": 6666,
+      "headquarters": "Fukuyama"
     },
     {
       "rank": 2,
@@ -82,7 +86,11 @@
       ],
       "marketCap": 10839238656,
       "specialDividendSuspected": false,
-      "priceDate": "2026-08-14"
+      "priceDate": "2026-08-14",
+      "businessSummary": "Nissan Securities Group Co., Ltd., together with its subsidiaries, engages in the financial instrument and commodity future trading businesses in Japan. The company is also involved in financial instruments intermediation, financial instruments brokerage, information distribution, and fund management businesses. In addition, it engages in buying and selling of securities, brokerage and agency, underwriting and secondary distribution of securities, and public offering; handling secondary offerings; accepting entrustments for transactions in commodity markets; and act as an intermediary for entrustments. The company was formerly known as Okato Nissan Secs Holdings Inc. and changed its name to Nissan Securities Group Co., Ltd. in July 2022. Nissan Securities Group Co., Ltd. was founded in 1948 and is headquartered in Chuo, Japan.",
+      "website": "https://www.nissansec-g.co.jp",
+      "employees": 254,
+      "headquarters": "Chuo"
     },
     {
       "rank": 3,
@@ -102,7 +110,11 @@
       ],
       "marketCap": 10166198272,
       "specialDividendSuspected": true,
-      "priceDate": "2026-08-14"
+      "priceDate": "2026-08-14",
+      "businessSummary": "ValueCommerce Co., Ltd. provides marketing solutions in Japan. It operates through three segments: Marketing Solutions Business, EC Solutions Business, and Travel Tech Business. The company provides performance-based advertising. It offers click-based advertising and CRM tools for online mall stores; and DYNA IBE, a hotel reservation system provided for accommodation facilities such as hotels and inns. In addition, the company provides DYNA PMS, a hotel management system; VLINK, a social commerce platform; monicam and Cast book, an influencer marketing solution; B-Space, an EC site management and support solution; and BUZMA, a subscription-based influencer matching service. The company was formerly known as Transpacific Inc. and changed its name to ValueCommerce Co., Ltd. in November 1999. The company was incorporated in 1996 and is headquartered in Chiyoda, Japan. ValueCommerce Co., Ltd. operates as a subsidiary of Z Holdings Corporation.",
+      "website": "https://www.valuecommerce.co.jp",
+      "employees": 381,
+      "headquarters": "Chiyoda"
     },
     {
       "rank": 4,
@@ -121,7 +133,11 @@
       ],
       "marketCap": 9562553344,
       "specialDividendSuspected": false,
-      "priceDate": "2026-08-14"
+      "priceDate": "2026-08-14",
+      "businessSummary": "A-One Seimitsu Inc. produces and sells collet chuck products. The company operates in three segments: Collet Chuck Division, Cutting Tool Division, and Automatic Lathe Cam Division. It provides collet chuck/guide bushes used in automatic lathes, general industrial machines, and special machines; re-grinds special cutting tools; cams used in automatic lathes and dedicated machines; and re-polishing and regrinding of cutting tools used in cutting processes. The company was founded in 1970 and is headquartered in Fuchu, Japan.",
+      "website": "https://www.a-one-seimitsu.co.jp",
+      "employees": 0,
+      "headquarters": "Fuchu"
     },
     {
       "rank": 5,
@@ -140,7 +156,11 @@
       ],
       "marketCap": 17588965376,
       "specialDividendSuspected": true,
-      "priceDate": "2026-08-14"
+      "priceDate": "2026-08-14",
+      "businessSummary": "Helios Techno Holding Co., Ltd. engages in the lamp and manufacturing equipment businesses in Japan, China, Asia, and internationally. The company provides lamps such as industrial lighting and LED lamps; and manufactures and sells electrical harnesses, component assemblies, and finished products. It also offers equipment, such as orientation film printing devices and specialized printers; and industrial equipment, as well as testing and measuring equipment. The company was formerly known as PHOENIX Electric Co., Ltd and changed its name to Helios Techno Holding Co., Ltd. in April 2009. The company was incorporated in 1976 and is headquartered in Tokyo, Japan.",
+      "website": "https://www.heliostec-hd.co.jp",
+      "employees": 272,
+      "headquarters": "Tokyo"
     },
     {
       "rank": 6,
@@ -159,7 +179,11 @@
       ],
       "marketCap": 24434626560,
       "specialDividendSuspected": true,
-      "priceDate": "2026-08-14"
+      "priceDate": "2026-08-14",
+      "businessSummary": "ITmedia Inc., together with its subsidiaries, engages in the internet media business in Japan. It operates through B to B Media Business and B to C Media Business segments. The company offers lead/prospective customer generation services comprising pipeline dashboards, ABM reports and alerts, and trade show promotions; advertorial article; email magazine advertisement; banner ads; B2B research; webcast; registration drive for in-house webinars; and sponsorship opportunities for events. It serves the IT industry, business, and consumer markets, as well as the electronics, mechanics, and manufacturing industries. The company was formerly known as Softbank ITmedia, Inc. and changed its name to ITmedia Inc. in March 2005. ITmedia Inc. was incorporated in 1999 and is headquartered in Chiyoda, Japan. ITmedia Inc. is a subsidiary of SB Media Holdings Corp.",
+      "website": "https://corp.itmedia.co.jp",
+      "employees": 382,
+      "headquarters": "Chiyoda"
     },
     {
       "rank": 7,
@@ -178,7 +202,11 @@
       ],
       "marketCap": 6853105664,
       "specialDividendSuspected": true,
-      "priceDate": "2026-08-14"
+      "priceDate": "2026-08-14",
+      "businessSummary": "Shirai Electronics Industrial Co., Ltd. manufactures printed circuit board (PCB) and PCB visual inspection machine boards in Japan and internationally. The company offers transparent flexible substrate boards; double-sided/multi-layer printed boards, high-functionality boards, and MEMS field products, as well as provides transparent heater film related products. Its products are used in electronic applications. Shirai Electronics Industrial Co., Ltd. was founded in 1966 and is headquartered in Shiga, Japan.",
+      "website": "https://www.shiraidenshi.co.jp",
+      "employees": 1211,
+      "headquarters": "Shiga"
     },
     {
       "rank": 8,
@@ -197,7 +225,11 @@
       ],
       "marketCap": 4736296448,
       "specialDividendSuspected": true,
-      "priceDate": "2026-08-14"
+      "priceDate": "2026-08-14",
+      "businessSummary": "Hamee Corp. engages in the e-commerce and platform businesses for mobile accessories in Japan, rest of Asia, North America, and internationally. The company is involved in the manufacture, purchase, wholesale, and sale of gaming accessories related products and services; development of cosmetic products and gaming monitors; and development and provision of Next Engine, a cloud-based back-end solution for e-commerce businesses. It also engages in the consultation and agency businesses, as well as retail of home appliances. The company was formerly known as Macrowill Company. The company was founded in 1997 and is headquartered in Odawara, Japan.",
+      "website": "https://hamee.co.jp",
+      "employees": 368,
+      "headquarters": "Odawara"
     },
     {
       "rank": 9,
@@ -217,7 +249,11 @@
       ],
       "marketCap": 26196674560,
       "specialDividendSuspected": false,
-      "priceDate": "2026-08-14"
+      "priceDate": "2026-08-14",
+      "businessSummary": "FAN Communications, Inc. develops Internet advertising related businesses in Japan. It operates through two segments, CPA Solutions Business and Strategic Business. The company offers affiliate advertising through A8.net, and CPI advertising service through A8, a smartphone app. In addition, the company operates GERA, a comedy radio app; YOOR, an online community service; N-INE, a digital marketing process optimization support service; and LUMOSBUZZ, a corporate project platform for short video creators, as well as supports social media marketing with a focus on TikTok. FAN Communications, Inc. was incorporated in 1999 and is headquartered in Tokyo, Japan.",
+      "website": "https://www.fancs.com",
+      "employees": 356,
+      "headquarters": "Tokyo"
     },
     {
       "rank": 10,
@@ -236,7 +272,11 @@
       ],
       "marketCap": 46522474496,
       "specialDividendSuspected": false,
-      "priceDate": "2026-08-14"
+      "priceDate": "2026-08-14",
+      "businessSummary": "Toyo Securities Co., Ltd. provides financial products brokerage services in Japan. The company offers asset management and investment advice; consultancy on capital policies; support for IR; and other services. It is also involved in the buying and selling of securities; entrustment of buying and selling; underwriting and secondary distribution of securities; handling of public offering and secondary distribution of securities; and other financial instruments business activities. The company was formerly known as Hiroshima Shoken Shoji K.K. and changed its name to Toyo Securities Co., Ltd. in December 1971. Toyo Securities Co., Ltd. was founded in 1916 and is headquartered in Chuo, Japan.",
+      "website": "https://www.toyo-sec.co.jp",
+      "employees": 632,
+      "headquarters": "Chuo"
     },
     {
       "rank": 11,
@@ -256,7 +296,11 @@
       ],
       "marketCap": 40857366528,
       "specialDividendSuspected": false,
-      "priceDate": "2026-08-14"
+      "priceDate": "2026-08-14",
+      "businessSummary": "MUGEN ESTATE Co.,Ltd. purchases and resells pre-owned properties in Japan. The company's property portfolio includes investment type properties, such as condominiums and office blocks and residential type properties, including detached houses for families. It engages in the development, leasing, and selling of real estate properties and interior and exterior construction business that includes renovate and refurbish stores, offices, office buildings, rental apartment complexes, and residential properties. The company was incorporated in 1990 and is headquartered in Chiyoda, Japan.",
+      "website": "https://www.mugen-estate.co.jp",
+      "employees": 501,
+      "headquarters": "Chiyoda"
     },
     {
       "rank": 12,
@@ -276,7 +320,11 @@
       ],
       "marketCap": 8687722496,
       "specialDividendSuspected": false,
-      "priceDate": "2026-08-14"
+      "priceDate": "2026-08-14",
+      "businessSummary": "Unicon Holdings Co., Ltd. provides construction and related business services. It engages in the civil engineering and building construction activities. The company was founded in 1904 and is based in Sendai, Japan.",
+      "website": "https://www.unicon-holdings.co.jp",
+      "employees": 357,
+      "headquarters": "Sendai"
     },
     {
       "rank": 13,
@@ -296,7 +344,11 @@
       ],
       "marketCap": 8397286400,
       "specialDividendSuspected": false,
-      "priceDate": "2026-08-14"
+      "priceDate": "2026-08-14",
+      "businessSummary": "Nihon Plast Co., Ltd., together with its subsidiaries, engages in the manufacture, processing, repair, and sale of automotive parts in Japan, China, Mexico, the United States, and internationally. The company offers safety parts, including steering wheels and airbag modules; interior parts, such as instrument panel systems, ventilators, glove boxes, console boxes, cup holders, air conditioner ducts, shift knobs, and pillar garnishes; and exterior parts, which include cowl top covers, fender protectors, wheel resonators, air spoilers, front under covers, and battery component parts. It is also involved in the manufacture, processing, repair, and sale of synthetic resins, and die-cast metal molds and machinery; manufacture and sale of packing products for various types of machines, as well as chemical products; and design, manufacture, and sale of electrical components for the amusement industry. In addition, the company offers NPORUS, a recycled urethane material. Nihon Plast Co., Ltd. was incorporated in 1945 and is headquartered in Fujinomiya, Japan.",
+      "website": "https://www.n-plast.co.jp",
+      "employees": 5588,
+      "headquarters": "Fujinomiya"
     },
     {
       "rank": 14,
@@ -315,7 +367,11 @@
       ],
       "marketCap": 20518006784,
       "specialDividendSuspected": false,
-      "priceDate": "2026-08-14"
+      "priceDate": "2026-08-14",
+      "businessSummary": "Daidoh Limited manufactures and sells ready-made men's and women's clothing and accessories in Japan. The company offers custom made clothing products, knitted yarns, worsted fabrics, apparel, etc. It also provides OEM, as well as import and export services. In addition, the company manufactures, sells, and retails yarns, fibrous materials for apparel, and apparel. Further, it sells its products under the NEWYORKER, Brooks Brothers, and House Tartan brands. Further, the company is involved in the leasing of real-estate properties, such as shopping center stores, office buildings, and hotel facilities. The company was founded in 1879 and is headquartered in Tokyo, Japan.",
+      "website": "https://www.daidoh-limited.com",
+      "employees": 722,
+      "headquarters": "Tokyo"
     },
     {
       "rank": 15,
@@ -334,7 +390,11 @@
       ],
       "marketCap": 7408442368,
       "specialDividendSuspected": false,
-      "priceDate": "2026-08-14"
+      "priceDate": "2026-08-14",
+      "businessSummary": "Honyaku Center Inc. provides translation services in Japan and internationally. The company offers translation for patent documents comprising application-related, court-related, and others; and medical documents, including basic research/non-clinical development, clinical development, regulatory submission, and post-marketing. It also provides financial and legal translations comprising finance, legal, disclosure and related documents, and corporate and other documents; and translation services for IT related documents and manuals documents. In addition, the company offers translation of industrial documents, such as R&D, planning, and design documents; production, quality assurance, implementation, and maintenance service documents; sales and marketing documents; and non-manufacturing industry related documents. Further, it provides medical writing, grammar check, transcription, staffing, multilingual contact center, proofreading and back translation, and foreign patent application services, as well as services related to computer games, e-learning, and Websites; and prepares drawings. Additionally, the company offers translation services for VISA application documents required to apply for marriage, work, residency, study abroad, and other visas; and DTP, printing, document, and e-book translation related services, as well as pamphlets and catalogues, press releases and newsletters, and presentation documents. The company serves clients in a range of industries, such as auto, mechanical, electronics, pharma, patent, law, finance, R&D, education, and other fields. Honyaku Center Inc. was incorporated in 1986 and is headquartered in Chuo, Japan.",
+      "website": "https://www.honyakuctr.com",
+      "employees": 540,
+      "headquarters": "Chuo"
     },
     {
       "rank": 16,
@@ -354,7 +414,11 @@
       ],
       "marketCap": 205849575424,
       "specialDividendSuspected": false,
-      "priceDate": "2026-08-14"
+      "priceDate": "2026-08-14",
+      "businessSummary": "Yodoko, Ltd. engages in the manufacture and sales of steel products for industrial and consumer products in Japan. The company offers repainted steel, galvanized steel, chromate-free treated steel, and cold rolled products; building material, such as roofing products, siding products, rooftop greenery systems, solar power generation systems, and installation of roofing and siding; exterior products, including storage sheds, houses, carports, garages, warehouses, trash bins, and bicycle parks; Rolls comprising large machinery components that support manufacturing, including paper, packaging film, and rubber and steel; yodo water falls (overflow-suppression grating), yodo karugaru grating, yodo ex grating, yodo galfan grating, and other gratings; household equipment, household implements, and building materials. It also provides design and contracting construction work, warehousing, packaging and shipping, sale, purchase and leasing of real estate, building of produce cultivation facilities and landscaping, and associated business activities. Yodoko, Ltd. was formerly known as Yodogawa Steel Works, Ltd. and changed its name to Yodoko, Ltd. in October 2025. The company was incorporated in 1935 and is headquartered in Osaka, Japan.",
+      "website": "https://www.yodoko.co.jp",
+      "employees": 2377,
+      "headquarters": "Osaka"
     },
     {
       "rank": 17,
@@ -374,7 +438,11 @@
       ],
       "marketCap": 16809767936,
       "specialDividendSuspected": false,
-      "priceDate": "2026-08-14"
+      "priceDate": "2026-08-14",
+      "businessSummary": "Ahresty Corporation engages in the aluminum die casting and alloy ingots in Japan. The company offers engine blocks and transmission cases; pedestal heads/caps; metal mold casting products; free access floor panels; and peripheral equipment for die cast machine. It also provides products for electric vehicles and fuel cell vehicles. The company was formerly known as Fuso Light Alloys Co., Ltd. and changed its name to Ahresty Corporation in 1988. Ahresty Corporation was founded in 1938 and is headquartered in Tokyo, Japan.",
+      "website": "https://www.ahresty.co.jp",
+      "employees": 5190,
+      "headquarters": "Tokyo"
     },
     {
       "rank": 18,
@@ -393,7 +461,11 @@
       ],
       "marketCap": 31080495104,
       "specialDividendSuspected": true,
-      "priceDate": "2026-08-14"
+      "priceDate": "2026-08-14",
+      "businessSummary": "PCA Corporation develops and sells computer software in Japan. The company offers accounting solutions, including bill management option, consolidated settlement option, data linkage option, workflow, payment management, cost management, cost management for construction industry, international trading, and consolidated accounting solutions. It also provides HR management solutions comprising time clock, shift management, attendance management workflow, payment statement electronic distribution, social insurance and labor insurance management, payment record, daily payroll, and business form design solutions. In addition, the company offers order entry simultaneous entry option, sales/purchase simultaneous entry option, convenience store receiving agent option, data linkage option, specified slip issuance, POS cash register, sales force automation (SFA), customer management, handy terminal, EDI, and business form design solutions. PCA Corporation was incorporated in 1980 and is headquartered in Tokyo, Japan.",
+      "website": "https://pca.jp",
+      "employees": 755,
+      "headquarters": "Tokyo"
     },
     {
       "rank": 19,
@@ -413,7 +485,11 @@
       ],
       "marketCap": 38319394816,
       "specialDividendSuspected": false,
-      "priceDate": "2026-08-14"
+      "priceDate": "2026-08-14",
+      "businessSummary": "Sanshin Electronics Co., Ltd. sells and trades in electronic components and other devices in Japan and internationally. The company offers integrated circuits, semiconductor elements, and general electronic components. It also plans, designs, and manufactures IoT and Edge AI devices; and develops applied software for microcontrollers and simulations for semi-custom LSIs. In addition, the company provides IT infrastructure solutions, including WAN/LAN/mobile, virtualization, cloud, office communication, security, and operational support services; video solutions, such as live relay systems, program transmission systems, IPTV systems, nonlinear editing systems, studio systems, and various video solutions; and various support and services, including call-center services, maintenance-support services, and system-configuration services. Further, the company provides application services in the areas of data analysis systems; call-center systems; individual system development; cloud/software as a service; business systems comprising sales, accounting, payroll, attendance, production, etc.; and groupware consisting of e-mail, schedule management, facility reservation, etc. Additionally, it offers housing, cloud computing, system integration, and operation and maintenance services, as well as support services for construction of networks/circuits. It serves electronic makers, newspaper publishing companies, broadcast stations, government offices, schools, etc. Sanshin Electronics Co., Ltd. was incorporated in 1951 and is headquartered in Tokyo, Japan.",
+      "website": "https://www.sanshin.co.jp",
+      "employees": 642,
+      "headquarters": "Tokyo"
     },
     {
       "rank": 20,
@@ -433,7 +509,11 @@
       ],
       "marketCap": 43359285248,
       "specialDividendSuspected": true,
-      "priceDate": "2026-08-14"
+      "priceDate": "2026-08-14",
+      "businessSummary": "Godo Steel, Ltd. manufactures and sells steel products in Japan. The company offers wire rods for tire chains, stapler needles, and fencing applications; H-beams and channels that are used in construction, civil engineering, and other sectors; structural bars, which are used as materials for making parts of construction and industrial machinery, ships, and other equipment; and rails. It also provides deformed bars, including screw rebars that are used as construction and civil engineering materials; EG joints and anchor plates, and friction welding; and billets. In addition, the company offers reinforcing bars, wire products, firebricks, and ballasts; trucking services; and industrial waste disposal services, as well as sells machinery, and raw materials for steel making. Further, it is involved in electric furnace dust disposal business; and manufacture and sale of crude zinc oxide, and organic and compound fertilizers. Godo Steel, Ltd. was incorporated in 1937 and is headquartered in Osaka, Japan.",
+      "website": "https://www.godo-steel.co.jp",
+      "employees": 2168,
+      "headquarters": "Osaka"
     },
     {
       "rank": 21,
@@ -453,7 +533,11 @@
       ],
       "marketCap": 42854690816,
       "specialDividendSuspected": false,
-      "priceDate": "2026-08-14"
+      "priceDate": "2026-08-14",
+      "businessSummary": "Miyaji Engineering Group,Inc., through its subsidiaries, engages in the construction and civil engineering activities in Japan. It is involved in the designing, production, erection, installation, maintenance, and repair of bridges, steel frames, and other steel structures; design and production of prestressed concrete; bridge erection/steel frame erection activities; and design, manufacture, installation, sale, and repair of bridges, coastal structures, etc. The company also designs, manufactures, and installs steel structures; sells bolts and welding materials; and offers personnel dispatching services, and other business operations, as well as sale and repair of bridges and coastal structures; and solar power generation activities. Miyaji Engineering Group,Inc. was founded in 1908 and is headquartered in Tokyo, Japan.",
+      "website": "https://www.miyaji-eng.com",
+      "employees": 814,
+      "headquarters": "Tokyo"
     },
     {
       "rank": 22,
@@ -475,7 +559,11 @@
       ],
       "marketCap": 126327652352,
       "specialDividendSuspected": false,
-      "priceDate": "2026-08-14"
+      "priceDate": "2026-08-14",
+      "businessSummary": "UT Group Co.,Ltd. engages in the dispatch and outsourcing of permanent employees in the manufacturing, design and development, construction, and other sectors in Japan. The company offers factory operators, and design and development engineers for manufacturing companies. It also provides worker dispatch, manufacturing outsourcing, business process outsourcing, personnel placement, and support for structural reform for corporate clients. The company was formerly known as UT Holdings Co., Ltd. and changed its name to UT Group Co.,Ltd. in July 2015. UT Group Co.,Ltd. was founded in 1995 and is headquartered in Tokyo, Japan.",
+      "website": "https://www.ut-g.co.jp",
+      "employees": 34772,
+      "headquarters": "Tokyo"
     },
     {
       "rank": 23,
@@ -495,7 +583,11 @@
       ],
       "marketCap": 4930603008,
       "specialDividendSuspected": false,
-      "priceDate": "2026-08-14"
+      "priceDate": "2026-08-14",
+      "businessSummary": "GiXo Ltd. provides various consulting services in Japan. The company offers data-informed, and maintenance services. It also provides DI platform, a cloud-native data infrastructure that enables continuous DI decisions. GiXo Ltd. was incorporated in 2012 and is headquartered in Minato, Japan.",
+      "website": "https://www.gixo.jp",
+      "employees": 97,
+      "headquarters": "Minato"
     },
     {
       "rank": 24,
@@ -515,7 +607,11 @@
       ],
       "marketCap": 10703348736,
       "specialDividendSuspected": false,
-      "priceDate": "2026-08-14"
+      "priceDate": "2026-08-14",
+      "businessSummary": "Take and Give. Needs Co., Ltd engages in the wedding business primarily in Japan. The company sells products and services for honeymoon and anniversary travel; provides financial services for weddings and related lifestyle items; and designs, produces, sells, and rents bridal and formal wears. It also manages restaurants and engages in travel business. Take and Give. Needs Co., Ltd was incorporated in 1998 and is headquartered in Shinagawa, Japan.",
+      "website": "https://www.tgn.co.jp",
+      "employees": 1846,
+      "headquarters": "Shinagawa"
     },
     {
       "rank": 25,
@@ -535,7 +631,11 @@
       ],
       "marketCap": 51843366912,
       "specialDividendSuspected": false,
-      "priceDate": "2026-08-14"
+      "priceDate": "2026-08-14",
+      "businessSummary": "TAUNS Laboratories,Inc. engages in the development, manufacture, export/import, and sale of in vitro diagnostics and research reagents, and its intermediates in Japan and internationally. The company also offers medical physicochemical measuring equipment, industrial measuring equipment, and medical devices; and contract research services. The company was founded in 1987 and is headquartered in Izunokuni, Japan.",
+      "website": "https://www.tauns.co.jp",
+      "employees": 0,
+      "headquarters": "Izunokuni"
     },
     {
       "rank": 26,
@@ -554,7 +654,11 @@
       ],
       "marketCap": 32815192064,
       "specialDividendSuspected": false,
-      "priceDate": "2026-08-14"
+      "priceDate": "2026-08-14",
+      "businessSummary": "Nippi,Incorporated, together with its subsidiaries, manufactures and sells collagen and gelatin products in Japan, Thailand, rest of Asia, North America, and internationally. It operates through Collagen Casing Business, Gelatin-Related Business, Cosmetics Related Business, Leather-Related Business, Pipes and Real Estate Business, and Food and Other Businesses segments. The company offers collagen casings for use in various fields, including sausages, other food, medicine and medical care, and cosmetics; gelatin products, which is used in food, pharmaceuticals, and photo films; collagen peptides for the food and pharmaceutical industries; leather products for the automotive industry; and collagen-based cosmetics, skin and health care, and functional food products. It also provides functional polymers comprising Nippi Linker cross-linked polyvinyl chloride (PVC) films and sheets, and cross-linked PVC compounds for electric wires and cables; and Nippi V PVC quilting cloth and foam products. In addition, the company offers pet supplements, and test regents and kits for animals; life science products, such as low endotoxin gelatin products, recombinant human laminin protein for iPS cell culture substrates, lab equipment and supplies, and reagents for research; and synthetic products, such as plastics and compounds. Further, it engages in the development of urban renewal projects; and provision of management, consulting, and real estate rental services. The company was formerly known as The Japan Leather Mfg. Co., Ltd. and changed its name to Nippi,Incorporated in February 1974. The company was incorporated in 1907 and is headquartered in Adachi, Japan.",
+      "website": "https://www.nippi-inc.co.jp",
+      "employees": 630,
+      "headquarters": "Adachi"
     },
     {
       "rank": 27,
@@ -574,7 +678,11 @@
       ],
       "marketCap": 90297532416,
       "specialDividendSuspected": false,
-      "priceDate": "2026-08-14"
+      "priceDate": "2026-08-14",
+      "businessSummary": "Kyokuto Kaihatsu Kogyo Co.,Ltd. manufactures and sells special purpose vehicles, environmental equipment and systems, and car parking systems in Japan. The company offers vehicles for the construction sector, including dump, sprinkler, and concrete mixer trucks; piston type, squeeze type, stationary, high pressure and large capacity piston concrete pumps; and stationary mortar pumps. It also provides vehicles for the logistics and environmental sectors, such as tailgate lifters; tank, single car carrier, press refuse, mechanical/hydraulic operation refuse, heavy duty refuse, and container carrier trucks; and steel cargo bodies. In addition, the company offers environmental equipment and systems comprising pulverizers for crushing domestic and industrial wastes; and reuse, derived, and fuel (RDF) system, a solid fuel made from flammable garbage used as heat energy for hot-water supply, heating and cooling, and power generation. Further, it provides multistory car parking systems, including loading and unloading pit type, loading and unloading transverse pit type, and loading and unloading transverse ground type parking systems. Further, the company provides multistory parking systems, such as loading and unloading pit type, loading and unloading transverse pit type, and loading and unloading transverse ground type parking systems; and real estate rental services. The company was formerly known as Kyokuto Kaihatsu Kikai Kogyo Co., Ltd. and changed its name to Kyokuto Kaihatsu Kogyo Co.,Ltd. in April 1971. Kyokuto Kaihatsu Kogyo Co.,Ltd. was incorporated in 1955 and is headquartered in Osaka, Japan.",
+      "website": "https://www.kyokuto.com",
+      "employees": 3585,
+      "headquarters": "Osaka"
     },
     {
       "rank": 28,
@@ -594,7 +702,11 @@
       ],
       "marketCap": 25741307904,
       "specialDividendSuspected": false,
-      "priceDate": "2026-08-14"
+      "priceDate": "2026-08-14",
+      "businessSummary": "Araya Industrial Co., Ltd. manufactures and sells steel products in Japan and internationally. The company operates through three segments: Steel Pipe-Related Business, Bicycle-Related Business, and Real Estate Leasing Business. The company offers ordinary steel pipes, stainless steel pipes, deformed steel pipes, various shaped steel pipes, and precision parts for OA machines. It also offers wheelchair suspension wheels, wing arms, wheelchair with absolex, and industrial absolex, as well as bicycle rims; and imports and sells bicycles. In addition, the company engages in real estate rental business, including leasing of lands, buildings, and warehouses. Further, it offers welfare equipment. Araya Industrial Co., Ltd. was founded in 1903 and is based in Osaka, Japan.",
+      "website": "https://www.araya-kk.co.jp",
+      "employees": 501,
+      "headquarters": "Osaka"
     },
     {
       "rank": 29,
@@ -614,7 +726,11 @@
       ],
       "marketCap": 58523869184,
       "specialDividendSuspected": false,
-      "priceDate": "2026-08-14"
+      "priceDate": "2026-08-14",
+      "businessSummary": "Kyokuto Securities Co., Ltd. engages in the financial instrument operator business in Japan. The company is involved in the financial instruments business; investment business; real estate business; and research and development business. It also engages in trading, and selling of securities. In addition, the company is involved in consulting services; and offers stock, investment trusts, and bonds. Kyokuto Securities Co., Ltd. was incorporated in 1947 and is headquartered in Tokyo, Japan.",
+      "website": "https://www.kyokuto-sec.co.jp",
+      "employees": 239,
+      "headquarters": "Tokyo"
     },
     {
       "rank": 30,
@@ -634,7 +750,11 @@
       ],
       "marketCap": 8713299968,
       "specialDividendSuspected": false,
-      "priceDate": "2026-08-14"
+      "priceDate": "2026-08-14",
+      "businessSummary": "Sotoh Co., Ltd. engages in the dyeing and processing of woolen, composite fiber, and knitted fabrics in Japan. The company provides textile and synthetic fiber dyeing and processing services; produces brushed and glossy fabrics; and manufactures and sells textile products. It also engages in the real estate business. The company was incorporated in 1923 and is headquartered in Ichinomiya, Japan.",
+      "website": "https://www.sotoh.co.jp",
+      "employees": 575,
+      "headquarters": "Ichinomiya"
     }
   ]
 }

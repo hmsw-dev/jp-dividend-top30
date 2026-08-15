@@ -36,6 +36,13 @@ class VerifiedQuote:
     market_cap: int
     next_ex_month: int  # 次回の権利確定月（0 なら不明）
 
+    # 以下は銘柄カードのポップアップ用。取れないことがあるので空文字・0 を許容する。
+    # Yahoo の事業概要は英語のみで、日本語版は提供されていない。
+    business_summary: str = ""
+    website: str = ""
+    employees: int = 0
+    headquarters: str = ""  # 市区名（英字表記）
+
     @property
     def yield_pct(self) -> float:
         return self.annual_dividend / self.price * 100 if self.price > 0 else 0.0
@@ -88,6 +95,10 @@ def _fetch_one(code: str) -> VerifiedQuote | None:
         dividend_basis=basis,
         market_cap=int(_as_float(info.get("marketCap"))),
         next_ex_month=_ex_month(info.get("exDividendDate")),
+        business_summary=_as_text(info.get("longBusinessSummary")),
+        website=_as_text(info.get("website")),
+        employees=int(_as_float(info.get("fullTimeEmployees"))),
+        headquarters=_as_text(info.get("city")),
     )
 
 
@@ -119,6 +130,13 @@ def _as_float(value: object) -> float:
     except (TypeError, ValueError):
         return 0.0
     return number if number == number else 0.0  # NaN を除く
+
+
+def _as_text(value: object) -> str:
+    """文字列以外や NaN が混ざるため、扱えないものは空文字にする。"""
+    if not isinstance(value, str):
+        return ""
+    return value.strip()
 
 
 def _ex_month(raw: object) -> int:

@@ -23,6 +23,11 @@ export function formatMarketCap(value: number): string {
   return `${JPY.format(Math.round(oku))}億円`;
 }
 
+export function formatEmployees(value: number | undefined): string {
+  if (!value) return '—';
+  return `${JPY.format(value)} 人`;
+}
+
 export function formatExMonths(months: number[]): string {
   if (!months.length) return '—';
   return months.map((month) => `${month}月`).join('・');

@@ -5,6 +5,7 @@ import { FilterBar } from './components/FilterBar';
 import { Header } from './components/Header';
 import { SectorBreakdown } from './components/SectorBreakdown';
 import { StockCards } from './components/StockCards';
+import { StockDetailDialog } from './components/StockDetailDialog';
 import { StockTable } from './components/StockTable';
 import { SummaryCards } from './components/SummaryCards';
 import type { Filters, SortState, Stock } from './types';
@@ -26,6 +27,7 @@ export default function App() {
   const [sort, setSort] = useState<SortState>({ key: 'rank', direction: 'asc' });
   const [reloading, setReloading] = useState(false);
   const [toast, setToast] = useState<{ message: string; kind: 'ok' | 'error' } | null>(null);
+  const [selected, setSelected] = useState<Stock | null>(null);
 
   const showToast = useCallback((message: string, kind: 'ok' | 'error') => {
     setToast({ message, kind });
@@ -81,27 +83,6 @@ export default function App() {
       <Header data={data} reloading={reloading} onReload={handleReload} />
 
       <main className="layout">
-        <div className="tabs" role="tablist" aria-label="表示切り替え">
-          <button
-            type="button"
-            role="tab"
-            className="tabs__button"
-            aria-selected={view === 'dashboard'}
-            onClick={() => setView('dashboard')}
-          >
-            ダッシュボード
-          </button>
-          <button
-            type="button"
-            role="tab"
-            className="tabs__button"
-            aria-selected={view === 'table'}
-            onClick={() => setView('table')}
-          >
-            一覧表
-          </button>
-        </div>
-
         <SummaryCards summary={data.summary} stats={data.stats} />
         <SectorBreakdown sectors={data.sectorBreakdown} total={data.summary.count} />
 
@@ -118,22 +99,49 @@ export default function App() {
           exportDisabled={visibleStocks.length === 0}
         />
 
-        <p className="result-count">
-          {visibleStocks.length} 件を表示中（全 {data.stocks.length} 件）
-        </p>
+        {/* 表示切り替えは検索・絞り込みの直下に置く。ヘッダー直下だと
+            スクロール後に画面外へ出てしまい、切り替えたいときに見えない。 */}
+        <div className="view-switch">
+          <div className="tabs" role="tablist" aria-label="表示切り替え">
+            <button
+              type="button"
+              role="tab"
+              className="tabs__button"
+              aria-selected={view === 'dashboard'}
+              onClick={() => setView('dashboard')}
+            >
+              ダッシュボード
+            </button>
+            <button
+              type="button"
+              role="tab"
+              className="tabs__button"
+              aria-selected={view === 'table'}
+              onClick={() => setView('table')}
+            >
+              一覧表
+            </button>
+          </div>
+
+          <p className="result-count">
+            {visibleStocks.length} 件を表示中（全 {data.stocks.length} 件）
+          </p>
+        </div>
 
         {visibleStocks.length === 0 ? (
           <div className="empty-state">
             条件に一致する銘柄がありません。検索語やフィルターを見直してください。
           </div>
         ) : view === 'dashboard' ? (
-          <StockCards stocks={visibleStocks} />
+          <StockCards stocks={visibleStocks} onSelect={setSelected} />
         ) : (
           <StockTable stocks={visibleStocks} sort={sort} onSortChange={setSort} />
         )}
 
         <Disclaimer data={data} />
       </main>
+
+      <StockDetailDialog stock={selected} onClose={() => setSelected(null)} />
 
       {toast && (
         <div className={`toast${toast.kind === 'error' ? ' toast--error' : ''}`} role="status">

@@ -26,6 +26,19 @@ export interface Stock {
   /** 実績配当が会社予想を大きく上回る＝一時的な高利回りの疑い */
   specialDividendSuspected: boolean;
   priceDate: string;
+
+  /**
+   * 事業内容。Yahoo Finance の longBusinessSummary で、**英語原文**。
+   * 日本語の事業概要を返すソースがないため翻訳せずそのまま出している。
+   * 取得できない銘柄では空文字。
+   */
+  businessSummary?: string;
+  /** 公式サイト URL。空文字なら不明 */
+  website?: string;
+  /** 正社員数。0 なら不明 */
+  employees?: number;
+  /** 本社所在地（市区名・英字表記）。空文字なら不明 */
+  headquarters?: string;
 }
 
 export interface Summary {
