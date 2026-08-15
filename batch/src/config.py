@@ -11,8 +11,23 @@ from pathlib import Path
 BATCH_DIR = Path(__file__).resolve().parent.parent
 PROJECT_DIR = BATCH_DIR.parent
 
-# JPX「東証上場銘柄一覧」Excel。手動ダウンロードしてリポジトリで管理する。
-JPX_EXCEL = BATCH_DIR / "data" / "data_j.xls"
+# JPX「東証上場銘柄一覧」。実行のたびに JPX から取得し、キャッシュに置く。
+JPX_EXCEL_URL = (
+    "https://www.jpx.co.jp/markets/statistics-equities/misc/"
+    "tvdivq0000001vg2-att/data_j.xls"
+)
+JPX_EXCEL_CACHE = BATCH_DIR / ".cache" / "data_j.xls"
+
+# ダウンロードに失敗したときに使う同梱ファイル。
+# JPX が URL を変えたりサイトが落ちていても、バッチ全体を止めないための保険。
+# 上場・廃止の反映は遅れるが、当日のランキングは算出できる。
+JPX_EXCEL_BUNDLED = BATCH_DIR / "data" / "data_j.xls"
+
+JPX_DOWNLOAD_TIMEOUT_SEC = 60
+
+# 明らかに壊れたファイルで同梱ファイルを上書きしないための下限。
+# 実ファイルは 800KB 前後あるため、100KB を切っていればエラーページ等を疑う。
+JPX_MIN_FILE_BYTES = 100_000
 
 # フロントエンドが fetch する生成物。Vite の public 配下に置くことで
 # ビルド時にそのまま dist へコピーされる。

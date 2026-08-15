@@ -8,10 +8,14 @@ from dataclasses import dataclass
 from pathlib import Path
 
 import pandas as pd
+import requests
 
 from . import config
 
 logger = logging.getLogger(__name__)
+
+# ダウンロードしたファイルが期待どおりの銘柄一覧かを確かめるための列。
+_REQUIRED_COLUMNS = {"日付", "コード", "銘柄名", "市場・商品区分", "33業種区分"}
 
 # 証券コードは 4 文字。従来は数字 4 桁のみだったが、JPX は 2024 年以降の新規上場に
 # 「130A」のような英数字コードを割り当てている（例: 141A トライアルホールディングス）。
@@ -30,25 +34,94 @@ class MasterStock:
     size_category: str
 
 
+def _resolve_source(allow_download: bool) -> Path:
+    """使用する Excel ファイルを決める。ダウンロードを試し、駄目なら手元のファイル。"""
+    if allow_download:
+        if _download_latest():
+            return config.JPX_EXCEL_CACHE
+        reason = "ダウンロードできなかったため"
+    else:
+        reason = "--no-download が指定されたため"
+
+    # 前回の実行でダウンロード済みのものが残っていればそれを使う。
+    if config.JPX_EXCEL_CACHE.exists():
+        logger.warning("%s、前回取得した銘柄一覧を使います", reason)
+        return config.JPX_EXCEL_CACHE
+
+    if config.JPX_EXCEL_BUNDLED.exists():
+        logger.warning("%s、同梱の銘柄一覧を使います（内容が古い可能性があります）", reason)
+        return config.JPX_EXCEL_BUNDLED
+
+    raise FileNotFoundError(
+        "JPX銘柄一覧を取得できず、代替ファイルもありません。\n"
+        "https://www.jpx.co.jp/markets/statistics-equities/misc/01.html から "
+        f"data_j.xls をダウンロードし、{config.JPX_EXCEL_BUNDLED} に配置してください。"
+    )
+
+
+def _download_latest() -> bool:
+    """JPX から最新の銘柄一覧を取得してキャッシュに保存する。
+
+    ダウンロードそのものが成功しても、メンテナンス中の HTML が返るような
+    ケースがあるため、Excel として読めることを確認してから確定させる。
+    """
+    logger.info("JPXから最新の銘柄一覧を取得します: %s", config.JPX_EXCEL_URL)
+    try:
+        response = requests.get(
+            config.JPX_EXCEL_URL,
+            timeout=config.JPX_DOWNLOAD_TIMEOUT_SEC,
+            headers={"User-Agent": "jp-dividend-top30 (batch)"},
+        )
+        response.raise_for_status()
+    except Exception as exc:
+        logger.warning("銘柄一覧のダウンロードに失敗しました: %s", exc)
+        return False
+
+    content = response.content
+    if len(content) < config.JPX_MIN_FILE_BYTES:
+        logger.warning(
+            "ダウンロードしたファイルが小さすぎます（%d バイト）。破棄します", len(content)
+        )
+        return False
+
+    config.JPX_EXCEL_CACHE.parent.mkdir(parents=True, exist_ok=True)
+    # 検証前のデータで既存のキャッシュを壊さないよう、一時ファイル経由で置き換える。
+    temporary = config.JPX_EXCEL_CACHE.with_suffix(".xls.tmp")
+    temporary.write_bytes(content)
+
+    try:
+        preview = pd.read_excel(temporary, dtype=str, nrows=5)
+        missing = _REQUIRED_COLUMNS - set(preview.columns)
+        if missing:
+            raise ValueError(f"必要な列がありません: {sorted(missing)}")
+    except Exception as exc:
+        logger.warning("ダウンロードしたファイルを解析できませんでした: %s", exc)
+        temporary.unlink(missing_ok=True)
+        return False
+
+    temporary.replace(config.JPX_EXCEL_CACHE)
+    logger.info("最新の銘柄一覧を取得しました（%d バイト）", len(content))
+    return True
+
+
 def _clean(value: object) -> str:
     """Excel のセルを文字列に正規化する。JPX は欠損を "-" で埋めている。"""
     text = str(value).strip()
     return "" if text in ("-", "nan", "None") else text
 
 
-def load_universe(excel_path: Path | None = None) -> tuple[list[MasterStock], str]:
-    """Excel を読み、対象となる普通株のリストと基準日を返す。
+def load_universe(
+    excel_path: Path | None = None, allow_download: bool = True
+) -> tuple[list[MasterStock], str]:
+    """銘柄一覧を読み、対象となる普通株のリストと基準日を返す。
+
+    既定では JPX から最新版をダウンロードする。取得できない場合は
+    リポジトリ同梱のファイルにフォールバックする。
 
     Returns:
         (銘柄リスト, 基準日 "YYYY-MM-DD")
     """
-    path = excel_path or config.JPX_EXCEL
-    if not path.exists():
-        raise FileNotFoundError(
-            f"JPX銘柄一覧が見つかりません: {path}\n"
-            "https://www.jpx.co.jp/markets/statistics-equities/misc/01.html "
-            "から data_j.xls をダウンロードして配置してください。"
-        )
+    path = excel_path or _resolve_source(allow_download)
 
     # コードは "1301" のようなゼロ埋めがあり得るため、必ず文字列として読む。
     df = pd.read_excel(path, dtype=str)

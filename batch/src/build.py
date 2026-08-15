@@ -42,7 +42,7 @@ def main(argv: list[str] | None = None) -> int:
         logger.info("%s は東証の休場日のため、更新をスキップします", today)
         return 0
 
-    masters, master_date = load_universe()
+    masters, master_date = load_universe(allow_download=not args.no_download)
     codes = [master.code for master in masters]
     if args.limit:
         codes = codes[: args.limit]
@@ -114,6 +114,11 @@ def _parse_args(argv: list[str] | None) -> argparse.Namespace:
         "--limit", type=int, default=0, help="先頭 N 銘柄だけ処理する（動作確認用）"
     )
     parser.add_argument("--output", default="", help="出力先 JSON のパス")
+    parser.add_argument(
+        "--no-download",
+        action="store_true",
+        help="JPXから銘柄一覧を取得せず、手元のファイルを使う",
+    )
     parser.add_argument(
         "--skip-holidays",
         action="store_true",

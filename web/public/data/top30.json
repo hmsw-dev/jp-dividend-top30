@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-08-14T16:46:47+00:00",
-  "priceDate": "2026-08-13",
-  "masterDate": "2026-01-31",
+  "generatedAt": "2026-08-15T02:43:36+00:00",
+  "priceDate": "2026-08-14",
+  "masterDate": "2026-07-31",
   "nextUpdate": "2026-08-17 20:00 JST",
   "source": "yfinance (Yahoo Finance) / 銘柄マスタ: JPX 東証上場銘柄一覧",
   "stats": {
-    "universe": 3765,
-    "priced": 3701,
-    "withDividend": 3055,
-    "unreachable": 64,
+    "universe": 3706,
+    "priced": 3706,
+    "withDividend": 3061,
+    "unreachable": 0,
     "verified": 149
   },
   "summary": {
-    "avgYield": 7.44,
-    "avgPrice": 1713,
+    "avgYield": 7.45,
+    "avgPrice": 1530,
     "count": 30,
     "topStock": {
       "code": "8219",
@@ -27,16 +27,16 @@
       "count": 7
     },
     {
-      "sector": "小売業",
-      "count": 3
-    },
-    {
       "sector": "証券、商品先物取引業",
       "count": 3
     },
     {
       "sector": "鉄鋼",
       "count": 3
+    },
+    {
+      "sector": "小売業",
+      "count": 2
     },
     {
       "sector": "電気機器",
@@ -62,7 +62,7 @@
       ],
       "marketCap": 107312480256,
       "specialDividendSuspected": true,
-      "priceDate": "2026-08-13"
+      "priceDate": "2026-08-14"
     },
     {
       "rank": 2,
@@ -80,9 +80,9 @@
         3,
         9
       ],
-      "marketCap": 10771182592,
+      "marketCap": 10839238656,
       "specialDividendSuspected": false,
-      "priceDate": "2026-08-13"
+      "priceDate": "2026-08-14"
     },
     {
       "rank": 3,
@@ -102,7 +102,7 @@
       ],
       "marketCap": 10166198272,
       "specialDividendSuspected": true,
-      "priceDate": "2026-08-13"
+      "priceDate": "2026-08-14"
     },
     {
       "rank": 4,
@@ -121,7 +121,7 @@
       ],
       "marketCap": 9562553344,
       "specialDividendSuspected": false,
-      "priceDate": "2026-08-13"
+      "priceDate": "2026-08-14"
     },
     {
       "rank": 5,
@@ -140,7 +140,7 @@
       ],
       "marketCap": 17588965376,
       "specialDividendSuspected": true,
-      "priceDate": "2026-08-13"
+      "priceDate": "2026-08-14"
     },
     {
       "rank": 6,
@@ -159,7 +159,7 @@
       ],
       "marketCap": 24434626560,
       "specialDividendSuspected": true,
-      "priceDate": "2026-08-13"
+      "priceDate": "2026-08-14"
     },
     {
       "rank": 7,
@@ -178,7 +178,7 @@
       ],
       "marketCap": 6853105664,
       "specialDividendSuspected": true,
-      "priceDate": "2026-08-13"
+      "priceDate": "2026-08-14"
     },
     {
       "rank": 8,
@@ -197,7 +197,7 @@
       ],
       "marketCap": 4736296448,
       "specialDividendSuspected": true,
-      "priceDate": "2026-08-13"
+      "priceDate": "2026-08-14"
     },
     {
       "rank": 9,
@@ -217,7 +217,7 @@
       ],
       "marketCap": 26196674560,
       "specialDividendSuspected": false,
-      "priceDate": "2026-08-13"
+      "priceDate": "2026-08-14"
     },
     {
       "rank": 10,
@@ -236,7 +236,7 @@
       ],
       "marketCap": 46522474496,
       "specialDividendSuspected": false,
-      "priceDate": "2026-08-13"
+      "priceDate": "2026-08-14"
     },
     {
       "rank": 11,
@@ -256,7 +256,7 @@
       ],
       "marketCap": 40857366528,
       "specialDividendSuspected": false,
-      "priceDate": "2026-08-13"
+      "priceDate": "2026-08-14"
     },
     {
       "rank": 12,
@@ -276,7 +276,7 @@
       ],
       "marketCap": 8687722496,
       "specialDividendSuspected": false,
-      "priceDate": "2026-08-13"
+      "priceDate": "2026-08-14"
     },
     {
       "rank": 13,
@@ -296,7 +296,7 @@
       ],
       "marketCap": 8397286400,
       "specialDividendSuspected": false,
-      "priceDate": "2026-08-13"
+      "priceDate": "2026-08-14"
     },
     {
       "rank": 14,
@@ -315,7 +315,7 @@
       ],
       "marketCap": 20518006784,
       "specialDividendSuspected": false,
-      "priceDate": "2026-08-13"
+      "priceDate": "2026-08-14"
     },
     {
       "rank": 15,
@@ -334,7 +334,7 @@
       ],
       "marketCap": 7408442368,
       "specialDividendSuspected": false,
-      "priceDate": "2026-08-13"
+      "priceDate": "2026-08-14"
     },
     {
       "rank": 16,
@@ -354,7 +354,7 @@
       ],
       "marketCap": 205849575424,
       "specialDividendSuspected": false,
-      "priceDate": "2026-08-13"
+      "priceDate": "2026-08-14"
     },
     {
       "rank": 17,
@@ -374,7 +374,7 @@
       ],
       "marketCap": 16809767936,
       "specialDividendSuspected": false,
-      "priceDate": "2026-08-13"
+      "priceDate": "2026-08-14"
     },
     {
       "rank": 18,
@@ -393,7 +393,7 @@
       ],
       "marketCap": 31080495104,
       "specialDividendSuspected": true,
-      "priceDate": "2026-08-13"
+      "priceDate": "2026-08-14"
     },
     {
       "rank": 19,
@@ -413,7 +413,7 @@
       ],
       "marketCap": 38319394816,
       "specialDividendSuspected": false,
-      "priceDate": "2026-08-13"
+      "priceDate": "2026-08-14"
     },
     {
       "rank": 20,
@@ -433,7 +433,7 @@
       ],
       "marketCap": 43359285248,
       "specialDividendSuspected": true,
-      "priceDate": "2026-08-13"
+      "priceDate": "2026-08-14"
     },
     {
       "rank": 21,
@@ -453,10 +453,32 @@
       ],
       "marketCap": 42854690816,
       "specialDividendSuspected": false,
-      "priceDate": "2026-08-13"
+      "priceDate": "2026-08-14"
     },
     {
       "rank": 22,
+      "code": "2146",
+      "name": "ＵＴグループ",
+      "market": "プライム",
+      "sector": "サービス業",
+      "sizeCategory": "TOPIX Small 1",
+      "price": 218.0,
+      "dividend": 13.34,
+      "yieldPct": 6.12,
+      "forwardDividend": 13.34,
+      "dividendBasis": "実績(TTM)",
+      "exMonths": [
+        3,
+        6,
+        9,
+        12
+      ],
+      "marketCap": 126327652352,
+      "specialDividendSuspected": false,
+      "priceDate": "2026-08-14"
+    },
+    {
+      "rank": 23,
       "code": "9219",
       "name": "ギックス",
       "market": "グロース",
@@ -473,10 +495,10 @@
       ],
       "marketCap": 4930603008,
       "specialDividendSuspected": false,
-      "priceDate": "2026-08-13"
+      "priceDate": "2026-08-14"
     },
     {
-      "rank": 23,
+      "rank": 24,
       "code": "4331",
       "name": "テイクアンドギヴ・ニーズ",
       "market": "プライム",
@@ -493,10 +515,30 @@
       ],
       "marketCap": 10703348736,
       "specialDividendSuspected": false,
-      "priceDate": "2026-08-13"
+      "priceDate": "2026-08-14"
     },
     {
-      "rank": 24,
+      "rank": 25,
+      "code": "197A",
+      "name": "タウンズ",
+      "market": "スタンダード",
+      "sector": "医薬品",
+      "sizeCategory": "",
+      "price": 479.0,
+      "dividend": 29.0,
+      "yieldPct": 6.05,
+      "forwardDividend": 29.0,
+      "dividendBasis": "直近1期",
+      "exMonths": [
+        6,
+        12
+      ],
+      "marketCap": 51843366912,
+      "specialDividendSuspected": false,
+      "priceDate": "2026-08-14"
+    },
+    {
+      "rank": 26,
       "code": "7932",
       "name": "ニッピ",
       "market": "スタンダード",
@@ -512,10 +554,10 @@
       ],
       "marketCap": 32815192064,
       "specialDividendSuspected": false,
-      "priceDate": "2026-08-13"
+      "priceDate": "2026-08-14"
     },
     {
-      "rank": 25,
+      "rank": 27,
       "code": "7226",
       "name": "極東開発工業",
       "market": "プライム",
@@ -532,10 +574,10 @@
       ],
       "marketCap": 90297532416,
       "specialDividendSuspected": false,
-      "priceDate": "2026-08-13"
+      "priceDate": "2026-08-14"
     },
     {
-      "rank": 26,
+      "rank": 28,
       "code": "7305",
       "name": "新家工業",
       "market": "スタンダード",
@@ -552,10 +594,10 @@
       ],
       "marketCap": 25741307904,
       "specialDividendSuspected": false,
-      "priceDate": "2026-08-13"
+      "priceDate": "2026-08-14"
     },
     {
-      "rank": 27,
+      "rank": 29,
       "code": "8706",
       "name": "極東証券",
       "market": "プライム",
@@ -572,10 +614,10 @@
       ],
       "marketCap": 58523869184,
       "specialDividendSuspected": false,
-      "priceDate": "2026-08-13"
+      "priceDate": "2026-08-14"
     },
     {
-      "rank": 28,
+      "rank": 30,
       "code": "3571",
       "name": "ソトー",
       "market": "スタンダード",
@@ -592,47 +634,7 @@
       ],
       "marketCap": 8713299968,
       "specialDividendSuspected": false,
-      "priceDate": "2026-08-13"
-    },
-    {
-      "rank": 29,
-      "code": "9744",
-      "name": "メイテックグループホールディングス",
-      "market": "プライム",
-      "sector": "サービス業",
-      "sizeCategory": "TOPIX Mid400",
-      "price": 3340.0,
-      "dividend": 196.0,
-      "yieldPct": 5.87,
-      "forwardDividend": 181.0,
-      "dividendBasis": "実績(TTM)",
-      "exMonths": [
-        3,
-        9
-      ],
-      "marketCap": 259105718272,
-      "specialDividendSuspected": false,
-      "priceDate": "2026-08-13"
-    },
-    {
-      "rank": 30,
-      "code": "367A",
-      "name": "プリモグローバルホールディングス",
-      "market": "スタンダード",
-      "sector": "小売業",
-      "sizeCategory": "",
-      "price": 2832.0,
-      "dividend": 165.0,
-      "yieldPct": 5.83,
-      "forwardDividend": 120.0,
-      "dividendBasis": "実績(TTM)",
-      "exMonths": [
-        2,
-        8
-      ],
-      "marketCap": 24841885696,
-      "specialDividendSuspected": false,
-      "priceDate": "2026-08-13"
+      "priceDate": "2026-08-14"
     }
   ]
 }
