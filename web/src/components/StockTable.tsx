@@ -6,6 +6,7 @@ interface Props {
   stocks: Stock[];
   sort: SortState;
   onSortChange: (sort: SortState) => void;
+  onSelect: (stock: Stock) => void;
 }
 
 interface Column {
@@ -25,7 +26,7 @@ const COLUMNS: Column[] = [
   { key: null, label: '権利確定月' },
 ];
 
-export function StockTable({ stocks, sort, onSortChange }: Props) {
+export function StockTable({ stocks, sort, onSortChange, onSelect }: Props) {
   const toggle = (key: SortKey) => {
     // 同じ列を押したら向きだけ反転。別の列なら、その列にとって
     // 自然な向き（数値は大きい順、文字は昇順）から始める。
@@ -42,6 +43,7 @@ export function StockTable({ stocks, sort, onSortChange }: Props) {
       <table className="stocks">
         <caption className="visually-hidden">
           配当利回り上位銘柄の一覧。列見出しのボタンで並び替えできます。
+          行を選ぶと、その銘柄の詳細が開きます。
         </caption>
         <thead>
           <tr>
@@ -77,10 +79,27 @@ export function StockTable({ stocks, sort, onSortChange }: Props) {
         </thead>
         <tbody>
           {stocks.map((stock) => (
-            <tr key={stock.code}>
+            // 行全体をタップで開けるようにしつつ、キーボードと支援技術のためには
+            // 銘柄名をボタンにしてある。<tr> に role="button" を付けると行としての
+            // 意味が失われるため、そちらは触らない。
+            <tr
+              key={stock.code}
+              className="stocks__row"
+              onClick={() => onSelect(stock)}
+            >
               <td className="num">{stock.rank}</td>
               <td className="cell-name">
-                {stock.name}
+                <button
+                  type="button"
+                  className="cell-name__button"
+                  // 行の onClick と二重に発火させない。
+                  onClick={(event) => {
+                    event.stopPropagation();
+                    onSelect(stock);
+                  }}
+                >
+                  {stock.name}
+                </button>
                 <span>{stock.code}</span>
               </td>
               <td>

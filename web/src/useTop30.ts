@@ -19,7 +19,12 @@ export function useTop30() {
     try {
       // 再読み込み時はクエリを付けて、CDN やブラウザのキャッシュを迂回する。
       const url = bustCache ? `${DATA_URL}?t=${Date.now()}` : DATA_URL;
-      const response = await fetch(url, { cache: bustCache ? 'reload' : 'default' });
+      // 初回も必ずサーバーに問い合わせる（no-cache は「検証してから使う」であって
+      // 「キャッシュを使わない」ではない）。JS はファイル名にハッシュが付くので
+      // 新しい版が読まれるが、このURLは毎回同じで GitHub Pages が
+      // max-age=600 を返すため、放っておくと新しいコードが古いデータを描画する。
+      // 変化がなければ 304 が返るだけなので転送量は増えない。
+      const response = await fetch(url, { cache: bustCache ? 'reload' : 'no-cache' });
       if (!response.ok) {
         throw new Error(`データを取得できませんでした (HTTP ${response.status})`);
       }

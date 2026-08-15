@@ -135,7 +135,12 @@ export default function App() {
         ) : view === 'dashboard' ? (
           <StockCards stocks={visibleStocks} onSelect={setSelected} />
         ) : (
-          <StockTable stocks={visibleStocks} sort={sort} onSortChange={setSort} />
+          <StockTable
+            stocks={visibleStocks}
+            sort={sort}
+            onSortChange={setSort}
+            onSelect={setSelected}
+          />
         )}
 
         <Disclaimer data={data} />

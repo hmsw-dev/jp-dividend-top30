@@ -83,7 +83,8 @@ a:focus-visible {
 .layout {
   max-width: var(--maxw);
   margin: 0 auto;
-  padding: 0 24px 64px;
+  /* 上を 0 にするとサマリーカードがヘッダーの下端に貼り付く。 */
+  padding: 26px 24px 64px;
 }
 
 /* ---------------- ヘッダー ---------------- */
@@ -679,8 +680,38 @@ table.stocks tbody tr:last-child td {
   font-weight: 700;
 }
 
+/* 行のどこをタップしても詳細が開く。 */
+.stocks__row {
+  cursor: pointer;
+}
+
+.stocks__row:hover {
+  background: var(--surface-sunken);
+}
+
 .cell-name {
   font-weight: 600;
+}
+
+/* 見た目は元の銘柄名のまま、キーボードで到達できるようにボタンにしてある。 */
+.cell-name__button {
+  border: none;
+  background: none;
+  padding: 0;
+  font: inherit;
+  color: inherit;
+  text-align: left;
+}
+
+.cell-name__button:hover {
+  color: var(--brand-ink);
+  text-decoration: underline;
+}
+
+.cell-name__button:focus-visible {
+  outline: 3px solid var(--brand-ink);
+  outline-offset: 2px;
+  border-radius: 4px;
 }
 
 .cell-name span {
