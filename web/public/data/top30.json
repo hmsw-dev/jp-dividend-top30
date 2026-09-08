@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-09-07T16:31:16+00:00",
-  "priceDate": "2026-09-04",
+  "generatedAt": "2026-09-08T15:14:25+00:00",
+  "priceDate": "2026-09-07",
   "masterDate": "2026-01-31",
-  "nextUpdate": "2026-09-09 20:00 JST",
+  "nextUpdate": "2026-09-10 20:00 JST",
   "source": "yfinance (Yahoo Finance) / 銘柄マスタ: JPX 東証上場銘柄一覧",
   "stats": {
     "universe": 3765,
-    "priced": 3566,
-    "withDividend": 2949,
-    "unreachable": 199,
-    "verified": 148
+    "priced": 3685,
+    "withDividend": 3055,
+    "unreachable": 80,
+    "verified": 147
   },
   "summary": {
-    "avgYield": 7.56,
-    "avgPrice": 1673,
+    "avgYield": 7.61,
+    "avgPrice": 1588,
     "count": 30,
     "topStock": {
       "code": "8219",
       "name": "青山商事",
-      "yieldPct": 17.64
+      "yieldPct": 17.87
     }
   },
   "sectorBreakdown": [
@@ -27,7 +27,7 @@
       "count": 8
     },
     {
-      "sector": "鉄鋼",
+      "sector": "不動産業",
       "count": 3
     },
     {
@@ -51,29 +51,23 @@
       "market": "プライム",
       "sector": "小売業",
       "sizeCategory": "TOPIX Small 1",
-      "price": 771.0,
+      "price": 761.0,
       "dividend": 136.0,
-      "yieldPct": 17.64,
+      "yieldPct": 17.87,
       "forwardDividend": 38.0,
       "dividendBasis": "実績(TTM)",
       "exMonths": [
         3,
         9
       ],
-      "marketCap": 0,
+      "marketCap": 107738324992,
       "specialDividendSuspected": true,
-      "priceDate": "2026-09-04",
+      "priceDate": "2026-09-07",
       "businessSummary": "Aoyama Trading Co., Ltd. engages in the business wear, credit card, printing and media, sundry sales, repair service, franchisee, real estate and other businesses in Japan. It offers suits, shoes, and casual clothing and other men's items; and ladies suits for job hunting, formal wear, and others. The company also issues and manages credit cards, as well as manages finance; provides direct mail and sales promotion services for the distribution and retailing industry. In addition, it offers shoe repair and shoe polishing, sneaker repair, and suitcase repair under the Mister Minit brand; operates food service under Yakiniku King and Yuzu an brands; reuse business under 2nd STREET; and wellness business under Anytime Fitness brand. Further, it engaged in the management and leasing of real estate; and operates in the web media business. Aoyama Trading Co., Ltd. was incorporated in 1964 and is headquartered in Fukuyama, Japan.",
       "website": "https://www.aoyama-syouji.co.jp",
       "employees": 6666,
       "headquarters": "Fukuyama",
       "news": [
-        {
-          "title": "青山商、4-6月期(1Q)最終は50％減益・上期計画を超過",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE96aG9TODZOd1JFbkhuQk80ZzRybk5lcWxPZFVaZk5iZmVpajlTcWthR3RYdkZYY19Vb1U3RUtwN2ozbGRQRURIWkNBMHUwMDRtblE?oc=5",
-          "source": "株探",
-          "publishedAt": "2026-08-10"
-        },
         {
           "title": "青山商事[8219]：2026年3月期 決算説明会 2026年5月20日(適時開示) ：日経会社情報DIGITAL",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4ybjVUSVZRdGVaa2NFeHB6MDd3bDlESmV1bUxLYURDbThocnh0TnVTVTNzRS1MTy1jZXppMnhsNmU5eEpGWnk2Ykh1SXh5dWw0cTBZZngzbkNVajU4V3ZyUlE0dFBWbFlQVVE?oc=5",
@@ -81,9 +75,15 @@
           "publishedAt": "2026-05-20"
         },
         {
+          "title": "青山商、4-6月期(1Q)最終は50％減益・上期計画を超過",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE96aG9TODZOd1JFbkhuQk80ZzRybk5lcWxPZFVaZk5iZmVpajlTcWthR3RYdkZYY19Vb1U3RUtwN2ozbGRQRURIWkNBMHUwMDRtblE?oc=5",
+          "source": "株探",
+          "publishedAt": "2026-08-10"
+        },
+        {
           "title": "青山商事の第1四半期はビジネスウェア事業が赤字転落 本業の苦戦をフランチャイジー事業などが補う",
           "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5LSkF3dFMzU1hhLWxfVi0zLVVrRHhBMkl3RlpuRTkxSGZGQnRuU25BMkpaUjNSdzdJSW11ZG5kLUxVZnQ5bW94TndNNDVCUkZsVE1GUnNTWlVjN3l6eXRJX1BSU1lfSzhoVjE1SDlsT3JXUW43c3c?oc=5",
-          "source": "SEVENTIE TWO",
+          "source": "seventietwo.com",
           "publishedAt": "2026-08-10"
         }
       ]
@@ -95,18 +95,18 @@
       "market": "プライム",
       "sector": "化学",
       "sizeCategory": "TOPIX Small 2",
-      "price": 1328.0,
+      "price": 1310.0,
       "dividend": 190.0,
-      "yieldPct": 14.31,
+      "yieldPct": 14.5,
       "forwardDividend": 47.5,
       "dividendBasis": "実績(TTM)",
       "exMonths": [
         3,
         9
       ],
-      "marketCap": 89423011840,
+      "marketCap": 87648198656,
       "specialDividendSuspected": true,
-      "priceDate": "2026-09-04",
+      "priceDate": "2026-09-07",
       "businessSummary": "Dainichiseika Color & Chemicals Mfg. Co., Ltd. manufactures and sells powders, pigment dispersions, and functional materials in Japan, Asia, and internationally. The company operates through three segments: Color & Functional Products; Polymers & Coating Materials; and Graphics & Printing Materials. It offers inorganic, organic, and prepared pigments for applications including paints, printing inks, and information display and recording materials; mass colorants for synthetic fibers, pigment printing agents, and colorants for paper and construction materials; and colorants for thermoplastic resins. The company also provides colorants for PVC, fluoropolymer, and other resins; UV and EB curable coating agents and decorative and functional coating agents, as well as functional products for the electronics and information materials, automotive and interior construction materials fields; and urethane resins and colorants used for synthetic leather and molded products, special coating agents and adhesives. In addition, it offers Chitosan polymer and its derivatives; printing inks for paper media; and inks and peripheral products for gravure printing. The company was founded in 1931 and is headquartered in Tokyo, Japan.",
       "website": "https://www.daicolor.co.jp",
       "employees": 3514,
@@ -139,18 +139,18 @@
       "market": "スタンダード",
       "sector": "証券、商品先物取引業",
       "sizeCategory": "",
-      "price": 220.0,
+      "price": 222.0,
       "dividend": 24.0,
-      "yieldPct": 10.91,
+      "yieldPct": 10.81,
       "forwardDividend": 24.0,
       "dividendBasis": "直近1期",
       "exMonths": [
         3,
         9
       ],
-      "marketCap": 10987721728,
+      "marketCap": 10938226688,
       "specialDividendSuspected": false,
-      "priceDate": "2026-09-04",
+      "priceDate": "2026-09-07",
       "businessSummary": "Nissan Securities Group Co., Ltd., together with its subsidiaries, engages in the financial instrument and commodity future trading businesses in Japan. The company is also involved in financial instruments intermediation, financial instruments brokerage, information distribution, and fund management businesses. In addition, it engages in buying and selling of securities, brokerage and agency, underwriting and secondary distribution of securities, and public offering; handling secondary offerings; accepting entrustments for transactions in commodity markets; and act as an intermediary for entrustments. The company was formerly known as Okato Nissan Secs Holdings Inc. and changed its name to Nissan Securities Group Co., Ltd. in July 2022. Nissan Securities Group Co., Ltd. was founded in 1948 and is headquartered in Chuo, Japan.",
       "website": "https://www.nissansec-g.co.jp",
       "employees": 254,
@@ -183,33 +183,33 @@
       "market": "スタンダード",
       "sector": "機械",
       "sizeCategory": "",
-      "price": 1860.0,
+      "price": 1856.0,
       "dividend": 200.0,
-      "yieldPct": 10.75,
+      "yieldPct": 10.78,
       "forwardDividend": 200.0,
       "dividendBasis": "直近1期",
       "exMonths": [
         6
       ],
-      "marketCap": 9350947840,
+      "marketCap": 9300564992,
       "specialDividendSuspected": false,
-      "priceDate": "2026-09-04",
+      "priceDate": "2026-09-07",
       "businessSummary": "A-One Seimitsu Inc. produces and sells collet chuck products. The company operates in three segments: Collet Chuck Division, Cutting Tool Division, and Automatic Lathe Cam Division. It provides collet chuck/guide bushes used in automatic lathes, general industrial machines, and special machines; re-grinds special cutting tools; cams used in automatic lathes and dedicated machines; and re-polishing and regrinding of cutting tools used in cutting processes. The company was founded in 1970 and is headquartered in Fuchu, Japan.",
       "website": "https://www.a-one-seimitsu.co.jp",
       "employees": 0,
       "headquarters": "Fuchu",
       "news": [
         {
-          "title": "エーワン精密、今期経常は26％増益へ",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5QaUkzYUZzTDhhVWhwcTJ4UklpeWxRWFh0bmdrOUJPNnYyQTM4RXZKZ3g0MWkxYm5qMm85WXRrdXlsT05JNWhjSVF6bFVZODlYZXc?oc=5",
-          "source": "株探",
-          "publishedAt": "2026-08-10"
-        },
-        {
           "title": "エーワン精密",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBKNVNqa1BSallNZkZfWlFoaDRGMk54UEdudkg1Wld2RTV1a0tBSWhobHpubE5aUnBzQkZQbGw4LUtwX0ZJUXJCOUlHWWdOSnNzTU9SSG5JeC0zVjJhRngwREpJSEF0SHlhdkE?oc=5",
           "source": "日本経済新聞",
           "publishedAt": "2026-05-08"
+        },
+        {
+          "title": "エーワン精密、今期経常は26％増益へ",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5QaUkzYUZzTDhhVWhwcTJ4UklpeWxRWFh0bmdrOUJPNnYyQTM4RXZKZ3g0MWkxYm5qMm85WXRrdXlsT05JNWhjSVF6bFVZODlYZXc?oc=5",
+          "source": "株探",
+          "publishedAt": "2026-08-10"
         },
         {
           "title": "(株)エーワン精密【6156】：アナリストレポート",
@@ -226,18 +226,18 @@
       "market": "プライム",
       "sector": "サービス業",
       "sizeCategory": "TOPIX Small 2",
-      "price": 494.0,
+      "price": 475.0,
       "dividend": 49.0,
-      "yieldPct": 9.92,
+      "yieldPct": 10.32,
       "forwardDividend": 16.0,
       "dividendBasis": "実績(TTM)",
       "exMonths": [
         6,
         12
       ],
-      "marketCap": 10325591040,
+      "marketCap": 10129947648,
       "specialDividendSuspected": true,
-      "priceDate": "2026-09-04",
+      "priceDate": "2026-09-07",
       "businessSummary": "ValueCommerce Co., Ltd. provides marketing solutions in Japan. It operates through three segments: Marketing Solutions Business, EC Solutions Business, and Travel Tech Business. The company provides performance-based advertising. It offers click-based advertising and CRM tools for online mall stores; and DYNA IBE, a hotel reservation system provided for accommodation facilities such as hotels and inns. In addition, the company provides DYNA PMS, a hotel management system; VLINK, a social commerce platform; monicam and Cast book, an influencer marketing solution; B-Space, an EC site management and support solution; and BUZMA, a subscription-based influencer matching service. The company was formerly known as Transpacific Inc. and changed its name to ValueCommerce Co., Ltd. in November 1999. The company was incorporated in 1996 and is headquartered in Chiyoda, Japan. ValueCommerce Co., Ltd. operates as a subsidiary of Z Holdings Corporation.",
       "website": "https://www.valuecommerce.co.jp",
       "employees": 381,
@@ -250,16 +250,16 @@
           "publishedAt": "2026-04-28"
         },
         {
+          "title": "Ｖコマース、1-3月期(1Q)経常は赤字転落で着地",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9UVGFEZzRDdndDWU9tejNlOGtxUjJRbTRma3RfSlg0emdsVThsb2FZVXhhWl9xOVFJRHJUMC04T0Nyb2tDVDFKZHV1ZzFuZjk3X1E?oc=5",
+          "source": "株探",
+          "publishedAt": "2026-04-28"
+        },
+        {
           "title": "バリューコマース(株)【2491】：アナリストレポート",
           "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9fMTEtVTE0U0JMNG1hbjZBdFVDa0piM3dmRXdaNVBaZlM2ejdHQ2xBY2Z5VUVZMGdPaEYySnNqWDRna1k2SjFJaXRBN0h4dmN3dGt4enJsVHZQSk05YV9aY0JYaHlLV19GcE9yNnVMX0Y?oc=5",
           "source": "Yahoo!ファイナンス",
           "publishedAt": "2026-08-28"
-        },
-        {
-          "title": "バリューコマース[2491]：2026年12月期 第２四半期（中間期）決算短信〔日本基準〕（非連結） 2026年7月29日(適時開示) ：日経会社情報DIGITAL",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9pcVd1aTlKUG5TZzA2U2tXc254cHBoRVlrTEVpOUZJMHhQVWY4T0ZQZTI2SDQ1eE5XN2JLTXVnZnQ1bXFwX19vT0xNMkFzX2JQYU4waG9iT2czUmw0Ri1zdmxlQmhFcnE2M0E?oc=5",
-          "source": "日本経済新聞",
-          "publishedAt": "2026-07-29"
         }
       ]
     },
@@ -270,17 +270,17 @@
       "market": "スタンダード",
       "sector": "電気機器",
       "sizeCategory": "",
-      "price": 993.0,
+      "price": 992.0,
       "dividend": 91.0,
-      "yieldPct": 9.16,
+      "yieldPct": 9.17,
       "forwardDividend": 59.0,
       "dividendBasis": "実績(TTM)",
       "exMonths": [
         3
       ],
-      "marketCap": 18006454272,
+      "marketCap": 17824937984,
       "specialDividendSuspected": true,
-      "priceDate": "2026-09-04",
+      "priceDate": "2026-09-07",
       "businessSummary": "Helios Techno Holding Co., Ltd. engages in the lamp and manufacturing equipment businesses in Japan, China, Asia, and internationally. The company provides lamps such as industrial lighting and LED lamps; and manufactures and sells electrical harnesses, component assemblies, and finished products. It also offers equipment, such as orientation film printing devices and specialized printers; and industrial equipment, as well as testing and measuring equipment. The company was formerly known as PHOENIX Electric Co., Ltd and changed its name to Helios Techno Holding Co., Ltd. in April 2009. The company was incorporated in 1976 and is headquartered in Tokyo, Japan.",
       "website": "https://www.heliostec-hd.co.jp",
       "employees": 272,
@@ -299,10 +299,10 @@
           "publishedAt": "2026-05-12"
         },
         {
-          "title": "ヘリオスＴＨ、今期経常を27％上方修正、配当も11円増額",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5aR0pDZGNKT3VMay1RckE4eEdVc3FVTlFFZkpPQmdmREEtVGY2aGxFXzJhbnY1ZVF1UHpsR295VEJHUHJ0RnEzVUEtMmE2ZVd3aWc?oc=5",
-          "source": "株探",
-          "publishedAt": "2026-02-06"
+          "title": "【決算速報】ヘリオスＴＨ、4-6月期(1Q)営業は黒字浮上で着地(株探ニュース)",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNREcyRjZYX1ZkLVlxR29aYlRrbGQtbjNmZkFuT3RheEw2QXJ6a0w5cXE0MUN1YnI2NUtQcm8wbC04Zmlaa2dLa1lUNGdFa1VKQVhQSUl3MG1LVnh4UnVxMUxRMFZzX3NXeDU3RmpqQkdueVpYU3BjWG5pdV9McTlTVmJZSUdMUnc?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "publishedAt": "2026-08-04"
         }
       ]
     },
@@ -313,17 +313,17 @@
       "market": "プライム",
       "sector": "サービス業",
       "sizeCategory": "TOPIX Small 2",
-      "price": 1182.0,
+      "price": 1173.0,
       "dividend": 100.0,
-      "yieldPct": 8.46,
+      "yieldPct": 8.53,
       "forwardDividend": 50.0,
       "dividendBasis": "実績(TTM)",
       "exMonths": [
         3
       ],
-      "marketCap": 22856312832,
+      "marketCap": 22525063168,
       "specialDividendSuspected": true,
-      "priceDate": "2026-09-04",
+      "priceDate": "2026-09-07",
       "businessSummary": "ITmedia Inc. engages in the internet media business in Japan. It operates through B to B Media Business and B to C Media Business segments. The company offers lead generation, digital events, premium advertising and brand solutions, and programmatic advertising services. It also provides TechTarget Japan and Keyman's Net for IT news, resources, and membership programs for the installation and purchase of IT products and services; Hacchu Navi for online matching services of IT products, services, and companies; ITmedia marketing for digital marketing trends, products, and services; @ IT for specialized IT information; ITmedia NEWS, ITmedia Enterprise, ITmedia Executive, and ITmedia AI+ for IT news and resources for corporate IT systems; ITmedia Business online for commentary on business news and information to improve work productivity; MONOist for technology explanations and membership programs in the assembly manufacturing field; EE Times Japan and EDN Japan for semiconductor and electronics technology explanations and membership programs; and TechFactory for news, resources, and membership programs for manufacturing companies. In addition, the company offers BUILT for the building and construction industry; Smart Japan for news and resources for the consideration and introduction of energy saving, energy storage, and electricity generation; online exhibitions and seminars; and consulting services on the sale of overseas exhibition reports and marketing. Further, it provides ITmedia Mobile and ITmedia PC USER for news, updates, and reviews on PCs, smartphones, AV equipment, and other digital devices; Fav-Log by ITmedia for purchasing support information for general daily necessities; and Netolabo for internet tips. The company was formerly known as Softbank ITmedia, Inc. and changed its name to ITmedia Inc. in March 2005. ITmedia Inc. was incorporated in 1999 and is headquartered in Chiyoda, Japan. ITmedia Inc. operates as a subsidiary of SB Media Holdings Corp.",
       "website": "https://corp.itmedia.co.jp",
       "employees": 382,
@@ -356,17 +356,17 @@
       "market": "スタンダード",
       "sector": "電気機器",
       "sizeCategory": "",
-      "price": 452.0,
+      "price": 454.0,
       "dividend": 35.0,
-      "yieldPct": 7.74,
+      "yieldPct": 7.71,
       "forwardDividend": 20.0,
       "dividendBasis": "実績(TTM)",
       "exMonths": [
         3
       ],
-      "marketCap": 6808118272,
+      "marketCap": 6688151552,
       "specialDividendSuspected": true,
-      "priceDate": "2026-09-04",
+      "priceDate": "2026-09-07",
       "businessSummary": "Shirai Electronics Industrial Co., Ltd. manufactures printed circuit board (PCB) and PCB visual inspection machine boards in Japan and internationally. The company offers transparent flexible substrate boards; double-sided/multi-layer printed boards, high-functionality boards, and MEMS field products, as well as provides transparent heater film related products. Its products are used in electronic applications. Shirai Electronics Industrial Co., Ltd. was founded in 1966 and is headquartered in Shiga, Japan.",
       "website": "https://www.shiraidenshi.co.jp",
       "employees": 1211,
@@ -379,16 +379,16 @@
           "publishedAt": "2026-05-12"
         },
         {
+          "title": "【シライ電子工業 FY2026 FY2026 決算説明会】シライ電子工業、来期営業益58％減・20円減配へ インフレが直撃、ASEAN/インドシフト急ぐ",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1lYXFTdVNjQXA1RmpiMlBhTXJzVkFpMWFlVmllYWVCQVJISzdsLWszZjMyako5ZGVfTUV0aGhWWnVtT2ZaVmZsNTdNR2RtQ2x6QWNSRTBadGFuUzVFWEJV?oc=5",
+          "source": "BigGo ファイナンス",
+          "publishedAt": "2026-06-04"
+        },
+        {
           "title": "シライ電子工業(株)【6658】：アナリストレポート",
           "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1mNkJPamE4YjRFNk1INXpmTE1EYzdKSi1IeHowVlo4TkxyaHlhM1g0THhnSUtTWUR1TnpyWHpGbTFRMnk5QVhmazlqQUExeGNyMnBlbTR1QWY4YWp5dnNTVS1HU0dDcVpwZTFIaEpPeW8?oc=5",
           "source": "Yahoo!ファイナンス",
           "publishedAt": "2026-02-16"
-        },
-        {
-          "title": "シライ電子、4-6月期(1Q)最終は赤字転落で着地",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE8zNzBnRHJvQzdMVWZkOGJ4UnZQQ3NKUVRjb2NiLVpadkdMOVR5N1AwSE5nWW9UdEtIWHQ4M0gyRXRDZjNaZUdPNDFJeDZycFhOZ3c?oc=5",
-          "source": "株探",
-          "publishedAt": "2026-07-31"
         }
       ]
     },
@@ -399,28 +399,28 @@
       "market": "プライム",
       "sector": "サービス業",
       "sizeCategory": "TOPIX Small 2",
-      "price": 389.0,
+      "price": 387.0,
       "dividend": 29.5,
-      "yieldPct": 7.58,
+      "yieldPct": 7.62,
       "forwardDividend": 21.0,
       "dividendBasis": "実績(TTM)",
       "exMonths": [
         6,
         12
       ],
-      "marketCap": 25425213440,
+      "marketCap": 25228120064,
       "specialDividendSuspected": false,
-      "priceDate": "2026-09-04",
+      "priceDate": "2026-09-07",
       "businessSummary": "FAN Communications, Inc. develops Internet advertising related businesses in Japan. It operates through two segments, CPA Solutions Business and Strategic Business. The company offers affiliate advertising through A8.net, and CPI advertising service through A8, a smartphone app. In addition, the company operates GERA, a comedy radio app; YOOR, an online community service; N-INE, a digital marketing process optimization support service; and LUMOSBUZZ, a corporate project platform for short video creators, as well as supports social media marketing with a focus on TikTok. FAN Communications, Inc. was incorporated in 1999 and is headquartered in Tokyo, Japan.",
       "website": "https://www.fancs.com",
       "employees": 356,
       "headquarters": "Tokyo",
       "news": [
         {
-          "title": "ファンコミ、今期経常を一転41％減益に下方修正",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE4zMkpxVmJGa1dpWEVVR1A4NXIzWVRld2c3LXQ0ZGV1elNVR1NxakVfV0R1TXVpZ3NfNk4zMUFoYjR0SnhvVEk2ci1WVTR6ZlJfa3c?oc=5",
+          "title": "ファンコミ、1-3月期(1Q)経常は60％減益で着地",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9FZVFSVm9RZmFGeURmWXBaN2lQNUk1UDNuVjQ2VUN1MVl2R2l6ZUdBTlVwSUd1VnlqQlhLNWZLTy1nZjdmblN6UXJUd1V4OUduWHc?oc=5",
           "source": "株探",
-          "publishedAt": "2026-08-10"
+          "publishedAt": "2026-05-08"
         },
         {
           "title": "ファンコミ",
@@ -451,9 +451,9 @@
       "exMonths": [
         4
       ],
-      "marketCap": 4960310272,
+      "marketCap": 4880305152,
       "specialDividendSuspected": true,
-      "priceDate": "2026-09-04",
+      "priceDate": "2026-09-07",
       "businessSummary": "Hamee Corp. engages in the e-commerce and platform businesses for mobile accessories in Japan, rest of Asia, North America, and internationally. The company is involved in the manufacture, purchase, wholesale, and sale of gaming accessories related products and services; development of cosmetic products and gaming monitors; and development and provision of Next Engine, a cloud-based back-end solution for e-commerce businesses. It also engages in the consultation and agency businesses, as well as retail of home appliances. The company was formerly known as Macrowill Company. The company was founded in 1997 and is headquartered in Odawara, Japan.",
       "website": "https://hamee.co.jp",
       "employees": 368,
@@ -486,18 +486,18 @@
       "market": "スタンダード",
       "sector": "不動産業",
       "sizeCategory": "",
-      "price": 1731.0,
+      "price": 1698.0,
       "dividend": 121.0,
-      "yieldPct": 6.99,
+      "yieldPct": 7.13,
       "forwardDividend": 104.0,
       "dividendBasis": "実績(TTM)",
       "exMonths": [
         6,
         12
       ],
-      "marketCap": 40036102144,
+      "marketCap": 39941787648,
       "specialDividendSuspected": false,
-      "priceDate": "2026-09-04",
+      "priceDate": "2026-09-07",
       "businessSummary": "MUGEN ESTATE Co.,Ltd. purchases and resells pre-owned properties in Japan. The company's property portfolio includes investment type properties, such as condominiums and office blocks and residential type properties, including detached houses for families. It engages in the development, leasing, and selling of real estate properties and interior and exterior construction business that includes renovate and refurbish stores, offices, office buildings, rental apartment complexes, and residential properties. The company was incorporated in 1990 and is headquartered in Chiyoda, Japan.",
       "website": "https://www.mugen-estate.co.jp",
       "employees": 501,
@@ -530,17 +530,17 @@
       "market": "スタンダード",
       "sector": "繊維製品",
       "sizeCategory": "",
-      "price": 736.0,
+      "price": 734.0,
       "dividend": 50.0,
-      "yieldPct": 6.79,
+      "yieldPct": 6.81,
       "forwardDividend": 50.0,
       "dividendBasis": "実績(TTM)",
       "exMonths": [
         3
       ],
-      "marketCap": 20126476288,
+      "marketCap": 20099055616,
       "specialDividendSuspected": false,
-      "priceDate": "2026-09-04",
+      "priceDate": "2026-09-07",
       "businessSummary": "Daidoh Limited manufactures and sells ready-made men's and women's clothing and accessories in Japan. The company offers custom made clothing products, knitted yarns, worsted fabrics, apparel, etc. It also provides OEM, as well as import and export services. In addition, the company manufactures, sells, and retails yarns, fibrous materials for apparel, and apparel. Further, it sells its products under the NEWYORKER, Brooks Brothers, and House Tartan brands. Further, the company is involved in the leasing of real-estate properties, such as shopping center stores, office buildings, and hotel facilities. The company was founded in 1879 and is headquartered in Tokyo, Japan.",
       "website": "https://www.daidoh-limited.com",
       "employees": 722,
@@ -559,10 +559,10 @@
           "publishedAt": "2026-02-12"
         },
         {
-          "title": "【決算速報】ダイドー、上期経常を33％下方修正(株探ニュース)",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOV3hTSDRKOGg0ZlZKTjVCNU52MWI1RGZXY2dMaS1Jcy0xMWU5RDFLLUJxRF9aSlc5ZlZ6SXMtMlkwV2JEQUo2X2htNm9EUkJNem0tZEJTbHBWQTRsbm56M1BITkh6NUdCcDZJam5NcFA4Nnl1OGYwakNvdTQyeGt4dlpCeGkxcms?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "publishedAt": "2026-08-07"
+          "title": "ダイドーリミテッド[3205]：通期業績予想の修正に関するお知らせ 2026年4月22日(適時開示) ：日経会社情報DIGITAL",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1uci1mbVlNRzNKQjczc0J0VlNnejFST283MndtUFJFQ2x5cmtlakJGRUJBSzdzMEpGNk5ldFFpX2ZONk5MeFVaZDJtaS04Y2picnV6M2syQW5uamJFX1dMYlBub2FDYjEwOFE?oc=5",
+          "source": "日本経済新聞",
+          "publishedAt": "2026-04-22"
         }
       ]
     },
@@ -573,9 +573,9 @@
       "market": "プライム",
       "sector": "証券、商品先物取引業",
       "sizeCategory": "TOPIX Small 2",
-      "price": 742.0,
+      "price": 736.0,
       "dividend": 50.0,
-      "yieldPct": 6.74,
+      "yieldPct": 6.79,
       "forwardDividend": 50.0,
       "dividendBasis": "直近1期",
       "exMonths": [
@@ -583,7 +583,7 @@
       ],
       "marketCap": 49986195456,
       "specialDividendSuspected": false,
-      "priceDate": "2026-09-04",
+      "priceDate": "2026-09-07",
       "businessSummary": "Toyo Securities Co., Ltd. provides financial products trading services in Japan. The company offers asset management and investment advice; consultancy on capital policies; support for IR; and other services. It is also involved in the buying and selling of securities; entrustment of buying and selling; underwriting and secondary distribution of securities; handling of public offering and secondary distribution of securities; and other financial instruments business activities. In addition, the company offers life insurance services. The company was formerly known as Hiroshima Shoken Shoji K.K. and changed its name to Toyo Securities Co., Ltd. in December 1971. Toyo Securities Co., Ltd. was founded in 1916 and is headquartered in Chuo, Japan.",
       "website": "https://www.toyo-sec.co.jp",
       "employees": 632,
@@ -611,67 +611,23 @@
     },
     {
       "rank": 14,
-      "code": "5451",
-      "name": "ヨドコウ",
-      "market": "プライム",
-      "sector": "鉄鋼",
-      "sizeCategory": "TOPIX Small 1",
-      "price": 1420.0,
-      "dividend": 91.0,
-      "yieldPct": 6.41,
-      "forwardDividend": 62.0,
-      "dividendBasis": "実績(TTM)",
-      "exMonths": [
-        3,
-        9
-      ],
-      "marketCap": 203271094272,
-      "specialDividendSuspected": false,
-      "priceDate": "2026-09-04",
-      "businessSummary": "Yodoko, Ltd. engages in the manufacture and sales of steel products for industrial and consumer products in Japan. The company offers repainted steel, galvanized steel, chromate-free treated steel, and cold rolled products; building material, such as roofing products, siding products, rooftop greenery systems, solar power generation systems, and installation of roofing and siding; exterior products, including storage sheds, houses, carports, garages, warehouses, trash bins, and bicycle parks; Rolls comprising large machinery components that support manufacturing, including paper, packaging film, and rubber and steel; yodo water falls (overflow-suppression grating), yodo karugaru grating, yodo ex grating, yodo galfan grating, and other gratings; household equipment, household implements, and building materials. It also provides design and contracting construction work, warehousing, packaging and shipping, sale, purchase and leasing of real estate, building of produce cultivation facilities and landscaping, and associated business activities. Yodoko, Ltd. was formerly known as Yodogawa Steel Works, Ltd. and changed its name to Yodoko, Ltd. in October 2025. The company was incorporated in 1935 and is headquartered in Osaka, Japan.",
-      "website": "https://www.yodoko.co.jp",
-      "employees": 2377,
-      "headquarters": "Osaka",
-      "news": [
-        {
-          "title": "ヨドコウ、今期経常を25％上方修正、配当も9円増額",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBFWVlMeF9xWVptT2h3RHpqajFxMWZjeWdrQ0U4c0h0TjF6MlhyRVpvcWdKTmFnQ09iaW83MFowR3U5eXBNUnpRc2lodVg5Mkt6aGc?oc=5",
-          "source": "株探",
-          "publishedAt": "2026-08-06"
-        },
-        {
-          "title": "ヨドコウ[5451]：業績予想および配当予想の修正に関するお知らせ 2026年8月6日(適時開示) ：日経会社情報DIGITAL",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBvTk9IRl9MQnI3bnNrbVFZWXNOdGZ0d1dQVlZ2TENNS3VNWnJCMUlFX0RIdHhlT2pLUWQ4cVN0ZmtERnZ2bVZzbWFyTFJRaGJxZVI1c29SckhOYTQ2SkZfTThaUURCUnd0aEE?oc=5",
-          "source": "日本経済新聞",
-          "publishedAt": "2026-08-06"
-        },
-        {
-          "title": "【決算速報】ヨドコウ---27年3月期1Qは減益、経常利益は2.4％減(フィスコ)",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNMUhUeGJHMDFHM0E3RTAyX3ZsX0NsWERxczVNSnpKajU5ZUV4TmlCbHozRDRXcTVNMFp4cVUxZE9MSmQyTzlFUFE1YTYzZi05UHRHLU5qdmI1ZmRkaENkdXpfLW9KQ1oyZ0RERnY1ZkE1LWdoNmlyVV9HRGt0YzVmOWVvY1NVemM?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "publishedAt": "2026-08-06"
-        }
-      ]
-    },
-    {
-      "rank": 15,
       "code": "7291",
       "name": "日本プラスト",
       "market": "スタンダード",
       "sector": "輸送用機器",
       "sizeCategory": "",
-      "price": 470.0,
+      "price": 464.0,
       "dividend": 30.0,
-      "yieldPct": 6.38,
+      "yieldPct": 6.47,
       "forwardDividend": 25.0,
       "dividendBasis": "実績(TTM)",
       "exMonths": [
         3,
         9
       ],
-      "marketCap": 8723867648,
+      "marketCap": 8629861376,
       "specialDividendSuspected": false,
-      "priceDate": "2026-09-04",
+      "priceDate": "2026-09-07",
       "businessSummary": "Nihon Plast Co., Ltd., together with its subsidiaries, engages in the manufacture, processing, repair, and sale of automotive parts in Japan, China, Mexico, the United States, and internationally. The company offers safety parts, including steering wheels and airbag modules; interior parts, such as instrument panel systems, ventilators, glove boxes, console boxes, cup holders, air conditioner ducts, shift knobs, and pillar garnishes; and exterior parts, which include cowl top covers, fender protectors, wheel resonators, air spoilers, front under covers, and battery component parts. It is also involved in the manufacture, processing, repair, and sale of synthetic resins, and die-cast metal molds and machinery; manufacture and sale of packing products for various types of machines, as well as chemical products; and design, manufacture, and sale of electrical components for the amusement industry. In addition, the company offers NPORUS, a recycled urethane material. Nihon Plast Co., Ltd. was incorporated in 1945 and is headquartered in Fujinomiya, Japan.",
       "website": "https://www.n-plast.co.jp",
       "employees": 5588,
@@ -684,16 +640,60 @@
           "publishedAt": "2026-08-07"
         },
         {
-          "title": "日本プラスト[7291]：2027年３月期 第１四半期決算短信 〔日本基準〕（連結） 2026年8月7日(適時開示) ：日経会社情報DIGITAL",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBRSVV2Z3EzaHJFUlJHYVdweTM4djJUSFJDRWdzZ1I5LVZ6eXVjWnR0MXZSejlzMmlzejg5amtvVzZtMnpXNlc0RG9sV2lIQUlJTWNuZkRLOEpiR2VNQl91Z2VsckVRS1gzU1E?oc=5",
+          "title": "決算:日本プラストの26年3月、営業益5％減 ハンドルなど振るわず",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9JVDZUWjJ6NTllYlNTd1kwQ19xQ3g3anFxYmhHbEVxS0t6RUFTNkg0YWN0amMyRzJzbkRyVzc4dHhFWTVlZFVnWU1RVXN5Ri1rS2lCTUJjZFBTREpiTG9UMDZGaTBIWjVTakZZRw?oc=5",
           "source": "日本経済新聞",
-          "publishedAt": "2026-08-07"
+          "publishedAt": "2026-05-08"
         },
         {
           "title": "【決算速報】日本プラストは1億円の赤字 27年3月期第1四半期：ニュース",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE0yRVdBTlhIUnJ5czFIWTgtWjAxTVZ0NFBlZ1IzZ1RIMGVCclU1aWVSb3lWd0lWLWYtclJlNTFHd0Z3VHg1SndFazVkNjY1WnY4b0g4b1FPaWpSSjlPRWsw?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1kbUhNSVBWZkhld3JwRVBJdmgtbXNpVUxadDlLS3M1a20telFuTGtaSHZmMGRiYUNTcE9xdTRqMV84cXhOWDByUGtyT01TaXBPWjNsNWt3aGhqaHcyZjg5c0Rsbw?oc=5",
           "source": "中日BIZナビ",
           "publishedAt": "2026-08-07"
+        }
+      ]
+    },
+    {
+      "rank": 15,
+      "code": "5451",
+      "name": "ヨドコウ",
+      "market": "プライム",
+      "sector": "鉄鋼",
+      "sizeCategory": "TOPIX Small 1",
+      "price": 1419.0,
+      "dividend": 91.0,
+      "yieldPct": 6.41,
+      "forwardDividend": 62.0,
+      "dividendBasis": "実績(TTM)",
+      "exMonths": [
+        3,
+        9
+      ],
+      "marketCap": 200262844416,
+      "specialDividendSuspected": false,
+      "priceDate": "2026-09-07",
+      "businessSummary": "Yodoko, Ltd. engages in the manufacture and sales of steel products for industrial and consumer products in Japan. The company offers repainted steel, galvanized steel, chromate-free treated steel, and cold rolled products; building material, such as roofing products, siding products, rooftop greenery systems, solar power generation systems, and installation of roofing and siding; exterior products, including storage sheds, houses, carports, garages, warehouses, trash bins, and bicycle parks; Rolls comprising large machinery components that support manufacturing, including paper, packaging film, and rubber and steel; yodo water falls (overflow-suppression grating), yodo karugaru grating, yodo ex grating, yodo galfan grating, and other gratings; household equipment, household implements, and building materials. It also provides design and contracting construction work, warehousing, packaging and shipping, sale, purchase and leasing of real estate, building of produce cultivation facilities and landscaping, and associated business activities. Yodoko, Ltd. was formerly known as Yodogawa Steel Works, Ltd. and changed its name to Yodoko, Ltd. in October 2025. The company was incorporated in 1935 and is headquartered in Osaka, Japan.",
+      "website": "https://www.yodoko.co.jp",
+      "employees": 2377,
+      "headquarters": "Osaka",
+      "news": [
+        {
+          "title": "ヨドコウ、今期経常を25％上方修正、配当も9円増額",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBFWVlMeF9xWVptT2h3RHpqajFxMWZjeWdrQ0U4c0h0TjF6MlhyRVpvcWdKTmFnQ09iaW83MFowR3U5eXBNUnpRc2lodVg5Mkt6aGc?oc=5",
+          "source": "株探",
+          "publishedAt": "2026-08-06"
+        },
+        {
+          "title": "ヨドコウ[5451]：2027年３月期 第１四半期決算短信〔日本基準〕（連結） 2026年8月6日(適時開示) ：日経会社情報DIGITAL",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4ybnRjV1M4MU5ac2NqY2RmTEpFX3dieUtDMkhhdDdmelk2dHVsMXFiVWZmVTBWM1RuMDE5NVpZU08wYm8wX0x0bGdySDY2dEhiRWRuOVVnR0RUcm9vSjdBNFJIN2tWME1DNHc?oc=5",
+          "source": "日本経済新聞",
+          "publishedAt": "2026-08-06"
+        },
+        {
+          "title": "【決算速報】ヨドコウ---27年3月期1Qは減益、経常利益は2.4％減(フィスコ)",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNMUhUeGJHMDFHM0E3RTAyX3ZsX0NsWERxczVNSnpKajU5ZUV4TmlCbHozRDRXcTVNMFp4cVUxZE9MSmQyTzlFUFE1YTYzZi05UHRHLU5qdmI1ZmRkaENkdXpfLW9KQ1oyZ0RERnY1ZkE1LWdoNmlyVV9HRGt0YzVmOWVvY1NVemM?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "publishedAt": "2026-08-06"
         }
       ]
     },
@@ -704,17 +704,17 @@
       "market": "スタンダード",
       "sector": "サービス業",
       "sizeCategory": "",
-      "price": 2230.0,
+      "price": 2209.0,
       "dividend": 140.0,
-      "yieldPct": 6.28,
+      "yieldPct": 6.34,
       "forwardDividend": 140.0,
       "dividendBasis": "実績(TTM)",
       "exMonths": [
         3
       ],
-      "marketCap": 7415155712,
+      "marketCap": 7270813696,
       "specialDividendSuspected": false,
-      "priceDate": "2026-09-04",
+      "priceDate": "2026-09-07",
       "businessSummary": "Honyaku Center Inc. provides translation services in Japan and internationally. The company offers translation for patent documents comprising application-related, court-related, and others; and medical documents, including basic research/non-clinical development, clinical development, regulatory submission, and post-marketing. It also provides financial and legal translations comprising finance, legal, disclosure and related documents, and corporate and other documents; and translation services for IT related documents and manuals documents. In addition, the company offers translation of industrial documents, such as R&D, planning, and design documents; production, quality assurance, implementation, and maintenance service documents; sales and marketing documents; and non-manufacturing industry related documents. Further, it provides medical writing, grammar check, transcription, staffing, multilingual contact center, interpreting, foreign patent application services; proofreading and back translation, and foreign patent application services, as well as services related to computer games, apps, and Websites; and prepares drawings. Additionally, the company offers translation services for VISA application documents required to apply for marriage, work, residency, study abroad, and other visas; and DTP, printing, document, and e-book translation related services, as well as pamphlets and catalogues, press releases and newsletters, and presentation documents. The company serves clients in a range of industries, such as auto, mechanical, electronics, pharma, patent, law, finance, R&D, education, and other fields. Honyaku Center Inc. was incorporated in 1986 and is headquartered in Osaka, Japan.",
       "website": "https://www.honyakuctr.com",
       "employees": 540,
@@ -727,16 +727,16 @@
           "publishedAt": "2026-06-10"
         },
         {
+          "title": "翻訳センター[2483]：2026年3月期 決算短信［日本基準］(連結) 2026年5月12日(適時開示) ：日経会社情報DIGITAL",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE56eEF5aWwwUXc4RGV0TjJDU0tSREJ3c1l4LXlLa2JxNVJMelU0eUYxZk84OXo3YVlWdE9yLThzRmY1X1dWalFIYjVfOWJfMm5uZ0p0cWM3alMtS3c5SEdranlhR1o5MVJ0YkE?oc=5",
+          "source": "日本経済新聞",
+          "publishedAt": "2026-05-12"
+        },
+        {
           "title": "翻訳センター、4-6月期(1Q)経常は69％減益で着地",
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1XQkFfTFNxWVg1eV9SS3J4Y19HV3k3Wnp3VVlRTzJwTGdYMEdvaThIY19nWU8ydkVNRGE5T2NQVjNQX1M0WkZyNkQ2SE91dGRfd2c?oc=5",
           "source": "株探",
           "publishedAt": "2026-08-07"
-        },
-        {
-          "title": "翻訳センター",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1Gb2NfQmpQZmE1Q2s5X2VuN2l4TENYUmFwdHhGRHRFdnc5LUlldVVBMUNjeUdVUnFqa0oyZUpFM1VJRnhwX2NmeExXa3Rvbnl1T05lRHRkNUFfT0pGVzRfaWN3c3ZiUEVtRUE?oc=5",
-          "source": "日本経済新聞",
-          "publishedAt": "2026-06-11"
         }
       ]
     },
@@ -747,18 +747,18 @@
       "market": "グロース",
       "sector": "サービス業",
       "sizeCategory": "",
-      "price": 1362.0,
+      "price": 1359.0,
       "dividend": 85.0,
-      "yieldPct": 6.24,
+      "yieldPct": 6.25,
       "forwardDividend": 85.0,
       "dividendBasis": "直近1期",
       "exMonths": [
         6,
         12
       ],
-      "marketCap": 4762780160,
+      "marketCap": 4804835328,
       "specialDividendSuspected": false,
-      "priceDate": "2026-09-04",
+      "priceDate": "2026-09-07",
       "businessSummary": "BRIDGE International Group Corp., together with its subsidiaries, engages in the provision of corporate sale services in Japan. It operates through Inside Sales Outsourcing Business, Process Technology Business, and Training segments. The company offers consulting services, such as revenue process, marketing process, inside sales process, field sales process, customer success process design and optimization, as well as RevOps launch and optimization; and marketing, inside sales, and customer success field outsourcing and operations services. It also provides Tech Stack comprising Rev Tech, MarTech, Sales Tech, and Customer Tech selection, implementation, and utilization support services; and role-specific training in the sales process. The company was formerly known as BRIDGE International Corp. and changed its name to BRIDGE International Group Corp. in October 2025. BRIDGE International Group Corp. was incorporated in 2002 and is headquartered in Tokyo, Japan.",
       "website": "https://bridge-g.com",
       "employees": 439,
@@ -777,32 +777,75 @@
           "publishedAt": "2026-08-14"
         },
         {
-          "title": "ブリッジインターナショナルグループ[7039]：2026年12月期 第２四半期決算説明資料 2026年8月14日(適時開示) ：日経会社情報DIGITAL",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9HTEpVa2JLSDhSd01ISXNISElWcmJ0ODZYazVsTE81cTl5RTRETUp3QXYxLUJ0VWc3ODF4amlvVnQ1SzY3OUlsV0FacVExUTBIa2FJeWdUaUxhaDFjT1dRaHNGbHh5Q3JsaGc?oc=5",
+          "title": "ブリッジ－Ｇ",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB5Wmw2b0RmeFNtYVB4ZlVBY3hqX0xkVE0ybFlGWS00QkZzeFNkUUxhRlpxMjlFNlREbUhJWDhVcnJ2T1I3OTE4QVdlLWNoaURoYXB3R0dhZXhGN2ZuSlJKUkNwREZrTnJYd3c?oc=5",
           "source": "日本経済新聞",
-          "publishedAt": "2026-08-14"
+          "publishedAt": "2026-05-15"
         }
       ]
     },
     {
       "rank": 18,
+      "code": "9629",
+      "name": "ピー・シー・エー",
+      "market": "プライム",
+      "sector": "情報・通信業",
+      "sizeCategory": "TOPIX Small 2",
+      "price": 1526.0,
+      "dividend": 95.0,
+      "yieldPct": 6.23,
+      "forwardDividend": 40.0,
+      "dividendBasis": "実績(TTM)",
+      "exMonths": [
+        3
+      ],
+      "marketCap": 30679455744,
+      "specialDividendSuspected": true,
+      "priceDate": "2026-09-07",
+      "businessSummary": "PCA Corporation develops and sells computer software in Japan. The company offers accounting solutions, including bill management option, consolidated settlement option, data linkage option, workflow, payment management, cost management, cost management for construction industry, international trading, and consolidated accounting solutions. It also provides HR management solutions comprising time clock, shift management, attendance management workflow, payment statement electronic distribution, social insurance and labor insurance management, payment record, daily payroll, and business form design solutions. In addition, the company offers order entry simultaneous entry option, sales/purchase simultaneous entry option, convenience store receiving agent option, data linkage option, specified slip issuance, POS cash register, sales force automation (SFA), customer management, handy terminal, EDI, and business form design solutions. PCA Corporation was incorporated in 1980 and is headquartered in Tokyo, Japan.",
+      "website": "https://pca.jp",
+      "employees": 755,
+      "headquarters": "Tokyo",
+      "news": [
+        {
+          "title": "ピー・シー・エー（9629）、売上・利益で修正後予想どおりに着地 資本政策はDOE4.5パーセント程度の基本方針を発表",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5fVGFzVl91RU9NQzRDYmsyN21LRGRMLTZZRnJOQkdUMWs5eml3a3RobjRROXczWU50RHpEZ0V0aDZrZ09uZHJDRm5NR0swM1BwQkE?oc=5",
+          "source": "ログミーFinance",
+          "publishedAt": "2026-05-08"
+        },
+        {
+          "title": "ＰＣＡ、今期経常は47％減益、55円減配へ",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE03b3NzMnpXVjdGQldrRHpGejdNYzJ1ZVdMUEtQV2lBVUVVelhEWUpNd0dwRjgtdHJDSVB5NXVveEhRSWdWWVdrZmpEX0VXRllTS1E?oc=5",
+          "source": "株探",
+          "publishedAt": "2026-04-27"
+        },
+        {
+          "title": "【ピー・シー・エー FY2026 FY 決算説明会】営業益6％減、AI開発に16億円投入 配当は95円→40円に大幅減額",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1EWXZ4Mlg5RkVTcVVvcG5HTTdlMUdQcm84bklveFNMM3hwZnBiWWdsa0FkSUtxMzJxbXRxSXNZd1hiVEZoU2hHUHgwX1BVRjNUMUVIakZGWGJDT3NsckdN?oc=5",
+          "source": "BigGo ファイナンス",
+          "publishedAt": "2026-07-22"
+        }
+      ]
+    },
+    {
+      "rank": 19,
       "code": "3431",
       "name": "宮地エンジニアリンググループ",
       "market": "プライム",
       "sector": "金属製品",
       "sizeCategory": "TOPIX Small 1",
-      "price": 1577.0,
+      "price": 1576.0,
       "dividend": 97.5,
-      "yieldPct": 6.18,
+      "yieldPct": 6.19,
       "forwardDividend": 75.0,
       "dividendBasis": "実績(TTM)",
       "exMonths": [
         3,
         9
       ],
-      "marketCap": 41793933312,
+      "marketCap": 41767411712,
       "specialDividendSuspected": false,
-      "priceDate": "2026-09-04",
+      "priceDate": "2026-09-07",
       "businessSummary": "Miyaji Engineering Group,Inc., through its subsidiaries, engages in the construction and civil engineering activities in Japan. It is involved in the designing, production, erection, installation, maintenance, and repair of bridges, steel frames, and other steel structures; design and production of prestressed concrete; and design, manufacture, installation, sale, and repair of bridges, coastal structures, etc. The company also designs, manufactures, and installs steel structures; sells bolts and welding materials; and offers temporary staffing services, and other business operations, as well as solar power generation activities. Miyaji Engineering Group,Inc. was founded in 1908 and is headquartered in Chuo, Japan.",
       "website": "https://www.miyaji-eng.com",
       "employees": 814,
@@ -829,24 +872,24 @@
       ]
     },
     {
-      "rank": 19,
+      "rank": 20,
       "code": "7226",
       "name": "極東開発工業",
       "market": "プライム",
       "sector": "輸送用機器",
       "sizeCategory": "TOPIX Small 1",
-      "price": 2294.0,
+      "price": 2299.0,
       "dividend": 140.0,
-      "yieldPct": 6.1,
+      "yieldPct": 6.09,
       "forwardDividend": 120.0,
       "dividendBasis": "実績(TTM)",
       "exMonths": [
         3,
         9
       ],
-      "marketCap": 88526241792,
+      "marketCap": 87409557504,
       "specialDividendSuspected": false,
-      "priceDate": "2026-09-04",
+      "priceDate": "2026-09-07",
       "businessSummary": "Kyokuto Kaihatsu Kogyo Co.,Ltd. manufactures and sells special purpose vehicles, environmental equipment and systems, and car parking systems in Japan. The company offers vehicles for the construction sector, including dump, sprinkler, and concrete mixer trucks; piston type, squeeze type, stationary, high pressure and large capacity piston concrete pumps; and stationary mortar pumps. It also provides vehicles for the logistics and environmental sectors, such as tailgate lifters; tank, single car carrier, press refuse, mechanical/hydraulic operation refuse, heavy duty refuse, and container carrier trucks; and steel cargo bodies. In addition, the company offers environmental equipment and systems comprising pulverizers for crushing domestic and industrial wastes; and reuse, derived, and fuel (RDF) system, a solid fuel made from flammable garbage used as heat energy for hot-water supply, heating and cooling, and power generation. Further, it provides multistory car parking systems, including loading and unloading pit type, loading and unloading transverse pit type, and loading and unloading transverse ground type parking systems. Further, the company provides multistory parking systems, such as loading and unloading pit type, loading and unloading transverse pit type, and loading and unloading transverse ground type parking systems; and real estate rental services. The company was formerly known as Kyokuto Kaihatsu Kikai Kogyo Co., Ltd. and changed its name to Kyokuto Kaihatsu Kogyo Co.,Ltd. in April 1971. Kyokuto Kaihatsu Kogyo Co.,Ltd. was incorporated in 1955 and is headquartered in Osaka, Japan.",
       "website": "https://www.kyokuto.com",
       "employees": 3585,
@@ -867,51 +910,8 @@
         {
           "title": "極東開発工業 決算／26年3月期は増収増益、特装車受注も堅調に推移",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE95YXBxQVdUcFRUbHpOMEJBVWRrQy1QR2hPZHFJVXBwdEdDM0tkXzhmdWxSb3J0aW5Fb0tDS2p2ZW52Mm9GNF9UNDhUbHFzOGdDYVFhSg?oc=5",
-          "source": "トラックニュース",
+          "source": "trucknews.biz",
           "publishedAt": "2026-05-14"
-        }
-      ]
-    },
-    {
-      "rank": 20,
-      "code": "9629",
-      "name": "ピー・シー・エー",
-      "market": "プライム",
-      "sector": "情報・通信業",
-      "sizeCategory": "TOPIX Small 2",
-      "price": 1559.0,
-      "dividend": 95.0,
-      "yieldPct": 6.09,
-      "forwardDividend": 40.0,
-      "dividendBasis": "実績(TTM)",
-      "exMonths": [
-        3
-      ],
-      "marketCap": 30599247872,
-      "specialDividendSuspected": true,
-      "priceDate": "2026-09-04",
-      "businessSummary": "PCA Corporation develops and sells computer software in Japan. The company offers accounting solutions, including bill management option, consolidated settlement option, data linkage option, workflow, payment management, cost management, cost management for construction industry, international trading, and consolidated accounting solutions. It also provides HR management solutions comprising time clock, shift management, attendance management workflow, payment statement electronic distribution, social insurance and labor insurance management, payment record, daily payroll, and business form design solutions. In addition, the company offers order entry simultaneous entry option, sales/purchase simultaneous entry option, convenience store receiving agent option, data linkage option, specified slip issuance, POS cash register, sales force automation (SFA), customer management, handy terminal, EDI, and business form design solutions. PCA Corporation was incorporated in 1980 and is headquartered in Tokyo, Japan.",
-      "website": "https://pca.jp",
-      "employees": 755,
-      "headquarters": "Tokyo",
-      "news": [
-        {
-          "title": "ピー・シー・エー（9629）、売上・利益で修正後予想どおりに着地 資本政策はDOE4.5パーセント程度の基本方針を発表",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5fVGFzVl91RU9NQzRDYmsyN21LRGRMLTZZRnJOQkdUMWs5eml3a3RobjRROXczWU50RHpEZ0V0aDZrZ09uZHJDRm5NR0swM1BwQkE?oc=5",
-          "source": "ログミーFinance",
-          "publishedAt": "2026-05-08"
-        },
-        {
-          "title": "ＰＣＡ、今期経常は47％減益、55円減配へ",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE03b3NzMnpXVjdGQldrRHpGejdNYzJ1ZVdMUEtQV2lBVUVVelhEWUpNd0dwRjgtdHJDSVB5NXVveEhRSWdWWVdrZmpEX0VXRllTS1E?oc=5",
-          "source": "株探",
-          "publishedAt": "2026-04-27"
-        },
-        {
-          "title": "ピー・シー・エー[9629]：2026年3月期決算短信〔日本基準〕(連結) 2026年4月27日(適時開示) ：日経会社情報DIGITAL",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE50TnFOU3NQVDJ6TTBEaG5TSDV1QngzR1RqVHVRNEx2dHh5RTVtVzFrcVowOHYtUEVOeUFkYkt1aC1ib3BhVXdWQjJld19Nc3RCNVhMTmhjMVB0dVlMOThBOXBmMGY3S1dvenc?oc=5",
-          "source": "日本経済新聞",
-          "publishedAt": "2026-04-27"
         }
       ]
     },
@@ -922,18 +922,18 @@
       "market": "プライム",
       "sector": "非鉄金属",
       "sizeCategory": "",
-      "price": 690.0,
+      "price": 691.0,
       "dividend": 42.0,
-      "yieldPct": 6.09,
+      "yieldPct": 6.08,
       "forwardDividend": 48.0,
       "dividendBasis": "実績(TTM)",
       "exMonths": [
         3,
         9
       ],
-      "marketCap": 17233752064,
+      "marketCap": 16784827392,
       "specialDividendSuspected": false,
-      "priceDate": "2026-09-04",
+      "priceDate": "2026-09-07",
       "businessSummary": "Ahresty Corporation engages in the aluminum die casting and alloy ingots in Japan. The company offers engine blocks and transmission cases; pedestal heads/caps; metal mold casting products; free access floor panels; and peripheral equipment for die cast machine. It also provides products for electric vehicles and fuel cell vehicles. The company was formerly known as Fuso Light Alloys Co., Ltd. and changed its name to Ahresty Corporation in 1988. Ahresty Corporation was founded in 1938 and is headquartered in Tokyo, Japan.",
       "website": "https://www.ahresty.co.jp",
       "employees": 5190,
@@ -966,33 +966,33 @@
       "market": "グロース",
       "sector": "不動産業",
       "sizeCategory": "",
-      "price": 1816.0,
+      "price": 1821.0,
       "dividend": 110.0,
-      "yieldPct": 6.06,
+      "yieldPct": 6.04,
       "forwardDividend": 224.0,
       "dividendBasis": "実績(TTM)",
       "exMonths": [
         6
       ],
-      "marketCap": 13512742912,
+      "marketCap": 13438537728,
       "specialDividendSuspected": false,
-      "priceDate": "2026-09-04",
+      "priceDate": "2026-09-07",
       "businessSummary": "AMBITION DX HOLDINGS Co., Ltd., a real estate company, provides property management services in Japan and internationally. It also engages in the development and sale of properties; and rental brokerage and insurance business. Further, it involves in real estate investment business. AMBITION DX HOLDINGS Co., Ltd. was formerly known as Ambition Corporation and changed its name to AMBITION DX HOLDINGS Co., Ltd. in October 2021. AMBITION DX HOLDINGS Co., Ltd. was incorporated in 2007 and is based in Tokyo, Japan.",
       "website": "https://am-bition.jp",
       "employees": 0,
       "headquarters": "Tokyo",
       "news": [
         {
-          "title": "アンビＤＸ",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1fZHEwYWFfVmpZTEowajBDdk4yTlp2SmFnRm96S0F1ZUc0WlA3dlNMaEZZTVJETHJqRUV3SlZXekk4Q3FPb2pKQW1uTkdGcjB2MDhrWHlBeVpxS2lQOVo0WXJIWnJZVWZpenc?oc=5",
-          "source": "日本経済新聞",
-          "publishedAt": "2026-09-01"
-        },
-        {
           "title": "(株)アンビション ＤＸ ホールディングス【3300】：決算説明会書き起こし",
           "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE12SG1BdmhHUXFjSXVUMVpKTUhncjVVYzJoejJLUWRWN19XMk9nVW9reVpOVVJVdkdYVWtTM3dwbURjTDRDS0UybTZDM1VqSlY0cm1EelNLanU3NVR3SGNrNzR5TE41RnRDWFhzRGkyMHZrRUViYk5pYQ?oc=5",
           "source": "Yahoo!ファイナンス",
           "publishedAt": "2026-08-21"
+        },
+        {
+          "title": "アンビＤＸ",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1fZHEwYWFfVmpZTEowajBDdk4yTlp2SmFnRm96S0F1ZUc0WlA3dlNMaEZZTVJETHJqRUV3SlZXekk4Q3FPb2pKQW1uTkdGcjB2MDhrWHlBeVpxS2lQOVo0WXJIWnJZVWZpenc?oc=5",
+          "source": "日本経済新聞",
+          "publishedAt": "2026-09-01"
         },
         {
           "title": "アンビＤＸ、今期経常は20％増で2期ぶり最高益、2円増配へ",
@@ -1004,66 +1004,22 @@
     },
     {
       "rank": 23,
-      "code": "9219",
-      "name": "ギックス",
-      "market": "グロース",
-      "sector": "サービス業",
-      "sizeCategory": "",
-      "price": 891.0,
-      "dividend": 53.5,
-      "yieldPct": 6.0,
-      "forwardDividend": 53.5,
-      "dividendBasis": "実績(TTM)",
-      "exMonths": [
-        6,
-        12
-      ],
-      "marketCap": 5081711104,
-      "specialDividendSuspected": false,
-      "priceDate": "2026-09-04",
-      "businessSummary": "GiXo Ltd. provides various consulting services in Japan. The company offers data-informed, and maintenance services. It also provides DI platform, a cloud-native data infrastructure that enables continuous DI decisions. GiXo Ltd. was incorporated in 2012 and is headquartered in Minato, Japan.",
-      "website": "https://www.gixo.jp",
-      "employees": 0,
-      "headquarters": "Minato",
-      "news": [
-        {
-          "title": "【決算速報】ギックス、前期経常が一転黒字で上振れ着地・今期は45倍増益へ(株探ニュース)",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOU0RydEJZbnEwOF9yaUlOU3prTElpc3dIeXJhOFJTRExLS1NpR2xIU0g3LVV2REZRSHBNWnYxQVl1RU5jUktfZ1VVUno0S3J5UVF1RVVxa2EtQXdqcGppemdYU3RVc3J0WUZ2UXFWM2N3cU5GdGFNa3o2R1BkOUozeFNjVnVWNXc?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "publishedAt": "2026-08-14"
-        },
-        {
-          "title": "ギックス",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9oei1LMHhFeXloQkh4WGQzRUxPaE9wS2dITXN0ODR1R0VXMEltUzZrT184cmtaeW12cGg4Ymx1U2tBOGs2a21oZGtVYWhMeVc4dkNVbzRMWGxheDROVHUyQnlJMkFyRl9KdUE?oc=5",
-          "source": "日本経済新聞",
-          "publishedAt": "2026-08-20"
-        },
-        {
-          "title": "ギックス、前期経常が一転黒字で上振れ着地・今期は45倍増益へ",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBvcmRFUzRUM1kzWEM3aGp3V1JyeU9Cck44ekpZMG83bmt2VnZTOUU1X0lCeHl3NEpHaWo1QmxnTHlkM3p4S3BmTGkzbjBwNXpfeHc?oc=5",
-          "source": "株探",
-          "publishedAt": "2026-08-14"
-        }
-      ]
-    },
-    {
-      "rank": 24,
       "code": "7932",
       "name": "ニッピ",
       "market": "スタンダード",
       "sector": "その他製品",
       "sizeCategory": "",
-      "price": 11800.0,
+      "price": 11700.0,
       "dividend": 696.0,
-      "yieldPct": 5.9,
+      "yieldPct": 5.95,
       "forwardDividend": 701.0,
       "dividendBasis": "実績(TTM)",
       "exMonths": [
         3
       ],
-      "marketCap": 32759193600,
+      "marketCap": 32507199488,
       "specialDividendSuspected": false,
-      "priceDate": "2026-09-04",
+      "priceDate": "2026-09-07",
       "businessSummary": "Nippi,Incorporated, together with its subsidiaries, manufactures and sells collagen and gelatin products in Japan, Thailand, rest of Asia, North America, and internationally. It operates through Collagen Casing Business, Gelatin-Related Business, Cosmetics Related Business, Leather-Related Business, Pipes and Real Estate Business, and Food and Other Businesses segments. The company offers collagen casings for use in various fields, including sausages, other food, medicine and medical care, and cosmetics; gelatin products, which is used in food, pharmaceuticals, and photo films; collagen peptides for the food and pharmaceutical industries; leather products for the automotive industry; and collagen-based cosmetics, skin and health care, and functional food products. It also provides functional polymers comprising Nippi Linker cross-linked polyvinyl chloride (PVC) films and sheets, and cross-linked PVC compounds for electric wires and cables; and Nippi V PVC quilting cloth and foam products. In addition, the company offers pet supplements, and test regents and kits for animals; life science products, such as low endotoxin gelatin products, recombinant human laminin protein for iPS cell culture substrates, lab equipment and supplies, and reagents for research; and synthetic products, such as plastics and compounds. Further, it engages in the development of urban renewal projects; and provision of management, consulting, and real estate rental services. The company was formerly known as The Japan Leather Mfg. Co., Ltd. and changed its name to Nippi,Incorporated in February 1974. The company was incorporated in 1907 and is headquartered in Adachi, Japan.",
       "website": "https://www.nippi-inc.co.jp",
       "employees": 630,
@@ -1090,15 +1046,15 @@
       ]
     },
     {
-      "rank": 25,
+      "rank": 24,
       "code": "2146",
       "name": "ＵＴグループ",
       "market": "プライム",
       "sector": "サービス業",
       "sizeCategory": "TOPIX Small 1",
-      "price": 227.0,
+      "price": 226.0,
       "dividend": 13.34,
-      "yieldPct": 5.88,
+      "yieldPct": 5.9,
       "forwardDividend": 13.34,
       "dividendBasis": "実績(TTM)",
       "exMonths": [
@@ -1107,14 +1063,20 @@
         9,
         12
       ],
-      "marketCap": 128027123712,
+      "marketCap": 128064446464,
       "specialDividendSuspected": false,
-      "priceDate": "2026-09-04",
+      "priceDate": "2026-09-07",
       "businessSummary": "UT Group Co.,Ltd. engages in the dispatch and outsourcing of permanent employees in the manufacturing, design and development, construction, and other sectors in Japan. The company offers factory operators, and design and development engineers for manufacturing companies. It also provides worker dispatch, manufacturing outsourcing, business process outsourcing, personnel placement, and support for structural reform for corporate clients. The company was formerly known as UT Holdings Co., Ltd. and changed its name to UT Group Co.,Ltd. in July 2015. UT Group Co.,Ltd. was founded in 1995 and is headquartered in Tokyo, Japan.",
       "website": "https://www.ut-g.co.jp",
       "employees": 34772,
       "headquarters": "Tokyo",
       "news": [
+        {
+          "title": "ＵＴグループ(株)【2146】：今の株価の理由は？値動きの背景をAIが解説",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1WdVdHdmowN0p0R2xlUWNSbk1YMWNWZ29xWHp0TGRzSldjVmNSWFcwaGR4YnNCZV9RNDhsRG5vWmRpMTlRODY0Z2pweE9EYmJMdHh5bDJuel90dHY4cmhV?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "publishedAt": "2026-09-08"
+        },
         {
           "title": "UTグループ：半導体向け好調で1Q業績は過去最高益、配当利回り4.5%だけでは評価できない独自モデル",
           "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE95MTBWMl96MDNEb1VqUm91eXo0VFNpMWZYa1pRZFZYSGVYRFRrNmhIUlBhVkNsZ19MeW5kUzd2NS1JQXhtM25aRWxfb0JRTERidGViZEJjczRYVTlHaEZPOA?oc=5",
@@ -1126,12 +1088,50 @@
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1ibWwyeUtTWENQS21RX1RsbG9jYXBqY0ROSktkdmFscUp1alJvVXNiZ0JvQ3FEc0NCam1IcGJ4WmViRWgtUUtsemZIRzhLYXF3NC0yeVlUNGEtTUVKME8ycnhhbzhCMXVHakE?oc=5",
           "source": "日本経済新聞",
           "publishedAt": "2026-05-14"
+        }
+      ]
+    },
+    {
+      "rank": 25,
+      "code": "9219",
+      "name": "ギックス",
+      "market": "グロース",
+      "sector": "サービス業",
+      "sizeCategory": "",
+      "price": 908.0,
+      "dividend": 53.5,
+      "yieldPct": 5.89,
+      "forwardDividend": 53.5,
+      "dividendBasis": "実績(TTM)",
+      "exMonths": [
+        6,
+        12
+      ],
+      "marketCap": 5070517760,
+      "specialDividendSuspected": false,
+      "priceDate": "2026-09-07",
+      "businessSummary": "GiXo Ltd. provides various consulting services in Japan. The company offers data-informed, and maintenance services. It also provides DI platform, a cloud-native data infrastructure that enables continuous DI decisions. GiXo Ltd. was incorporated in 2012 and is headquartered in Minato, Japan.",
+      "website": "https://www.gixo.jp",
+      "employees": 0,
+      "headquarters": "Minato",
+      "news": [
+        {
+          "title": "ギックス[9219]：2026年６月期決算説明会書き起こし公開のお知らせ 2026年8月20日(適時開示) ：日経会社情報DIGITAL",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9XZHNCQjFzSEp0d2Q1V2NyTGVRWGdIdTB2Z0llZjhBbjd0V3JtMmxuZHNLN09obnZSTnR1YnRnTW1qeV9zTEk3X1U2ZjJDSzNaVUxaNUp4anZfMjhvTElHczNqSTlWcnFKNXc?oc=5",
+          "source": "日本経済新聞",
+          "publishedAt": "2026-08-20"
         },
         {
-          "title": "ＵＴグループ(株)【2146】：企業情報（決算時期や平均年収、代表者名、IR動画など）",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9rNjJPTXdJSHdRblBYTDhPeDBKUU5iOTlGeWpJOUpNM196OTdGR3RhM0h6V18ybk5HdEZYMjRmVXNoQVhYeEVibnFMS0JkS0dPSnNGeno1NUtRT0JO?oc=5",
+          "title": "【決算速報】ギックス、前期経常が一転黒字で上振れ着地・今期は45倍増益へ(株探ニュース)",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOU0RydEJZbnEwOF9yaUlOU3prTElpc3dIeXJhOFJTRExLS1NpR2xIU0g3LVV2REZRSHBNWnYxQVl1RU5jUktfZ1VVUno0S3J5UVF1RVVxa2EtQXdqcGppemdYU3RVc3J0WUZ2UXFWM2N3cU5GdGFNa3o2R1BkOUozeFNjVnVWNXc?oc=5",
           "source": "Yahoo!ファイナンス",
-          "publishedAt": "2026-09-04"
+          "publishedAt": "2026-08-14"
+        },
+        {
+          "title": "ギックス、前期経常が一転黒字で上振れ着地・今期は45倍増益へ",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBvcmRFUzRUM1kzWEM3aGp3V1JyeU9Cck44ekpZMG83bmt2VnZTOUU1X0lCeHl3NEpHaWo1QmxnTHlkM3p4S3BmTGkzbjBwNXpfeHc?oc=5",
+          "source": "株探",
+          "publishedAt": "2026-08-14"
         }
       ]
     },
@@ -1142,18 +1142,18 @@
       "market": "プライム",
       "sector": "サービス業",
       "sizeCategory": "TOPIX Mid400",
-      "price": 3350.0,
+      "price": 3345.0,
       "dividend": 196.0,
-      "yieldPct": 5.85,
+      "yieldPct": 5.86,
       "forwardDividend": 181.0,
       "dividendBasis": "実績(TTM)",
       "exMonths": [
         3,
         9
       ],
-      "marketCap": 258256453632,
+      "marketCap": 254627741696,
       "specialDividendSuspected": false,
-      "priceDate": "2026-09-04",
+      "priceDate": "2026-09-07",
       "businessSummary": "MEITEC Group Holdings Inc. engages in the engineering solution business in Japan. It operates through Engineering Solutions Business; Engineer introduction business; and Other segments. The company offers temporary staffing and job placement services for engineers. It also provides temporary staffing to cover design assistance, as well as various types of office work, including paperwork and reception; supply of senior age temporary engineering staff; engineer placement business service for manufacturing; and office services, as well as employs the disabled persons. The company was formerly known as Meitec Corporation and changed its name to MEITEC Group Holdings Inc. in October 2023. The company was incorporated in 1974 and is headquartered in Tokyo, Japan.",
       "website": "https://www.meitecgroup-holdings.com",
       "employees": 12399,
@@ -1195,9 +1195,9 @@
         6,
         12
       ],
-      "marketCap": 32592240640,
+      "marketCap": 32535093248,
       "specialDividendSuspected": false,
-      "priceDate": "2026-09-04",
+      "priceDate": "2026-09-07",
       "businessSummary": "Mizuho Medy Co.,Ltd. engages in the research and development, manufacture, and sale of in vitro diagnostic products, and related scientific and technical information services in Japan. The company offers molecular diagnostic products, such as nucleic acid amplification test products comprising gene analysis instruments and mycoplasma pneumoniae nucleic acid kits. It also provides rapid immunoassay products, including influenza virus antigen test kit; RS virus and human metapneumovirus antigen test kit; streptococcus pneumoniae antigen and legionella antigen test kit; mycoplasma pneumoniae antigen test kit; adenovirus antigen test kit; rotavirus and adenovirus antigen test kit ;norovirus antigen test kit; Group A streptococcal antigen test kit; pregnancy test kit; ovulation test kit; and fecal occult blood test kit for in vitro diagnostic use. In addition, it offers reagents for detection in research and agriculture use; and reagents for biochemical test. Further, the company engages in import and export activities. It operates in the United States, Belgium, Finland, Netherlands, Taiwan, Thailand, and internationally. Mizuho Medy Co.,Ltd. was incorporated in 1977 and is headquartered in Tosu, Japan.",
       "website": "https://www.mizuho-m.co.jp",
       "employees": 193,
@@ -1225,87 +1225,87 @@
     },
     {
       "rank": 28,
-      "code": "5410",
-      "name": "合同製鐵",
+      "code": "8150",
+      "name": "三信電気",
       "market": "プライム",
-      "sector": "鉄鋼",
-      "sizeCategory": "TOPIX Small 1",
-      "price": 3100.0,
-      "dividend": 180.0,
-      "yieldPct": 5.81,
-      "forwardDividend": 100.0,
+      "sector": "卸売業",
+      "sizeCategory": "TOPIX Small 2",
+      "price": 3265.0,
+      "dividend": 190.0,
+      "yieldPct": 5.82,
+      "forwardDividend": 140.0,
       "dividendBasis": "実績(TTM)",
       "exMonths": [
         3,
         9
       ],
-      "marketCap": 45991182336,
-      "specialDividendSuspected": true,
-      "priceDate": "2026-09-04",
-      "businessSummary": "Godo Steel, Ltd. manufactures and sells steel products in Japan. It operates through Steel business and Agricultural materials business segments. The company offers wire rods for tire chains, stapler needles, and fencing applications; H-beams and channels that are used in construction, civil engineering, and other sectors; structural bars, which are used as materials for making parts of construction and industrial machinery, ships, and other equipment; and rails. It also provides deformed bars used as construction and civil engineering materials; EG joints and anchor plates, and friction welding; and billets. In addition, the company is involved in manufacture and sale of large and medium shapes, rails, structural bars and wire rods, steel bar and wire products, screw rebars, machinery and materials for steel making; and organic fertilizer and compound fertilizers. Godo Steel, Ltd. was incorporated in 1937 and is headquartered in Kita, Japan.",
-      "website": "https://www.godo-steel.co.jp",
-      "employees": 2168,
-      "headquarters": "Kita",
+      "marketCap": 38931525632,
+      "specialDividendSuspected": false,
+      "priceDate": "2026-09-07",
+      "businessSummary": "Sanshin Electronics Co., Ltd. sells and trades in electronic components and other devices in Japan and internationally. The company offers integrated circuits, semiconductor elements, and general electronic components. It also plans, designs, and manufactures IoT and Edge AI devices; and develops applied software for microcontrollers and simulations for semi-custom LSIs. In addition, the company provides IT infrastructure solutions, including WAN/LAN/mobile, virtualization, cloud, office communication, security, and operational support services; video solutions, such as live relay systems, program transmission systems, IPTV systems, nonlinear editing systems, studio systems, and various video solutions; and various support and services, including call-center services, maintenance-support services, and system-configuration services. Further, the company provides application services in the areas of data analysis systems; call-center systems; individual system development; cloud/software as a service; business systems comprising sales, accounting, payroll, attendance, production, etc.; and groupware consisting of e-mail, schedule management, facility reservation, etc. Additionally, it offers housing, cloud computing, system integration, and operation and maintenance services, as well as support services for construction of networks/circuits. It serves electronic makers, newspaper publishing companies, broadcast stations, government offices, schools, etc. Sanshin Electronics Co., Ltd. was incorporated in 1951 and is headquartered in Tokyo, Japan.",
+      "website": "https://www.sanshin.co.jp",
+      "employees": 642,
+      "headquarters": "Tokyo",
       "news": [
         {
-          "title": "合同鉄、上期経常を62％下方修正",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE90YTdxTHJjVF94aDFzTG9QblBod0FOV1pCblZpeEJHNXZJRnh2UmN6WmtCdzNNUHVFZjlnNHpndjNiVWh1aXMtb1lGYzBiUktDNVE?oc=5",
-          "source": "株探",
-          "publishedAt": "2026-07-31"
+          "title": "三信電気[8150]：2026年３月期 決算短信〔日本基準〕（連結） 2026年5月14日(適時開示) ：日経会社情報DIGITAL",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5JbWNEdUEtRnZFMGhXZ0lOUUNqUEpiTU1Bam4wSFpsY3Z1aGxqcDNvMjUtblNlc0h6dWVvUXdlRXZpTUZnXzFyamZzZVdxdHpSRUlwRFhjbUNVQnhsWVQ0ZzQyaGtybzQzOHc?oc=5",
+          "source": "日本経済新聞",
+          "publishedAt": "2026-05-14"
         },
         {
-          "title": "【決算速報】合同製鐵、1Q経常982百万。(アイフィス株予報)",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPR0UyQTZLVTNYZ0dLQ01ya0dPVnJacTdyeHFPTkxydWQ5Q1RyNXhHZzJ6V2hoZ2xWYjItR0xURHFTS2I2cTd6RzdjMVdCcEhhUC1nUVowbWdwMGdmcVNFUXlEdndWS2lfRWFsLUF3YjNQRUdjTzNobU1LcUhuZThBcEMwR1BuRFU?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "publishedAt": "2026-07-31"
+          "title": "三信電、今期経常は18％減益、前期配当増額も今期減配",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE0talZoTHZCemdHZHY4bGRKV2xFSnQ4WnZaeUhqLUUzdGNYQmRpRU1nWVFlQlg1VFZkV1J6bEhZVDNyLXRSOWc3YnNKMzJZZHlocmc?oc=5",
+          "source": "株探",
+          "publishedAt": "2026-05-14"
         },
         {
-          "title": "合同鉄、今期経常は37％減益、80円減配へ",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE43dWlsWG1raF9vVUJoRU9hbE90d1ZxVmljYjZwTWVFMlVSdVNRblN1ZzVDYXFHMnBvRVVSUXlQaTdCYUp3cmpfdnZzZ3oxS2tfUXc?oc=5",
+          "title": "三信電、上期経常を54％上方修正",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA5bEFsdnRubDZJMHZxcmZUT214R09oQ3RCR1o1eGN0ajQ3dzNPQ2hlTW0welRTdG1sMUx5WHh5NHVEaGVuMVpmTzZGZGZuUTBBNlE?oc=5",
           "source": "株探",
-          "publishedAt": "2026-04-27"
+          "publishedAt": "2026-08-05"
         }
       ]
     },
     {
       "rank": 29,
-      "code": "7305",
-      "name": "新家工業",
-      "market": "スタンダード",
-      "sector": "鉄鋼",
-      "sizeCategory": "",
-      "price": 2761.0,
-      "dividend": 160.0,
-      "yieldPct": 5.8,
-      "forwardDividend": 200.0,
+      "code": "3284",
+      "name": "フージャースホールディングス",
+      "market": "プライム",
+      "sector": "不動産業",
+      "sizeCategory": "TOPIX Small 2",
+      "price": 1277.0,
+      "dividend": 74.0,
+      "yieldPct": 5.79,
+      "forwardDividend": 76.0,
       "dividendBasis": "実績(TTM)",
       "exMonths": [
         3,
         9
       ],
-      "marketCap": 26475413504,
+      "marketCap": 52313227264,
       "specialDividendSuspected": false,
-      "priceDate": "2026-09-04",
-      "businessSummary": "Araya Industrial Co., Ltd. manufactures and sells steel products in Japan and internationally. The company operates through three segments: Steel Pipe-Related Business, Bicycle-Related Business, and Real Estate Leasing Business. The company offers ordinary steel pipes, stainless steel pipes, deformed steel pipes, various shaped steel pipes, and precision parts for OA machines. It also offers wheelchair suspension wheels, wing arms, wheelchair with absolex, and industrial absolex, as well as bicycle rims; and imports and sells bicycles. In addition, the company engages in real estate rental business, including leasing of lands, buildings, and warehouses. Further, it offers welfare equipment. Araya Industrial Co., Ltd. was founded in 1903 and is based in Osaka, Japan.",
-      "website": "https://www.araya-kk.co.jp",
-      "employees": 501,
-      "headquarters": "Osaka",
+      "priceDate": "2026-09-07",
+      "businessSummary": "Hoosiers Holdings Co., Ltd., a holding company, engages in housing-related businesses in Japan. The company is involved in sale of newly built condominium and detached house; participating in urban redevelopment projects; real estate investment and rental business; and renovation apartment sales business; private REIT and private fund management and consulting business. It also engages in apartment management; building management; insurance agency; interior sales and renovation; hotel management; and PPP and PFI business planning and management business. Hoosiers Holdings Co., Ltd. was incorporated in 2013 and is headquartered in Tokyo, Japan.",
+      "website": "https://www.hoosiers.co.jp",
+      "employees": 924,
+      "headquarters": "Tokyo",
       "news": [
         {
-          "title": "新家工業[7305]：2026年3月期 決算短信[日本基準] （連結） 2026年5月13日(適時開示) ：日経会社情報DIGITAL",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE80QTdhZGpoU0xhaUt3SHJiblB1c3JBM1Vmb2dEM2Z5d2RZMmxpcU0xWUlqaUo4bU5ScDktR3kxNXpvNkMwNWZzbHJQZkZBWlhqbmRnWjdKemtMVmQtSi0wcFB1ZnA1Z0RtZWc?oc=5",
+          "title": "フージャース",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE13ME5zNzFDbzZ4RWNxblQ2cG43UUFURTRkd3lfLUkzZzJrX2dOUFc3NmJjRzY2MVpIS3J0VUpUbFVCVjN5Q3Zwdjl5NHo1UTgxNEYzZ3liN1FBeUhDdWFsdHdsMWtkZ3VLdmc?oc=5",
           "source": "日本経済新聞",
           "publishedAt": "2026-05-13"
         },
         {
-          "title": "新家工、今期経常は8％増益、前期配当増額も今期減配",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9LYnd5RkE2SzkzTGhsdkZpOHM5cFQwQldHVmN0YnI1MDE4blNQcUhCaHdiLW9GMnE2LWhpeHlXOFFxZlprTm5EaFg5aFpQSXI2SWc?oc=5",
+          "title": "フージャース、4-12月期(3Q累計)経常が赤字転落で着地・10-12月期も赤字転落",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1uVkZwMUpxcGlBdW9jR2RmVzBZakF2UDRhUEMzUFp5WjdBc05ncFR5ODBrRGdsVlRYc1VOU0ZfYkxuNjlBUEJDY0xucWhudTN5UUE?oc=5",
           "source": "株探",
-          "publishedAt": "2026-05-13"
+          "publishedAt": "2026-02-13"
         },
         {
-          "title": "【決算速報】新家工、4-6月期(1Q)経常は17％増益で着地(株探ニュース)",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNdzFjNFM0Skd0dE94NXF1eXJDQlhuclpSX3JUaFUtVkgtaXhMelhSdGN5SThzcF9kSW5OdVRWajItM21DR2dmeVY0QjFteFhSRXhKcnIzSHVKempDT3FYanlreGFkWjZYX2NyblZjb294OUlwTFJHbmF5UjNsc1JBYkRZdlBxbEk?oc=5",
+          "title": "【決算速報】フージャース、4-6月期(1Q)営業は黒字浮上で着地(株探ニュース)",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNSklhUVZKTVRhd2o1a1dlcEd2a0Vvc1A0MkJNVG9yM0dwd0ZsNXNXUlNEbnoyc29vX3c4cEkwVE9uRGJvVG5FcmRlWVY0Z0h3VUIyWEs3Nnllal9HMG5RVlMyek5DMlJ1QmNhZXNCdEtUYW9FZXlmQm9ZTEhvcWFlNDlvU1MwMTg?oc=5",
           "source": "Yahoo!ファイナンス",
           "publishedAt": "2026-08-07"
         }
@@ -1313,45 +1313,45 @@
     },
     {
       "rank": 30,
-      "code": "5729",
-      "name": "日本精鉱",
+      "code": "3571",
+      "name": "ソトー",
       "market": "スタンダード",
-      "sector": "非鉄金属",
+      "sector": "繊維製品",
       "sizeCategory": "",
-      "price": 1733.0,
-      "dividend": 100.0,
+      "price": 728.0,
+      "dividend": 42.0,
       "yieldPct": 5.77,
-      "forwardDividend": 100.0,
+      "forwardDividend": 50.0,
       "dividendBasis": "実績(TTM)",
       "exMonths": [
         3,
         9
       ],
-      "marketCap": 17459085312,
+      "marketCap": 8786418688,
       "specialDividendSuspected": false,
-      "priceDate": "2026-09-04",
-      "businessSummary": "Nihon Seiko Co., Ltd. manufactures and sells antimony products and metal powders in Japan. It offers antimony trioxide, which is used as a flame-retardant additive for various plastic material and polyester polymerization catalysts. The company also provides antimony metal for use in raw materials for semiconductors, batteries, bearing friction reduction, hard lead castings, electric wires, cables, typefaces, lead pipes, and other alloys; antimony metal powder for glass clarifying agents and alloys; and antimony metal shots for alloys. In addition, it offers special treatment antimony trioxide; sodium antimonate for use in engineering plastics, and defoaming agent and decolorizing agent for high-grade glass such as optical glass; antimony trisulfide for use in friction material in brake pads and brake shoes; and antimony pentasulfide used as a surface finish with a sense of weight and durability for entrances and elevator doors of shrines, temples, western-style buildings, and public facilities. Further, the company provides antimony trichloride and antimony pentachloride for use as catalysts in fluorination, chlorination, and bromination of organic compounds, pigments, and semiconductor materials; SULMICS series, provides various metal sulfides such as tin sulfide and SULMICS-121; and STEM series a composite flame retardant that does not contain halogens or antimony and is available in magnesium hydroxide-based and phosphorus-based types, such as PP and PE. Additionally, it manufactures and sells atomized metal powders of copper, iron alloys, copper alloys, and silver. The company was formerly known as Nakase Kogyo Co., Ltd. and changed its name to Nihon Seiko Co., Ltd. in 1936. Nihon Seiko Co., Ltd. was incorporated in 1935 and is headquartered in Tokyo, Japan.",
-      "website": "https://www.nihonseiko.co.jp",
-      "employees": 263,
-      "headquarters": "Tokyo",
+      "priceDate": "2026-09-07",
+      "businessSummary": "Sotoh Co., Ltd. engages in the dyeing and processing of woolen, composite fiber, and knitted fabrics in Japan. The company provides textile and synthetic fiber dyeing and processing services; produces brushed and glossy fabrics; and manufactures and sells textile products. It also engages in the real estate business. The company was incorporated in 1923 and is headquartered in Ichinomiya, Japan.",
+      "website": "https://www.sotoh.co.jp",
+      "employees": 575,
+      "headquarters": "Ichinomiya",
       "news": [
         {
-          "title": "日精鉱、4-6月期(1Q)経常は81％減益で着地",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5XNzd5Q09Ta1BQN0FhWEdsek9OeE90NjBQMC03RXItZndJWHJEeGRzUUx2RkkxVnVMbUpiVHp2M1NXODRPLU1kY1RWQTlJa1J3OEE?oc=5",
+          "title": "ソトー、4-6月期(1Q)経常は20％減益で着地",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5hb3NDR1ZmVmtLRU5hbnN6TzJqNzVNY0tXblhWWllCRmdMYlpIU29vQjdzbXZrYnZPREdfY1htYTZFQWlLblBtVzNrNjl2Y0hBZUE?oc=5",
           "source": "株探",
-          "publishedAt": "2026-08-06"
+          "publishedAt": "2026-08-12"
         },
         {
-          "title": "日本精鉱[5729]：2026年３月期 決算概要補足説明資料 2026年5月12日(適時開示) ：日経会社情報DIGITAL",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9hOEl3RU9oMnZlMnpwSmlSMFNBTEc5M1A5TGhfa3kwSVhRQjk2VWpLMWhuTTZxa1pZaUI3RUFGZzMySTNJcExlbURlSXlRZ2FZaGZsSVU3UloxUVp3TlZLVXpTRGJPNUdHWnc?oc=5",
+          "title": "ソトー[3571]：2027年３月期第１四半期決算短信〔日本基準〕(連結) 2026年8月12日(適時開示) ：日経会社情報DIGITAL",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBtbEhjcWhtcDc1X2pUaUxBWW13azZLZlZtdzQyOUkzeXpseG4tZ05GU3ZEYTVrWWlQeHBLVXBDMFAwcnpsTXM3YWg2dlFTSnlMRUFubXI4d0gxM2twX1FfV3R3d1VvMWFVd2c?oc=5",
           "source": "日本経済新聞",
-          "publishedAt": "2026-05-12"
+          "publishedAt": "2026-08-12"
         },
         {
-          "title": "日精鉱、今期経常は72％減益、前期配当増額も今期減配",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1EaVVWMXVUZVJZSGJLeHV4b0M3azNwbFJsd25LOS1SbjU0ZmlDR0ZXV1VHLVc0X1E4VEJjeFlXS0V6X05yeDN0T0luMU5JV3BTRFE?oc=5",
-          "source": "株探",
-          "publishedAt": "2026-05-12"
+          "title": "【決算速報】ソトー、4-6月期(1Q)経常は20％減益で着地(株探ニュース)",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPNU80MmpwOUdwUXJtZXpCMnF3ekttSGI5azQ3blRONUgwOVlmNUkxcjBIT3RwRWNEbUJqZks4U05kY3hUcWxPRDRVaGJ0b0tCZzRpUWV6MmxiN0hIMkRidjdBQTIzSTdLT0k5YVdiN3RRYWJ1MnRrSWdpcDNNMktjVDRxNHFxSk0?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "publishedAt": "2026-08-12"
         }
       ]
     }
