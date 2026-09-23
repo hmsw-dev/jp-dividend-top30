@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-09-18T15:05:43+00:00",
+  "generatedAt": "2026-09-23T15:33:56+00:00",
   "priceDate": "2026-09-18",
   "masterDate": "2026-01-31",
-  "nextUpdate": "2026-09-24 20:00 JST",
+  "nextUpdate": "2026-09-25 20:00 JST",
   "source": "yfinance (Yahoo Finance) / 銘柄マスタ: JPX 東証上場銘柄一覧",
   "stats": {
     "universe": 3765,
-    "priced": 3683,
-    "withDividend": 3053,
-    "unreachable": 82,
-    "verified": 147
+    "priced": 3682,
+    "withDividend": 3050,
+    "unreachable": 83,
+    "verified": 149
   },
   "summary": {
     "avgYield": 7.34,
@@ -60,7 +60,7 @@
         3,
         9
       ],
-      "marketCap": 108164169728,
+      "marketCap": 0,
       "specialDividendSuspected": true,
       "priceDate": "2026-09-18",
       "businessSummary": "Aoyama Trading Co., Ltd. engages in the business wear, credit card, printing and media, sundry sales, repair service, franchisee, real estate and other businesses in Japan. It offers suits, shoes, and casual clothing and other men's items; and ladies suits for job hunting, formal wear, and others. The company also issues and manages credit cards, as well as manages finance; provides direct mail and sales promotion services for the distribution and retailing industry. In addition, it offers shoe repair and shoe polishing, sneaker repair, and suitcase repair under the Mister Minit brand; operates food service under Yakiniku King and Yuzu an brands; reuse business under 2nd STREET; and wellness business under Anytime Fitness brand. Further, it engaged in the management and leasing of real estate; and operates in the web media business. Aoyama Trading Co., Ltd. was incorporated in 1964 and is headquartered in Fukuyama, Japan.",
@@ -69,22 +69,22 @@
       "headquarters": "Fukuyama",
       "news": [
         {
-          "title": "青山商、今期経常は9％増益、実質減配へ",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBQTklLdE1VNnVWV3dEdWNQYVhPYWVqZFh3S19JZGtZeENnSnhjamNRWXJUN1Z0Q3Q3bXM2aE9IbmRmemEzdEU5NVpNVUlLM3RzN2c?oc=5",
-          "source": "株探",
-          "publishedAt": "2026-05-12"
-        },
-        {
           "title": "青山商事[8219]：2026年3月期 決算説明会 2026年5月20日(適時開示) ：日経会社情報DIGITAL",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4ybjVUSVZRdGVaa2NFeHB6MDd3bDlESmV1bUxLYURDbThocnh0TnVTVTNzRS1MTy1jZXppMnhsNmU5eEpGWnk2Ykh1SXh5dWw0cTBZZngzbkNVajU4V3ZyUlE0dFBWbFlQVVE?oc=5",
           "source": "日本経済新聞",
           "publishedAt": "2026-05-20"
         },
         {
-          "title": "青山商事news｜第1Q売上高440億円0.7%増･経常利益12.1%減",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1nZ3hEZ3A1RzlOWlpOaHFJcXJOYmR0Qlc5RUJmb1RNZ0VVcTFocV9sMVd3amthYUpsWlpuSkJJYmt1TkxhZXJVQm9GQUNuOTQzOXo2SjBOUXo?oc=5",
-          "source": "news.shoninsha.co.jp",
-          "publishedAt": "2026-08-10"
+          "title": "【企業決算】青山商事、百十四銀行（５月１２日発表）＝２０２６年３月期",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1kVjRncWI4VGVWalF3dEI4bDhScXlvdm5UNjk2OU1fRTh3dVFTclljMDAwRkp3TnN0b0VfYWxKdU4zOC1rQ0RxT3R4eEI0dFdKSDVNdFhYSDlnaGJ5dHlOWHhjdVR6SjA?oc=5",
+          "source": "sanyonews.jp",
+          "publishedAt": "2026-09-18"
+        },
+        {
+          "title": "青山商事(株)【8219】：企業情報（決算時期や平均年収、代表者名、IR動画など）",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBXaGFFSlowX01PUkFxdG1IcTRyVzhMR3B6ektEbHVIWkM4R2xjTmplLXRjT1pQdjFtYXFlcnloSXVpMmVmX25PX25jMmVreEJ5Y2c5OE1iazJoVktm?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "publishedAt": "2026-09-18"
         }
       ]
     },
@@ -112,22 +112,22 @@
       "headquarters": "Fuchu",
       "news": [
         {
-          "title": "エーワン精密、今期経常は26％増益へ",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5QaUkzYUZzTDhhVWhwcTJ4UklpeWxRWFh0bmdrOUJPNnYyQTM4RXZKZ3g0MWkxYm5qMm85WXRrdXlsT05JNWhjSVF6bFVZODlYZXc?oc=5",
-          "source": "株探",
-          "publishedAt": "2026-08-10"
-        },
-        {
-          "title": "エーワン精密",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBKNVNqa1BSallNZkZfWlFoaDRGMk54UEdudkg1Wld2RTV1a0tBSWhobHpubE5aUnBzQkZQbGw4LUtwX0ZJUXJCOUlHWWdOSnNzTU9SSG5JeC0zVjJhRngwREpJSEF0SHlhdkE?oc=5",
-          "source": "日本経済新聞",
-          "publishedAt": "2026-05-08"
-        },
-        {
           "title": "エーワン精密、7-3月期(3Q累計)経常は2.3倍増益で着地",
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5zTC1aR2d3cGNkU1RlYzlZaS1aQldQYjZIXzFxTTlIQzdSUFVhTzJxZHp4YmxQOEtmVU4wNEZEV1RxMENNNEN0ZmZMcmRMekNRWVE?oc=5",
           "source": "株探",
           "publishedAt": "2026-05-08"
+        },
+        {
+          "title": "6月期決算の\"期末一括･高配当利回り\"5銘柄に注目！",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1zYWNWQmVWMTZObUM4LTV4NWtLSDJhM1ZsVXhJWkx4Qng0eDN0Q3k2WFNsUXpRZmZtVU1QSEJiVVZ6Zkg4WHRSSmtqOGtpcUdKSVY1UUs0dw?oc=5",
+          "source": "四季報オンライン",
+          "publishedAt": "2026-06-09"
+        },
+        {
+          "title": "(株)エーワン精密【6156】：企業情報（決算時期や平均年収、代表者名、IR動画など）",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1CYXU0UUp4UmZiLVFqYTlIVnZTR0k0SVlzUnlyMVhxaEFQZlF5WUJzclowb3liUUlwMUsxZjJwT196bi1JdkRoZ3ljUnhhN2ROeFlMZmVKa0xuM1pW?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "publishedAt": "1970-01-01"
         }
       ]
     },
@@ -156,6 +156,12 @@
       "headquarters": "Chiyoda",
       "news": [
         {
+          "title": "バリューコマース[2491]：2026年12月期 第２四半期（中間期）決算短信〔日本基準〕（非連結） 2026年7月29日(適時開示) ：日経会社情報DIGITAL",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9pcVd1aTlKUG5TZzA2U2tXc254cHBoRVlrTEVpOUZJMHhQVWY4T0ZQZTI2SDQ1eE5XN2JLTXVnZnQ1bXFwX19vT0xNMkFzX2JQYU4waG9iT2czUmw0Ri1zdmxlQmhFcnE2M0E?oc=5",
+          "source": "日本経済新聞",
+          "publishedAt": "2026-07-29"
+        },
+        {
           "title": "Ｖコマース、1-3月期(1Q)経常は赤字転落で着地",
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9UVGFEZzRDdndDWU9tejNlOGtxUjJRbTRma3RfSlg0emdsVThsb2FZVXhhWl9xOVFJRHJUMC04T0Nyb2tDVDFKZHV1ZzFuZjk3X1E?oc=5",
           "source": "株探",
@@ -166,12 +172,6 @@
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9OeTJFSi1hUG9vSUZibHVSQVFKZ1A5RUZSQ2dnRmd0UVNqRHdyU240Wm82dncwNktwdEFTMEFkUlQ1WVp5a2xuT0ZMYUxFU0J5VjlhWGp0d0pmTU5aaUhaQnNCdWh2TzIzMXc?oc=5",
           "source": "日本経済新聞",
           "publishedAt": "2026-04-28"
-        },
-        {
-          "title": "【決算速報】Ｖコマース、上期経常が赤字転落で着地・4-6月期も赤字転落(株探ニュース)",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPenc1WUV5MzY3SFBZWGxkU04tVW5Iemd4dUlwd2FIaERwMHB3OEh1ZXVRb0hZSXBUWHJ5bVl1cUx3czdUblVlc21DRUZDS1c5cTZ0ay1iaVNWaWNYYU9BSzdMZTFPWHRRbEhKR2VmQ0NMTlQ2d1d1WGE3a2ZPeXp6Ymh4aURDeGM?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "publishedAt": "2026-07-29"
         }
       ]
     },
@@ -199,22 +199,22 @@
       "headquarters": "Tokyo",
       "news": [
         {
-          "title": "ヘリオスＴＨ、4-6月期(1Q)営業は黒字浮上で着地",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBBa0Rsa05GYW1wNTJPeFFyRXdSQkJiUU0yR2hvZUpFWWY5c2JkaERQQnZwOGp0Q3hYeUdiUGRvMXFVX2Z4ZGpWdGQ1OWhWTm8yYWc?oc=5",
-          "source": "株探",
-          "publishedAt": "2026-08-04"
-        },
-        {
           "title": "ヘリオスＴＨ、今期経常は26％減益、前期配当増額も今期減配",
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1NNGlUaXlOcEdXOXZkZ2gxWG1SdFRUOE12ZnQ2Q0pzeUxKZlp1SXprZEJrZUFhZjRZd3RUWnVfaXdrOXY4c3F6N0pBTVRXOFZqbGc?oc=5",
           "source": "株探",
           "publishedAt": "2026-05-12"
         },
         {
-          "title": "ヘリオス テクノ ホールディング(株)【6927】：アナリストレポート",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1LTWl4YzJIUGpmb0N6ZjBmNVZON01VWHc1WHl3eDhRdEd3ZWxqQXdVVmNBOWpDdFZ4Tm5CTlR4NXd0VW9lMlA1bnFIZThDR1pLdzFmQVhBNGM2NkdUOTJFZkk2aUJudGdMZkpTZ21qdmg?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "publishedAt": "2026-02-14"
+          "title": "ヘリオスＴＨ、今期経常を27％上方修正、配当も11円増額",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5aR0pDZGNKT3VMay1RckE4eEdVc3FVTlFFZkpPQmdmREEtVGY2aGxFXzJhbnY1ZVF1UHpsR295VEJHUHJ0RnEzVUEtMmE2ZVd3aWc?oc=5",
+          "source": "株探",
+          "publishedAt": "2026-02-06"
+        },
+        {
+          "title": "ヘリオスＴＨ、4-6月期(1Q)営業は黒字浮上で着地",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBBa0Rsa05GYW1wNTJPeFFyRXdSQkJiUU0yR2hvZUpFWWY5c2JkaERQQnZwOGp0Q3hYeUdiUGRvMXFVX2Z4ZGpWdGQ1OWhWTm8yYWc?oc=5",
+          "source": "株探",
+          "publishedAt": "2026-08-04"
         }
       ]
     },
@@ -242,22 +242,22 @@
       "headquarters": "Tokyo",
       "news": [
         {
-          "title": "豊トラスティ証券(株)【8747】：企業情報（決算時期や平均年収、代表者名、IR動画など）",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5TamN5OEVSbXJEUTlRYlVFUENVLXM1WUNDcjJQUHg4QlE4UFRLeVRLYU9wOVdtajhLazdKcDJfRjdEaVBxay1DbTdOQi1EVDhsRV80Q3N5Q2N3eVBm?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "publishedAt": "2026-09-04"
+          "title": "豊トラスティ",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1xMEpPZmExc2hPYXN2c3M4SzIwTmJlZnlUQkVfcWlVSGY0NVNvZ2VBYmZmWGR4Z1o4SnhFdUp1WjkzS3U3d0M5djBWRTVMLXU4NFFWLU1YU2VKMzNySHJ2TG5CcVhqZDNQWXc?oc=5",
+          "source": "日本経済新聞",
+          "publishedAt": "2026-08-07"
         },
         {
-          "title": "豊トラスティ、前期経常は3倍増で3期連続最高益、今期業績は非開示",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE13bEFXQV9UbTk2aEp5Z2p0NF8tS3FOZTJHRVJVSVhxV1lZbEdaVVQ0MmhfeDU2TXpieUo3d29UR0JtelNVcG55ZThSZHFkMXR5Y3c?oc=5",
+          "title": "豊トラスティ、上期経常が21％増益で着地・7-9月期も2.8倍増益",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE94S1NKZWxMRXZkTXJYTkdYSEEtM2VYWll4RHVYSk9PZnlwcjJhaXNQSW95ekNyaVJFRXpJZzZJMTNVTjhyUFQ4MkN0Qk1yb28yTXc?oc=5",
           "source": "株探",
-          "publishedAt": "2026-05-08"
+          "publishedAt": "2025-11-07"
         },
         {
-          "title": "豊トラスティ、非開示だった前期経常は3倍増で3期連続最高益更新へ",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE8wX0xaS3FBVHZLN1ZuSDJ1d2pYRDR5aVFzUVF1TmdwcUE0VEZFMVgwLS1PcjktQWtFaXdnc00yaFVXd1gyY3RfWjVwbWRCWFUwQ2c?oc=5",
+          "title": "豊トラスティ、非開示だった上期経常は21％増益へ",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9oMi1GbldmNTVUWnU3N2JOMl9pNXhxczMtM18zVXhyZnEwTDFSeTc0eGQ4a20tQ3ZuMzY4ak5rTzFDaE5qQU14ZDRKN0tiSXdYeFE?oc=5",
           "source": "株探",
-          "publishedAt": "2026-05-07"
+          "publishedAt": "2025-11-06"
         }
       ]
     },
@@ -285,15 +285,15 @@
       "headquarters": "Chiyoda",
       "news": [
         {
-          "title": "ＩＴメディア、4-6月期(1Q)最終は44％増益で着地",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9nYTJkN29BLVAwamdPTWhDV2VDeG5mUTRfbFVka3UzSE5mb2h3UVRIclk1eFpYODBVRlNBck9RajlvcUtnaFo5TldXOXpfNVNTaUE?oc=5",
-          "source": "株探",
-          "publishedAt": "2026-08-03"
-        },
-        {
           "title": "アイティメディア[2148]：2026年３月期 決算短信〔ＩＦＲＳ〕（連結） 2026年5月1日(適時開示) ：日経会社情報DIGITAL",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5QNTN1eV83YTBEaXY0NTk0S2NvOVdBc3Vrc3NyLW9KZ0hqOGs4blpRTHR6UVlhVmFsazRubDBwZUs3LTNQTlJXZFdrSVJHMlVLR1NWWTVmNG9iZU1rVmFnX1hQTktiOWRVVWc?oc=5",
           "source": "日本経済新聞",
+          "publishedAt": "2026-05-01"
+        },
+        {
+          "title": "ＩＴメディア、今期最終は16％増益、50円減配へ",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9QcHZwSkJXeWNUb0J5VGRZVHBwOGtNZmUzOENNQ0phdndmZUJxaG42aXY3MF9ScVE3QXUtS01vUlZmT1B6aUhXeC1ESlBpbEl1b3c?oc=5",
+          "source": "株探",
           "publishedAt": "2026-05-01"
         },
         {
@@ -328,12 +328,6 @@
       "headquarters": "Shiga",
       "news": [
         {
-          "title": "シライ電子工業(株)【6658】：株価・株式情報（夜間PTS含む）",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5yNHdHUF9BcDBpOWtWMXFfcTltVDh3WHZaZTdubnVSR3F3dU9pckpSZkk5WGY2bGg4TkU3dXBxUGx6M05XTzB1cmlhcTJ2VVpJQ2c?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "publishedAt": "2026-09-18"
-        },
-        {
           "title": "シライ電子、今期経常は56％減益、15円減配へ",
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9QeW53UmpfTGJTSUtZVHFtdW5MeE04Nnh4dWNaMEVRc1FBS0lSdGdIZDhQclQ5eS1Wa1NWOEpKWGZEb1BERl9xVVdZTS1mMjdtaXc?oc=5",
           "source": "株探",
@@ -344,6 +338,12 @@
           "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1lYXFTdVNjQXA1RmpiMlBhTXJzVkFpMWFlVmllYWVCQVJISzdsLWszZjMyako5ZGVfTUV0aGhWWnVtT2ZaVmZsNTdNR2RtQ2x6QWNSRTBadGFuUzVFWEJV?oc=5",
           "source": "BigGo ファイナンス",
           "publishedAt": "2026-06-04"
+        },
+        {
+          "title": "シライ電子、4-6月期(1Q)最終は赤字転落で着地",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE8zNzBnRHJvQzdMVWZkOGJ4UnZQQ3NKUVRjb2NiLVpadkdMOVR5N1AwSE5nWW9UdEtIWHQ4M0gyRXRDZjNaZUdPNDFJeDZycFhOZ3c?oc=5",
+          "source": "株探",
+          "publishedAt": "2026-07-31"
         }
       ]
     },
@@ -371,22 +371,22 @@
       "headquarters": "Odawara",
       "news": [
         {
+          "title": "Ｈａｍｅｅ[3134]：2027年４月期 第１四半期 決算に関する質疑応答（要旨） 2026年9月18日(適時開示) ：日経会社情報DIGITAL",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE84RzhxcGJsdWtaOFVwTjdxNUZGNGN1dzMwbUhqUTB2U0hqNkhqUVJnN2VWQTNSMnFMbmlvblhUdzQzdkphRlN6T3h6NUpvWmFpX1VLeU9BZ3I5U29qWTdpMC1FczJiejZ3TkE?oc=5",
+          "source": "日本経済新聞",
+          "publishedAt": "2026-09-18"
+        },
+        {
           "title": "Ｈａｍｅｅ、5-7月期(1Q)経常は赤字転落で着地",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE04WFZaTm5zNG5rT1V4a1ZxT3ZPaS1MUjNnTFNjRDllckthWjFhb3VuS1U3YVlSN2c1aFdPdWRxdE5lTFBsV0RyWWJaanVsRHkxay1MY1dSWERZUThJemhNWnZn?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE85aDZ2T2JxdlhZTl9CZ1dLU1U4M2xaaWNoVWM3NUV3T2M5NlJYLVUxY21SSVB5QWswZFNvWDdnVVN5TjBvU0Q1bE43N1pRZEtlaFE?oc=5",
           "source": "株探",
           "publishedAt": "2026-09-14"
         },
         {
           "title": "Ｈａｍｅｅ[3134]：2027年４月期第１四半期決算説明動画配信のお知らせ 2026年9月16日(適時開示) ：日経会社情報DIGITAL",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOeU5TN2x0SDM4S2hwUzVEcmZmWkJUYlBuWUVpN2dCSURuanJoOUdlVjBGa3hiNnNORGhsWTUxdnVFR083blpHUXlPUkRQZ2VwTndxVm53eWZaT1A5MUxqUVplel9SZ0pzYjRIQXhjdkR3RllwQXR5cmN2Qjl6MmRPaUt2b2lLZTVXX1pCRURJazZlWFdPeTk4QW43T0FqbzNqcEJJQk5OREF3Q200THFMeWJPaXk1MFZEQXdETXo4ZE8tTUhuM1dPelZOekU?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBBVUVaMkJLVXEyR2ZOVWZzdUtvbWJvaTlOQm5yaWtCZzF5YkFGUkVoMkFqRkJKSjRHTnlXaEZBNjIxNkpJQ1ppRkV6Vk12a2FWMjNtODQ5bHRZTERiR3ZaTmxoMnM0eElreUE?oc=5",
           "source": "日本経済新聞",
           "publishedAt": "2026-09-16"
-        },
-        {
-          "title": "Hamee、2026年4月期3Q決算を発表 経常利益が前年同期比71.6％減など利益面が苦戦",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9xUEkxeHdUMGQxRGliMklYbmpQbERwQnE5LVNuMnotay1lbXVPVEwyblQ5M3pEWXI4cTFMZjJlbDZ0eFp0UXZFM0ZIOHZiOGtVc21v?oc=5",
-          "source": "startrise.jp",
-          "publishedAt": "2026-04-06"
         }
       ]
     },
@@ -415,22 +415,22 @@
       "headquarters": "Tokyo",
       "news": [
         {
-          "title": "ファンコミ、1-3月期(1Q)経常は60％減益で着地",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9FZVFSVm9RZmFGeURmWXBaN2lQNUk1UDNuVjQ2VUN1MVl2R2l6ZUdBTlVwSUd1VnlqQlhLNWZLTy1nZjdmblN6UXJUd1V4OUduWHc?oc=5",
-          "source": "株探",
-          "publishedAt": "2026-05-08"
-        },
-        {
-          "title": "ファンコミ",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9XcHZBMDJrdi1IMlBmZlJ6VlhSWEhZaFQteVlqN3hDUUNoZnNTTnFxTmktRjVrZUJnamVWREVSOXAyajVMN2pqdEJISUR6NU1xaE9YZm9jNjMwUXFqZ1V4ZktDRjFuMFQ5NWc?oc=5",
-          "source": "日本経済新聞",
-          "publishedAt": "2026-08-10"
-        },
-        {
           "title": "ファンコミ、今期経常を一転41％減益に下方修正",
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE4zMkpxVmJGa1dpWEVVR1A4NXIzWVRld2c3LXQ0ZGV1elNVR1NxakVfV0R1TXVpZ3NfNk4zMUFoYjR0SnhvVEk2ci1WVTR6ZlJfa3c?oc=5",
           "source": "株探",
           "publishedAt": "2026-08-10"
+        },
+        {
+          "title": "ファンコミュニケーションズ[2461]：機関投資家・アナリスト向け決算説明会オンライン開催のお知らせ 2026年7月29日(適時開示) ：日経会社情報DIGITAL",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1EbE1IRGN2c1pBa2RrRjRIMElUTHl2TmY3Um1vWEJ4SE03U3BXTk9ubzZHX3R5ZHJ0OUlXbHpiNkI0bUlBY1h6MWUyaGFLUENqQUhFSmQzWXI4Nm9POUdUUVcxWnV1ZHM4Q2c?oc=5",
+          "source": "日本経済新聞",
+          "publishedAt": "2026-07-29"
+        },
+        {
+          "title": "ファンコミ、通期業績を大幅下方修正 中期経営計画も取り下げ AIによる検索変化が打撃",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1JR19lOF9jVWZtRWhNSnBvMFZkbVFCVjFkZXBnTmhHbGoza2ZDcXo1RHVmUUdXU1hldVB3V3Awa2RLaVZwN0RkdElhZ24waklURjIxdGFDbWRxVmFaMW5HYUFrUjNja1U3TGc?oc=5",
+          "source": "media-innovation.jp",
+          "publishedAt": "2026-08-12"
         }
       ]
     },
@@ -459,12 +459,6 @@
       "headquarters": "Chiyoda",
       "news": [
         {
-          "title": "ムゲンＥ、今期経常を一転27％減益に下方修正、配当も26円減額",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE05YjR5REczS1pCSzdubHVmSF92ZmVIOEZxdTJvbWRKejQxc2NzYm5HX09sNlRyTDQwVGlFY1FNSWlRak5GcktEMU9CbGlxM2lIYVE?oc=5",
-          "source": "株探",
-          "publishedAt": "2026-08-07"
-        },
-        {
           "title": "ムゲンエステート、2026年12月期第2四半期決算について",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5fZzhuWUNWV2d5WHl4TDhHY3lRNTJLeUhBUmtTQWVxRng3OXZ0ZUJFdk9xQl9TVmZ5Q3B0aG14Ny1mQnltYVpqZjh4cUQxOFZvMGM0eEpORkUtcWtzRkVXX1hPMXdiMVp6VEE?oc=5",
           "source": "PR TIMES",
@@ -474,6 +468,12 @@
           "title": "ムゲンエステート[3299]：2026年12月期 第1四半期決算説明資料 2026年5月15日(適時開示) ：日経会社情報DIGITAL",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0zbTRFX0JwWmVINGFQeGw0dW9oRGs1bmRBOUZmampoT2IxWGZPbnRiRkNNb0hRQWVQTjRTSmoxNGZxcXRhR28wcHE5Z0JENk83TUl0NlFPX3JhSElRWTRWVlAyWV92bkRaaHc?oc=5",
           "source": "日本経済新聞",
+          "publishedAt": "2026-05-15"
+        },
+        {
+          "title": "ムゲンＥ、1-3月期(1Q)経常は72％減益で着地",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1jVzhwRHB4eExCTkV3cUZ5Sjdnek1hUXg4S0dOb3JCdWlzSFBTVVdmNEQwSGVHNEU5OG1QUTZkYU1vSEJNMXNUUkNOTEM0VXlHVVE?oc=5",
+          "source": "株探",
           "publishedAt": "2026-05-15"
         }
       ]
@@ -502,10 +502,10 @@
       "headquarters": "Chuo",
       "news": [
         {
-          "title": "東洋証券が堅調、２７年３月期第２四半期に投資有価証券売却益を計上へ",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0wX2hOWm8tV0U1SnRJdXM0OVYtRmNRS2xSTkJmNVFHMS1MMUV3ZFFWc04wTUl4bHBnclpNNXl3cGxCSFpSMzllVE51eGhzbUo5V29OTzJralN6bjFaa3BZZA?oc=5",
-          "source": "株探",
-          "publishedAt": "2026-09-18"
+          "title": "東洋証券[8614]：2027年3月期 第1四半期決算短信〔日本基準〕(連結) 2026年7月30日(適時開示) ：日経会社情報DIGITAL",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1NdHJlcUlxWjFrQTlraHJRQ2tyTDJGbGJQb0tsa2pnb2s3ZDMxdlNrd1E3YnBpWDIySjBVYWdhTGp6V1pTN2ROUFJOaHZSSHlFeW5lLXlBMlZEbm5WUUJ2OU9mNGpiTV95X3c?oc=5",
+          "source": "日本経済新聞",
+          "publishedAt": "2026-07-30"
         },
         {
           "title": "東洋証券、前期経常は3.1倍増益で着地、今期業績は非開示",
@@ -514,10 +514,10 @@
           "publishedAt": "2026-04-28"
         },
         {
-          "title": "東洋証券が後場上げ幅を拡大、第１四半期最終利益は速報値で４．３倍",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBkbjBjbS15djR2NG01WndRMnlFMHFOeDNBaTFtakROdUlSakpxdnpZQWZFQmQ4cTJWWWZrTG1aV0wxZWVBSTBWd0JPOWkyTmVRd2sxN2pqM1VKYmhDOXlLdw?oc=5",
-          "source": "株探",
-          "publishedAt": "2026-07-15"
+          "title": "東洋証券(株)【8614】：株価・株式情報（夜間PTS含む）",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1yNG1xOVpSZU51X3lKSVRubGxEMUdNNktoVVNtYkMyMDVZMjVOcjNULUtjbjJlbWUyLUJaa1RjMXJGZzgwSENORjF4NUVUTDM1Z0E?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "publishedAt": "2026-09-18"
         }
       ]
     },
@@ -551,16 +551,16 @@
           "publishedAt": "2026-02-12"
         },
         {
-          "title": "ダイドーリミテッド[3205]：2026年３月期 決算短信[日本基準]（連結） 2026年5月13日(適時開示) ：日経会社情報DIGITAL",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBWNzg3NnlFY25hVERieDJQWUdSUHp0dEpiX192eWNGbzZYTy1GbC1ZRl96a0NLZHFhSno2ZmxoYmJ4TTI1ODFMRy1mb3luYUlILURMUlhXQ3o0WEhHdDlabGljeHFJQVFiQXc?oc=5",
-          "source": "日本経済新聞",
-          "publishedAt": "2026-05-13"
-        },
-        {
-          "title": "【決算速報】ダイドー、上期経常を33％下方修正(株探ニュース)",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOV3hTSDRKOGg0ZlZKTjVCNU52MWI1RGZXY2dMaS1Jcy0xMWU5RDFLLUJxRF9aSlc5ZlZ6SXMtMlkwV2JEQUo2X2htNm9EUkJNem0tZEJTbHBWQTRsbm56M1BITkh6NUdCcDZJam5NcFA4Nnl1OGYwakNvdTQyeGt4dlpCeGkxcms?oc=5",
+          "title": "【決算速報】ダイドー---27年3月期1Qは黒字転換、経常利益は4億6400万円(フィスコ)",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNUWNIMEdFZmxhQUI3Wk5ickhUX0hoVXI2UzJ2Z093b1oyd2xnb0U0NC1UN0twcVEzWVR5TXdnd2RNVUlieGhUaHpCbm1iV2JmSERGSGtERGpMN2MzeHFYSlAyMGVOVG42aTBPcllhLW9BXzhPc0x5UklkcjBhVi05ZUc2bmhSbms?oc=5",
           "source": "Yahoo!ファイナンス",
           "publishedAt": "2026-08-07"
+        },
+        {
+          "title": "5月13日(水)に決算発表を予定している企業リスト",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9xRHlmZWc3SjBsTmhGd1R0ODAtem1XWHlFZ2NwQURWLTlaZXo0bnBGLW03al9JWjZ5UHdaOUZFYVl0VzVJY05fUVRxdkdINWtlc18yWWtPNA?oc=5",
+          "source": "四季報オンライン",
+          "publishedAt": "2026-05-10"
         }
       ]
     },
@@ -589,6 +589,12 @@
       "headquarters": "Chuo",
       "news": [
         {
+          "title": "日産証券グループ(株)【8705】：企業情報（決算時期や平均年収、代表者名、IR動画など）",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5xODNVbmJ1T003a3dNLWdabkw2bGFoSXJ1U2JJNVY1QTF6OExoWFAwaDk3cHRrMG90TkpjeEJndGozRVFRQ2lYd19Hd0IyVXZETExIVXhURXBDd0ZN?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "publishedAt": "2026-09-18"
+        },
+        {
           "title": "日産証券Ｇ、未定だった上期配当は3円実施",
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9SMXRFWVFaNVlFZ1QwMXJjZHNVLXQtRlVtMHBsQmJka21ObUxFeThTTmc1eDFpN2k0MEhVMjN5ZVVTaFdrQ20xMng3dHJOME5ncHc?oc=5",
           "source": "株探",
@@ -598,12 +604,6 @@
           "title": "日産証券グループ[8705]：2027年３月期第１四半期決算説明資料 2026年8月6日(適時開示) ：日経会社情報DIGITAL",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE56T1VSVnV2Zl84emozVUlQTmNPNi1KSkVxZEFZeTFIN3Zpb3NxMldqX0F4VTJpb3hoTnVlXzNHWDl5a3otZVIwWENEQ0wxci1rbjFTRjVNVEJFaUFmc1dTeGpVZ01GdnlMUFE?oc=5",
           "source": "日本経済新聞",
-          "publishedAt": "2026-08-06"
-        },
-        {
-          "title": "【決算速報】日産証券Ｇ、4-6月期(1Q)最終は74％減益で着地(株探ニュース)",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOemNROW9Ra2ZiN01JRGRfUUhzdnIyTlM4NHlJbGtVQ2liRHdEQlVLallQZWhJbVM5cmRwVDFISXdEX0ttTTQ3QjktUzZ5eG1XcXZMZVpIZ3dtT2I1OE5seXZEUlZpWjBZcklEbVhJblRXS3g0bE9Ud1pPX3NudGM1N1N6OFZmVG8?oc=5",
-          "source": "Yahoo!ファイナンス",
           "publishedAt": "2026-08-06"
         }
       ]
@@ -633,22 +633,22 @@
       "headquarters": "Fujinomiya",
       "news": [
         {
-          "title": "日本プラスト、今期経常は20％減益、前期配当増額も今期減配",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5Edi1PeDlIRTVkcHFWR25BcHRKN1VWRGs4NkNkRWlackpPS3k1TTF5WWw5S01rOFM1Wk01QTJYcndPQm40eVB2emZBbU9iM3A5dnc?oc=5",
-          "source": "株探",
-          "publishedAt": "2026-05-08"
-        },
-        {
           "title": "日本プラスト[7291]：2027年３月期 第１四半期決算短信 〔日本基準〕（連結） 2026年8月7日(適時開示) ：日経会社情報DIGITAL",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBRSVV2Z3EzaHJFUlJHYVdweTM4djJUSFJDRWdzZ1I5LVZ6eXVjWnR0MXZSejlzMmlzejg5amtvVzZtMnpXNlc0RG9sV2lIQUlJTWNuZkRLOEpiR2VNQl91Z2VsckVRS1gzU1E?oc=5",
           "source": "日本経済新聞",
           "publishedAt": "2026-08-07"
         },
         {
-          "title": "【決算速報】日本プラスト、4-6月期(1Q)経常は赤字転落で着地(株探ニュース)",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNcDNrVDJXRFBZMlJzYzAyb296S1pVTXFfekhTR0tEQWc2bnF4NjBjYXpLRm9uWGwzS0FDWHlueEtIeWJMeFFVTV9uUDVqQjZfTXdlSjNvS080NDBmMEdhVjNlSXBvRWtDdUNTQ0NxYnRUNEduMWlaV21PR3VCQlV1dDU2VWhpTFE?oc=5",
-          "source": "Yahoo!ファイナンス",
+          "title": "日本プラスト、4-6月期(1Q)経常は赤字転落で着地",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE4yNy1aOGlYdUl3YWpqby0xOTlKR2k0cGdWVlhQZWQwWll6cExULW5JMTVVbnhDelRLcUYzam1oUlRiVjVnajRsWnRCbU1KcFZELVE?oc=5",
+          "source": "株探",
           "publishedAt": "2026-08-07"
+        },
+        {
+          "title": "【決算速報】日本プラストは20億円の黒字 26年3月期：ニュース",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBzc01LSjdTTjRuUjFBT3VQd2praDVNQXNpVW55cTRGeHlZemlZN0tCRDNuRGdKOUVBMjhDQ2NJRjNRQkFvZE51dzNiRWNOZFlqd0gtNWtXNFo4LUZTYXZn?oc=5",
+          "source": "中日BIZナビ",
+          "publishedAt": "2026-05-08"
         }
       ]
     },
@@ -676,22 +676,22 @@
       "headquarters": "Shibuya",
       "news": [
         {
-          "title": "ＧＭＯメディア(株)【6180】：株価・株式情報（夜間PTS含む）",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBXS0ctek1sd0pwcWpEY0ZLSThxU2JEaTJmZDZNTk83ck5KdU1sREVCeHJFRGx4SThIYm9ObUUtaGNGMUxqTjJ2X200bVg2QzQ4TlE?oc=5",
+          "title": "ＧＭＯメディア(株)【6180】：企業情報（決算時期や平均年収、代表者名、IR動画など）",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE10RGhramJ3a29ibHY2TE50X3FsamhMcjNPd0dCUF9UWVVtT3BVbkdBZDcxdkZmb2UyYm5mTjFiS1NrbzlMUFdUaEVnaVVWT3djZnBCZmExRF9uTTV5?oc=5",
           "source": "Yahoo!ファイナンス",
           "publishedAt": "2026-09-18"
         },
         {
-          "title": "GMOメディア---2Qは減収なるも、ストックサービスの成長加速に注力",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBoVG00YXpHTEtSeTltZDJzQzBZNHVTNWZ3NDAtWVp4eXFCdlpkYklxbFhVbXRLT291YXcwc2hSci1zWDlFblVkeUtNN1ZtaE5nOHBoMktfc05SUVg3UG95MQ?oc=5",
-          "source": "株探",
-          "publishedAt": "2026-08-14"
+          "title": "ＧＭＯメディ",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9TcEFyc1hfSW1JakNqWTJJOFNzZUI2ODlaVERKTlJDenpaWVhlNUpQV1M2VGN1NnJDdjJIbE1DUkxqOERuX1NUNFg4cFl4V2J6dDZMLTk4OUpyTE5FXzVCdkZMZFpuV0djTmc?oc=5",
+          "source": "日本経済新聞",
+          "publishedAt": "2026-08-13"
         },
         {
-          "title": "GMOメディア、上期は減収減益 業界特化型ストック事業は拡大基調維持",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE91SERIZGQ4S2l0bVdJdVc0azh2R240cDRiOU9XSnlmQ1BBQ0ZodHpNTjk4RnRJd3dlZ2twdEU1UEU4NWhEWUZodEJxRlc4VFNFTWkxNXh2NVEwUU1BSFZxZmozUFVOZjNYYnc?oc=5",
-          "source": "media-innovation.jp",
-          "publishedAt": "2026-08-13"
+          "title": "GMOメディア、コロナの広告需要の反動により過去最高業績を更新 下期は新規事業に積極投資",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE4zS2Z2VElwZ0RuMUVpaUtYX2JWTDlUVkVEMnBYLVc2OUtTbnJxeHdEOWhaMHFIM0t5U193bTl4cER2TnhPUEVyNTJWYS00WGtRX1E?oc=5",
+          "source": "ログミーFinance",
+          "publishedAt": "2021-08-11"
         }
       ]
     },
@@ -720,22 +720,22 @@
       "headquarters": "Osaka",
       "news": [
         {
-          "title": "ヨドコウ、今期経常は32％減益、前期配当増額も今期減配",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE81VGhGamRQaWpzeGdSMjFzSGtiTTRTMU9PY0J6bGVIcFJSM3RJMTFaX2twX2paVEdSX2VFWVpfUXhIbnM1dVNLNU1CZEF4V3RObWc?oc=5",
-          "source": "株探",
-          "publishedAt": "2026-05-11"
-        },
-        {
           "title": "ヨドコウ[5451]：2027年３月期 第１四半期決算短信〔日本基準〕（連結） 2026年8月6日(適時開示) ：日経会社情報DIGITAL",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4ybnRjV1M4MU5ac2NqY2RmTEpFX3dieUtDMkhhdDdmelk2dHVsMXFiVWZmVTBWM1RuMDE5NVpZU08wYm8wX0x0bGdySDY2dEhiRWRuOVVnR0RUcm9vSjdBNFJIN2tWME1DNHc?oc=5",
           "source": "日本経済新聞",
           "publishedAt": "2026-08-06"
         },
         {
-          "title": "出来高変化率ランキング（9時台）～ヨドコウ、ロートなどがランクイン",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB5NGJHRWpPX1lXYjNTQ3E5MU9Pb1VTWnBVckFqaVBwRFBfck15eTAxblluVkt3VVlnRkxMNjJPUkxDcFpMaUlxSWhvN0RmTnlOdUxZS2xseUlkTFZpSmd2Vw?oc=5",
+          "title": "ヨドコウ、今期経常は32％減益、前期配当増額も今期減配",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE81VGhGamRQaWpzeGdSMjFzSGtiTTRTMU9PY0J6bGVIcFJSM3RJMTFaX2twX2paVEdSX2VFWVpfUXhIbnM1dVNLNU1CZEF4V3RObWc?oc=5",
           "source": "株探",
-          "publishedAt": "2026-08-07"
+          "publishedAt": "2026-05-11"
+        },
+        {
+          "title": "【決算速報】ヨドコウ---27年3月期1Qは減益、経常利益は2.4％減(フィスコ)",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNMUhUeGJHMDFHM0E3RTAyX3ZsX0NsWERxczVNSnpKajU5ZUV4TmlCbHozRDRXcTVNMFp4cVUxZE9MSmQyTzlFUFE1YTYzZi05UHRHLU5qdmI1ZmRkaENkdXpfLW9KQ1oyZ0RERnY1ZkE1LWdoNmlyVV9HRGt0YzVmOWVvY1NVemM?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "publishedAt": "2026-08-06"
         }
       ]
     },
@@ -764,22 +764,22 @@
       "headquarters": "Tokyo",
       "news": [
         {
-          "title": "アーレスティ、4-6月期(1Q)経常は赤字転落で着地",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1VY2psWDVBamJzck04Y3daZUlBSEl2cUtEZkx3anUzTENlZDUwZXNhOWNMTVJqY3VnVUpIRkktSVBFUWxCeUh1aVV4UWNrUzJHd2c?oc=5",
-          "source": "株探",
-          "publishedAt": "2026-08-05"
-        },
-        {
-          "title": "アーレスティ[5852]：2026年３月期 第３四半期決算短信〔日本基準〕（連結） 2026年2月12日(適時開示) ：日経会社情報DIGITAL",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5fM2tFajdyLTI1WlRfRm13dW9lMXhwemk4cFl3S2NiUEJ1WTdacGJ1MnZ1eEptSzFwcm1XVW1mdEFrSXpWOWJmVVdMOHJrYkRCWlZpTUdmWTY2LWhrRTJDMU50bVJXT1dYTmc?oc=5",
+          "title": "アーレスティ[5852]：2025 年度 決算説明会 動画および書き起こし記事公開のお知らせ 2026年6月11日(適時開示) ：日経会社情報DIGITAL",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBnV0MwSlNtZlBmSUx4UHZ6V0d5cVhyNWpybnVLR3JSSEg0RmE1R1BLUEpNcnBPVHYtM3hueUpoeU02bEdNTmJVekUyX0ZLTkFtbG1xS2J6R0xWamlSR1N0X1hTUFBiOUl4ZVE?oc=5",
           "source": "日本経済新聞",
-          "publishedAt": "2026-02-12"
+          "publishedAt": "2026-06-11"
         },
         {
-          "title": "アーレスティ Research Memo（2）：RSTを追求する独立系ダイカストメーカー",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE82MXZTM2JTZXpZQ05HU0FpNDdqQkJRVzdUYmp6THlSWjFsWnVPNVFsRkxtaGFRUlpfY0VINHVNbUM4Ulc0S0p6a3dHSnRzcHZqYV9HWlN2YmhObXVXRFZxeA?oc=5",
+          "title": "アーレスティ、通期は増収増益 受注量の増加に加え、生産性改善活動による営業利益改善等で最終利益は黒字転換を実現",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBMc1duVTZha3JjVXZtNEtQbmZpbHpFa3FmaUNYOVROQnJLRU9za0ZKcGxPZmRDMkt1Q0s4MlFqcmN3ZEI2bTh0bHdPTVp2QmlKN1E?oc=5",
+          "source": "ログミーFinance",
+          "publishedAt": "2026-06-11"
+        },
+        {
+          "title": "アーレスティ、今期経常は72％減益、8円減配へ",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE16OWxHckhuc0tocmREZEN6R01Kd1MwdUhPZnhyRWFJdmQ2VDAwelRJQUsydmRVOWVOaUR0N2dSdTNWbXF4MnZ0YlVSNlFpY2Vpa2c?oc=5",
           "source": "株探",
-          "publishedAt": "2026-07-10"
+          "publishedAt": "2026-05-20"
         }
       ]
     },
@@ -807,10 +807,10 @@
       "headquarters": "Osaka",
       "news": [
         {
-          "title": "翻訳センター、4-6月期(1Q)経常は69％減益で着地",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1XQkFfTFNxWVg1eV9SS3J4Y19HV3k3Wnp3VVlRTzJwTGdYMEdvaThIY19nWU8ydkVNRGE5T2NQVjNQX1M0WkZyNkQ2SE91dGRfd2c?oc=5",
-          "source": "株探",
-          "publishedAt": "2026-08-07"
+          "title": "翻訳センター[2483]：2026年3月期 決算短信［日本基準］(連結) 2026年5月12日(適時開示) ：日経会社情報DIGITAL",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE56eEF5aWwwUXc4RGV0TjJDU0tSREJ3c1l4LXlLa2JxNVJMelU0eUYxZk84OXo3YVlWdE9yLThzRmY1X1dWalFIYjVfOWJfMm5uZ0p0cWM3alMtS3c5SEdranlhR1o5MVJ0YkE?oc=5",
+          "source": "日本経済新聞",
+          "publishedAt": "2026-05-12"
         },
         {
           "title": "翻訳センター（2483）、米国通商政策の影響等を受け減収減益も増配へ 今期見通しを踏まえ、中計最終年度の業績目標を修正",
@@ -819,10 +819,10 @@
           "publishedAt": "2026-06-10"
         },
         {
-          "title": "翻訳センター、今期経常は4％増益、前期配当を65円増額・今期も140円継続へ",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9nTGZfSDJZNkhNRFl3RUt2SnZiOTE1N0hIb0lXTURoNnRNTWN4a0YzeU9fMFAzQUFpOWZpaEw0VkprbFRhWVQ1c21ydFp5RFIwWFE?oc=5",
+          "title": "翻訳センター、4-6月期(1Q)経常は69％減益で着地",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1XQkFfTFNxWVg1eV9SS3J4Y19HV3k3Wnp3VVlRTzJwTGdYMEdvaThIY19nWU8ydkVNRGE5T2NQVjNQX1M0WkZyNkQ2SE91dGRfd2c?oc=5",
           "source": "株探",
-          "publishedAt": "2026-05-12"
+          "publishedAt": "2026-08-07"
         }
       ]
     },
@@ -851,12 +851,6 @@
       "headquarters": "Tokyo",
       "news": [
         {
-          "title": "ブリッジ－Ｇ、今期経常を1.5億円に下方修正、配当を10円減額修正",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5wMGp2d3UyZjh2dzJfUnlKeEdBd1NVMlZvWFFUVkRWdU1vd0ZPb3kxMThIYWVWY3NaVGpTSjZqQnR2d19RUl9NaHJESkc1Rml1X0E?oc=5",
-          "source": "株探",
-          "publishedAt": "2026-08-14"
-        },
-        {
           "title": "ブリッジインターナショナル（7039）、大型案件3社を受注 人員拡大で年15億円規模を見込む、2Q以降の成長へ",
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE51WS1ZQWhtSTlnSHk2djFyMjAwTklnMXlUdFRsenJEYk85eGlKSVNHX3hZZzFTWHRuRzRfVVBocGMydkFfYkI3VHNwVHJJQkNNZFE?oc=5",
           "source": "ログミーFinance",
@@ -866,6 +860,12 @@
           "title": "ブリッジ－Ｇ",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9HTEpVa2JLSDhSd01ISXNISElWcmJ0ODZYazVsTE81cTl5RTRETUp3QXYxLUJ0VWc3ODF4amlvVnQ1SzY3OUlsV0FacVExUTBIa2FJeWdUaUxhaDFjT1dRaHNGbHh5Q3JsaGc?oc=5",
           "source": "日本経済新聞",
+          "publishedAt": "2026-08-14"
+        },
+        {
+          "title": "【決算速報】ブリッジ－Ｇ、今期経常を1.5億円に下方修正、配当を10円減額修正(株探ニュース)",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOUlNpQUJ0eld6LUZ5dHFzWmlTRk5sdWw1UWVDd09nek9PczRFanN4ZUhfNGc1NFBhZGYxTHZrRWR3bUlNeUdiZk1zbW9KaGh1c1ZHbko1cGxSY2N0QkRGeEZoNlJwSE1RQW1uRWs0eGZSeXBHWFlJUFp3Szlldy1EUWRJZ0dSOFU?oc=5",
+          "source": "Yahoo!ファイナンス",
           "publishedAt": "2026-08-14"
         }
       ]
@@ -901,16 +901,16 @@
           "publishedAt": "2026-05-13"
         },
         {
-          "title": "宮地エンジ、今期経常は50％減益、22.5円減配へ",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE0zVWlUbHBiNkVKYTZyYWp6enhDd0lnR0laamFONXN3aU53VjA5Q2NWeUIwbXF3NDQzYXpzOUViYzNtVnI2aDMyRjZXUWxjUlJveWc?oc=5",
-          "source": "株探",
-          "publishedAt": "2026-05-13"
-        },
-        {
           "title": "宮地エンジニアリンググループ、厳しい事業環境を受け減収減益 経営管理体制を一層強化し安定した黒字体質化を目指す",
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1YMGI5cGtGSlhOcE1kcy1yWFRpODFrS0JVUXhLZ1pFbWJvVFViLUJ1NUs2eEVxU0dzZEhOcnNzZ3JRc0x4RDRwd2otM2tVZDhYZGc?oc=5",
           "source": "ログミーFinance",
           "publishedAt": "2026-06-10"
+        },
+        {
+          "title": "宮地エンジ、今期経常は50％減益、22.5円減配へ",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE0zVWlUbHBiNkVKYTZyYWp6enhDd0lnR0laamFONXN3aU53VjA5Q2NWeUIwbXF3NDQzYXpzOUViYzNtVnI2aDMyRjZXUWxjUlJveWc?oc=5",
+          "source": "株探",
+          "publishedAt": "2026-05-13"
         }
       ]
     },
@@ -938,22 +938,22 @@
       "headquarters": "Adachi",
       "news": [
         {
+          "title": "ニッピ[7932]：2026年３月期決算短信〔日本基準〕(連結) 2026年5月15日(適時開示) ：日経会社情報DIGITAL",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE85Sy1hbnZIVVVRY242Yy1nd1NVVHA0am5YMWlBczN5NzBhNDVYXzBRYVVFUXZqZnlPRzhHOTFDQ3ZmRmhQRVh3d0lBR2hsMUdHanpvSlpFR01VMWIxaTlGZ1NRblBfVFFsdXc?oc=5",
+          "source": "日本経済新聞",
+          "publishedAt": "2026-05-15"
+        },
+        {
           "title": "ニッピ、今期経常は3％減益、前期配当を63円増額・今期は5円増配へ",
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBEblVXQS0ycUIyTTF6R21zbWxuMmp5Nk5scGlrcHItR2dYNHdpbXVua2ZYLU11MmVRNDh0Zl9xdGpIYmhGcEZFb1otdTRWUnRLd0E?oc=5",
           "source": "株探",
           "publishedAt": "2026-05-15"
         },
         {
-          "title": "【決算速報】ニッピ、1Q経常956百万。アナリスト予想を下回る(アイフィス株予報)",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQU1pQZ3pEczVxWVpLZVFjOElKZUc2eFJWYS1XcE8xYUpzS2I4U3l3RGRnbVY5aGd1ckMtWDJMbV9QTmV4SUxnTHYxOS1DWWFJRUlaQUhSNGplWmhWV2JtMVVLNndHR0lBVExvQ2ZpM2hPSmFNZFVhNVNBWWxxUTl0VDRQb2dKRTg?oc=5",
+          "title": "(株)ニッピ【7932】：決算説明会書き起こし",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4tdEJkV3VkQ1dmWjNoN1doeFRKMnIyMm9IT3dCbkg0b1FCV0JubHFQQ0NUVHRJNEc0YllYSE05N2JRNW15NjFpZXRKcnlvZFYyQVB3ZVJMeXlYQVJhdHNqXzRMN0NIQ2RQckZ5Vy1YRmRESmNNUGFQcA?oc=5",
           "source": "Yahoo!ファイナンス",
-          "publishedAt": "2026-08-07"
-        },
-        {
-          "title": "ニッピについて、みずほ銀行は保有割合が5％を超えたと報告 [大量保有報告書]",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBRN1pyVUQ3c1dNODczNzhpTGhZRGRvX25vY05uZEM3RUtjNGFucDEzcVVza2o4Z0diLTlNYUt4OTVWOHNiRDBWY3RKVHZRQmZZT1l5cXZLXzI0U0Y0UHN6dA?oc=5",
-          "source": "株探",
-          "publishedAt": "2026-07-07"
+          "publishedAt": "2025-03-13"
         }
       ]
     },
@@ -982,12 +982,6 @@
       "headquarters": "Minato",
       "news": [
         {
-          "title": "ギックス、前期経常が一転黒字で上振れ着地・今期は45倍増益へ",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBvcmRFUzRUM1kzWEM3aGp3V1JyeU9Cck44ekpZMG83bmt2VnZTOUU1X0lCeHl3NEpHaWo1QmxnTHlkM3p4S3BmTGkzbjBwNXpfeHc?oc=5",
-          "source": "株探",
-          "publishedAt": "2026-08-14"
-        },
-        {
           "title": "ギックス[9219]：2026年６月期 決算短信〔日本基準〕（連結） 2026年8月14日(適時開示) ：日経会社情報DIGITAL",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9ldHhOa3hFS2lRaTdTaFlDaERMSk1rNFVQRUZjdGpEa3lQWkliZ2l0c3BOSU9VSzNjY3Fwelk0Yzd5d0F4VWYzVGFNc1I0Q0hQd0pfSC05Tmd3ckp3YkxyUF8yZnFaWmtxamc?oc=5",
           "source": "日本経済新聞",
@@ -998,6 +992,12 @@
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBIbE56OHJkS0V0WDk1WnB4cDFSZkxpeWJiY05oQ1gxZmg5a2FsU0V4VHZtMEFuTFlnVVY1WEl0MVZMM2pTT3diZ050THNYcldHMXc?oc=5",
           "source": "株探",
           "publishedAt": "2026-04-30"
+        },
+        {
+          "title": "ギックス[9219]：2026年６月期決算説明会書き起こし公開のお知らせ 2026年8月20日(適時開示) ：日経会社情報DIGITAL",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9XZHNCQjFzSEp0d2Q1V2NyTGVRWGdIdTB2Z0llZjhBbjd0V3JtMmxuZHNLN09obnZSTnR1YnRnTW1qeV9zTEk3X1U2ZjJDSzNaVUxaNUp4anZfMjhvTElHczNqSTlWcnFKNXc?oc=5",
+          "source": "日本経済新聞",
+          "publishedAt": "2026-08-20"
         }
       ]
     },
@@ -1026,15 +1026,15 @@
       "headquarters": "Tokyo",
       "news": [
         {
-          "title": "日精鉱、今期経常は72％減益、前期配当増額も今期減配",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1EaVVWMXVUZVJZSGJLeHV4b0M3azNwbFJsd25LOS1SbjU0ZmlDR0ZXV1VHLVc0X1E4VEJjeFlXS0V6X05yeDN0T0luMU5JV3BTRFE?oc=5",
-          "source": "株探",
-          "publishedAt": "2026-05-12"
-        },
-        {
           "title": "日本精鉱[5729]：2026年３月期 決算概要補足説明資料 2026年5月12日(適時開示) ：日経会社情報DIGITAL",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9hOEl3RU9oMnZlMnpwSmlSMFNBTEc5M1A5TGhfa3kwSVhRQjk2VWpLMWhuTTZxa1pZaUI3RUFGZzMySTNJcExlbURlSXlRZ2FZaGZsSVU3UloxUVp3TlZLVXpTRGJPNUdHWnc?oc=5",
           "source": "日本経済新聞",
+          "publishedAt": "2026-05-12"
+        },
+        {
+          "title": "日精鉱、今期経常は72％減益、前期配当増額も今期減配",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1EaVVWMXVUZVJZSGJLeHV4b0M3azNwbFJsd25LOS1SbjU0ZmlDR0ZXV1VHLVc0X1E4VEJjeFlXS0V6X05yeDN0T0luMU5JV3BTRFE?oc=5",
+          "source": "株探",
           "publishedAt": "2026-05-12"
         },
         {
@@ -1070,16 +1070,16 @@
       "headquarters": "Osaka",
       "news": [
         {
-          "title": "極東開発、今期経常は17％減益、20円減配へ",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE85UGYzd04wdVVTMGhpRWRYd0NLR0l4MnAxaVVvS1dsZndPVGdIMS1rZnA0TmVPTEMxb1ZhNDYtYV95aHdoSDM5NE9JSWttWWtfTGc?oc=5",
-          "source": "株探",
-          "publishedAt": "2026-05-13"
-        },
-        {
           "title": "決算:極東開発工業の純利益上方修正 26年3月期、政策保有株の売却益増え",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE93YWFkTUhEYzUwMXhfS1FUZFJVbEpReEMzOWNGbVlxRnZzb2N3Y2NSSVV3QVBGeDRRVVVtRDV5anc5Q0JfdFRJQUZJZ1pqVFVXZGxmTlFWS1V3YWpETnVoci1Vb2FxWTBja3FLaw?oc=5",
           "source": "日本経済新聞",
           "publishedAt": "2026-05-08"
+        },
+        {
+          "title": "極東開発、4-6月期(1Q)経常は39％増益で着地",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB4cS13Ujl6OUVXdFFqelI3S1Y4WU9YQVFhM0Jzd3BNZktiMnIxeFhEOXd1SS1lSWk0c250QWdQNVAxa0hTRTYybWNuNVBMVXhlM3c?oc=5",
+          "source": "株探",
+          "publishedAt": "2026-08-06"
         },
         {
           "title": "極東開発工業 ３月期第１四半期決算を発表",
@@ -1113,10 +1113,10 @@
       "headquarters": "Tokyo",
       "news": [
         {
-          "title": "ＰＣＡ、今期経常は47％減益、55円減配へ",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE03b3NzMnpXVjdGQldrRHpGejdNYzJ1ZVdMUEtQV2lBVUVVelhEWUpNd0dwRjgtdHJDSVB5NXVveEhRSWdWWVdrZmpEX0VXRllTS1E?oc=5",
-          "source": "株探",
-          "publishedAt": "2026-04-27"
+          "title": "ピー・シー・エー（9629）、売上・利益で修正後予想どおりに着地 資本政策はDOE4.5パーセント程度の基本方針を発表",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5fVGFzVl91RU9NQzRDYmsyN21LRGRMLTZZRnJOQkdUMWs5eml3a3RobjRROXczWU50RHpEZ0V0aDZrZ09uZHJDRm5NR0swM1BwQkE?oc=5",
+          "source": "ログミーFinance",
+          "publishedAt": "2026-05-08"
         },
         {
           "title": "ピー・シー・エー[9629]：2026年3月期決算短信〔日本基準〕(連結) 2026年4月27日(適時開示) ：日経会社情報DIGITAL",
@@ -1125,10 +1125,10 @@
           "publishedAt": "2026-04-27"
         },
         {
-          "title": "ピー・シー・エー（9629）、売上・利益で修正後予想どおりに着地 資本政策はDOE4.5パーセント程度の基本方針を発表",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5fVGFzVl91RU9NQzRDYmsyN21LRGRMLTZZRnJOQkdUMWs5eml3a3RobjRROXczWU50RHpEZ0V0aDZrZ09uZHJDRm5NR0swM1BwQkE?oc=5",
-          "source": "ログミーFinance",
-          "publishedAt": "2026-05-08"
+          "title": "ＰＣＡ、今期経常は47％減益、55円減配へ",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE03b3NzMnpXVjdGQldrRHpGejdNYzJ1ZVdMUEtQV2lBVUVVelhEWUpNd0dwRjgtdHJDSVB5NXVveEhRSWdWWVdrZmpEX0VXRllTS1E?oc=5",
+          "source": "株探",
+          "publishedAt": "2026-04-27"
         }
       ]
     },
@@ -1156,10 +1156,10 @@
       "headquarters": "Tokyo",
       "news": [
         {
-          "title": "アンビＤＸ、今期経常は20％増で2期ぶり最高益、2円増配へ",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB4cG1TMUpQRm9tSzFqbWE3aGVqU0pqMjNxTGVpZkhVdEFVSmJNaFMwZFlGcVNjblRXak8yLXdnSEdxc0c1MGh6RUpxZTZDQWR2VkE?oc=5",
-          "source": "株探",
-          "publishedAt": "2026-08-13"
+          "title": "(株)アンビション ＤＸ ホールディングス【3300】：企業情報（決算時期や平均年収、代表者名、IR動画など）",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE42VlRXeW0zcUh1UTV2UXlBV2h4Rjl6N2l1X1M0dU9sOXZ6OXJDVXE5VnQzZS1yNlZfcEhJbXMxMHRocGZPZWU2cUEtTVUwNk5LNDIzVXA2STd1R3hR?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "publishedAt": "2026-09-18"
         },
         {
           "title": "アンビションＤＸホールディングス[3300]：特別損失の計上並びに決算短信等の一部訂正について 2026年9月1日(適時開示) ：日経会社情報DIGITAL",
@@ -1168,10 +1168,10 @@
           "publishedAt": "2026-09-01"
         },
         {
-          "title": "(株)アンビション ＤＸ ホールディングス【3300】：決算説明会書き起こし",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE12SG1BdmhHUXFjSXVUMVpKTUhncjVVYzJoejJLUWRWN19XMk9nVW9reVpOVVJVdkdYVWtTM3dwbURjTDRDS0UybTZDM1VqSlY0cm1EelNLanU3NVR3SGNrNzR5TE41RnRDWFhzRGkyMHZrRUViYk5pYQ?oc=5",
-          "source": "Yahoo!ファイナンス",
-          "publishedAt": "2026-02-26"
+          "title": "アンビＤＸ、今期経常は20％増で2期ぶり最高益、2円増配へ",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB4cG1TMUpQRm9tSzFqbWE3aGVqU0pqMjNxTGVpZkhVdEFVSmJNaFMwZFlGcVNjblRXak8yLXdnSEdxc0c1MGh6RUpxZTZDQWR2VkE?oc=5",
+          "source": "株探",
+          "publishedAt": "2026-08-13"
         }
       ]
     },
@@ -1200,22 +1200,22 @@
       "headquarters": "Tokyo",
       "news": [
         {
-          "title": "極東証券は後場急伸、４～６月は速報値ベースで経常益２．５倍",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE16MTY3LWNpMXZlR29wakxJbGEyOGtpRzR3aURQSElGVzNKUlJtc0JQbWlsTVFvWGJIU2s1R1A2MHo0WFR6cXU5RzBQQTNQSFVXWmFHZEt0YW5oV2dIT0RuTw?oc=5",
-          "source": "株探",
-          "publishedAt": "2026-07-15"
-        },
-        {
           "title": "極東証券[8706]：2026年３月期 決算短信〔日本基準〕（連結） 2026年4月24日(適時開示) ：日経会社情報DIGITAL",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8tNlVfM2VJWHV5cEhOWUdiUk8zdHVMUE9VbHpxMWJLRGRqYmtaMFQta0dveThMcDN4dHZ6S2dGZ1JlLVRTR1N4ZkhHcFpVNVhoWVpxM2xNSmJxZC03ZTY0M1F0MXh4VEc3dkE?oc=5",
           "source": "日本経済新聞",
           "publishedAt": "2026-04-24"
         },
         {
-          "title": "極東証券、4-6月期(1Q)経常は2.5倍増益で着地",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBDRTFnaW82YkZJdWZUWjRLQnNYVzdROGFKVVJtNG1LZUwwSFc1UmFISnpaV3VWejRRckdyVmswV18wcjliN2hTeTBydnp0WnFIcGc?oc=5",
+          "title": "極東証券は後場急伸、４～６月は速報値ベースで経常益２．５倍",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE16MTY3LWNpMXZlR29wakxJbGEyOGtpRzR3aURQSElGVzNKUlJtc0JQbWlsTVFvWGJIU2s1R1A2MHo0WFR6cXU5RzBQQTNQSFVXWmFHZEt0YW5oV2dIT0RuTw?oc=5",
           "source": "株探",
-          "publishedAt": "2026-07-29"
+          "publishedAt": "2026-07-15"
+        },
+        {
+          "title": "【7社決算比較】中堅証券「爆益」の裏側、株高後に失速するのは？“利益の質”に明暗 ｜FinTech Journal",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBrNzFJa21JODBzQkd1VHNBVFJtY1FlSG80QWYzdFZpcjhHWnNNYk9TSFBYekFkejdid2xxNXhpUWNHU3paS0JsbTZkY0VUYUk?oc=5",
+          "source": "ビジネス+IT",
+          "publishedAt": "2026-08-14"
         }
       ]
     },
@@ -1244,22 +1244,22 @@
       "headquarters": "Ichinomiya",
       "news": [
         {
-          "title": "ソトーについて、スタイレム株式会社は保有割合が5％を超えたと報告 [大量保有報告書]",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBLNmRJWUs0MnBLSXI3a0RHaF9SS0UxeXhkMnhlMUhuU2wyU0NFTGpvR0hRMXBIZURNMGhrZldnVGp1VFg0U2FQd05hYzJoNlk3VTBLS3l1SW53aUhmOF82QnNB?oc=5",
+          "title": "ソトー、今期経常を一転赤字に下方修正",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5wcXRtMmNYUzFFUGwwcUhhQ0FyaXBlR3JFS1J5Qmlta3EwaWxTR3RIZUpaZnBoTTZtZU1UcmdtalZQdFB4SElVYWM5cklkUFoxZ2c?oc=5",
           "source": "株探",
-          "publishedAt": "2026-09-18"
+          "publishedAt": "2026-02-12"
+        },
+        {
+          "title": "ソトー",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9iNTBIMEptcTkzMXdxSlFhUXNKemw4dW5ycFhwYnVZNF9DZjB3MDlpQk9nSkV0UW5nZGZuTG52ZGNDYXZGZUVnZHhNb1l3dXpUa29Ua1BjZU9XYUNMOC05enNqdV8xLWx1Y1E?oc=5",
+          "source": "日本経済新聞",
+          "publishedAt": "2026-06-17"
         },
         {
           "title": "(株)ソトー【3571】：企業情報（決算時期や平均年収、代表者名、IR動画など）",
           "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBNcEYtbE8ydkFoM2xYNVJpRUVuVGdXbGNLVHZZM2czeXVZV25KbTRSTzM2Ui1ydm1zYmoyX0o4eDBrUnYzNVo3bzRXT2xDM3FpRVQxcGhsZUhfNHg4?oc=5",
           "source": "Yahoo!ファイナンス",
           "publishedAt": "2026-09-11"
-        },
-        {
-          "title": "ソトー[3571]：2027年３月期第１四半期決算短信〔日本基準〕(連結) 2026年8月12日(適時開示) ：日経会社情報DIGITAL",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBtbEhjcWhtcDc1X2pUaUxBWW13azZLZlZtdzQyOUkzeXpseG4tZ05GU3ZEYTVrWWlQeHBLVXBDMFAwcnpsTXM3YWg2dlFTSnlMRUFubXI4d0gxM2twX1FfV3R3d1VvMWFVd2c?oc=5",
-          "source": "日本経済新聞",
-          "publishedAt": "2026-08-12"
         }
       ]
     },
@@ -1288,16 +1288,16 @@
       "headquarters": "Kita",
       "news": [
         {
+          "title": "合同鉄、上期経常を62％下方修正",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE90YTdxTHJjVF94aDFzTG9QblBod0FOV1pCblZpeEJHNXZJRnh2UmN6WmtCdzNNUHVFZjlnNHpndjNiVWh1aXMtb1lGYzBiUktDNVE?oc=5",
+          "source": "株探",
+          "publishedAt": "2026-07-31"
+        },
+        {
           "title": "合同鉄、今期経常は37％減益、80円減配へ",
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE43dWlsWG1raF9vVUJoRU9hbE90d1ZxVmljYjZwTWVFMlVSdVNRblN1ZzVDYXFHMnBvRVVSUXlQaTdCYUp3cmpfdnZzZ3oxS2tfUXc?oc=5",
           "source": "株探",
           "publishedAt": "2026-04-27"
-        },
-        {
-          "title": "合同鉄、4-12月期(3Q累計)経常が16％減益で着地・10-12月期も35％減益",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1JTjQzZ1Z4aWFYd0Fja2dEYnlxcXVNbm52SHQ5T1ZVZ3lFSDJLSjIwejc4RzFjVkctWlpYaWViN2w3RWJRakFlbUFscjUtMkkyWVE?oc=5",
-          "source": "株探",
-          "publishedAt": "2026-01-30"
         },
         {
           "title": "【決算速報】合同製鐵、1Q経常982百万。(アイフィス株予報)",
@@ -1332,22 +1332,22 @@
       "headquarters": "Tosu",
       "news": [
         {
-          "title": "ミズホメディ、上期経常が20％減益で着地・4-6月期も14％減益",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB3ODVFWmNsb0FPdkU1VzdaMndRcUl2RDRuTTFQazVjc2tWeFQ5RHRPek91bHl0VDJlV1Y2eHM3eEdmVTVSd2Z4YnhnYTFPYUtLQnc?oc=5",
-          "source": "株探",
+          "title": "ミズホメディー[4595]：2026年12月期 第２四半期（中間期）決算補足説明資料 2026年8月12日(適時開示) ：日経会社情報DIGITAL",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBYemYyUHFmaGdLb1hMSW5QWnFORUlZWC1fbXNscTE3ZWRSU1RWWXBZU2F4TndSWVQtS3hVVzAyc01KNlpWelZZbzhqQ3F5cTRYUkI2UnJFcVZaZ3hGVEt5Y3N3bTNjR3Z2TFE?oc=5",
+          "source": "日本経済新聞",
           "publishedAt": "2026-08-12"
         },
         {
-          "title": "ミズホメディー[4595]：2025年12月期 決算短信〔日本基準〕(非連結) 2026年2月13日(適時開示) ：日経会社情報DIGITAL",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9vclVXMGJBX2tCMThIazBrcm5BTnpUc3RIOXdlZXY4R0JwTG9mNGFvOEV4eWN1RE0wUlJDeEZsRFRxeU5aNXlSUTN4R3ZMdEdpR1d3RWc3XzNKS0dNYlRmVmswLTd6WGZPUFE?oc=5",
-          "source": "日本経済新聞",
-          "publishedAt": "2026-02-13"
+          "title": "ミズホメディ、1-3月期(1Q)経常は23％減益で着地",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9TZFRzbEhNWWdocjM0QUJkTkVzX2JCSDlvSERwMTl3SDczQ0pST1c2S3pFeXA4N09DVURROGEtTUZFbTF2VmFVN0ZfOWp6SjJJUGc?oc=5",
+          "source": "株探",
+          "publishedAt": "2026-05-13"
         },
         {
-          "title": "ミズホメディ、今期経常を55％上方修正、配当も5円増額",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBXdUZleGNBbDhRaW95eVlVMU4wY3llWkF2YjFpNU5mSDh5aS1WTzlxNVNhODktdC02MGZ0cElxV0hicmRtSnJUVVBVTXBRcnFkdnc?oc=5",
-          "source": "株探",
-          "publishedAt": "2025-12-19"
+          "title": "【決算速報】ミズホメディ、上期経常が20％減益で着地・4-6月期も14％減益(株探ニュース)",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNSEJySFRZYzFkSm0taHVkUXFrVy1LOUtrU1dpYmpTM3NIa2lSalp1Zmpld3Y2SVRULUxKZXV0U0FFdGdDZFZ6cWVFM1VEc3RaUW0tQjc5dzNKcGQ4N09Ld1JlelNNWFNSeE5BYmlHVXpBSUROZlozemZoaVpzVVVmUEIwT2FYMlk?oc=5",
+          "source": "Yahoo!ファイナンス",
+          "publishedAt": "2026-08-12"
         }
       ]
     }
